@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+$total: 50;
+/* total 변경시 max 변경 가능 */
+@for $i from 0 to $total {
+	.margin-#{$i}{
+		margin: 1px * $i;
+	}
+	@each $points in top, right, bottom, left{
+		.margin-#{$points}-#{$i}{
+			margin-#{$points}: 1px * $i;
+		}
+	}
+}	
+@for $i from 0 to $total {
+	.padding-#{$i}{
+		padding: 1px * $i;
+	}
+	@each $points in top, right, bottom, left{
+		.padding-#{$points}-#{$i}{
+			padding-#{$points}: 1px * $i;
+		}
+	}	
+}
+
+$width_total : 500;
+@for $i from 1 to $width_total {
+	.width-#{$i}{
+		width: 1px*$i !important;
+	}	
+}
+$height_total : 500;
+@for $i from 1 to $width_total {
+	.height-#{$i}{
+		height: 1px*$i !important;
+	}	
+}
+

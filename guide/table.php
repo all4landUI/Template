@@ -1,0 +1,154 @@
+<?php
+	$guide = true;
+	include_once('../head.php');
+?>
+<link rel="stylesheet" type="text/css" href="/css/guide.css">
+<link rel="stylesheet" type="text/css" href="/plugin/prism/prism.css">
+<script src="/plugin/prism/prism.js"></script>
+<!-- #guidePage //-->
+<div id="guidePage">
+
+	<nav class="g-navi">
+		<ul>
+			<li class="g-depth1"><a href="/html/api/PB_SC_305.php">관리자</a>
+			<li class="g-depth1 g-depth-view"><a href="#">단일페이지</a>
+				<ul class="g-depth2">
+					<li><a href="./board.php">기본게시판</a></li>
+					<li><a href="./gallery_board.php">갤러리게시판</a></li>
+					<li><a href="./join.php">회원가입</a></li>
+					<li><a href="./lib.php">용어사전</a></li>
+					<li><a href="./content.php">컨텐츠</a></li>
+				</ul>
+			</li>
+
+			<li class="g-depth1 g-depth-view"><a href="#">컴포넌트</a>
+				<ul class="g-depth2">
+					<li><a href="./form.php">폼</a></li>
+					<li><a href="./table.php">테이블</a></li>
+					<li><a href="./button.php">버튼</a></li>
+					<li><a href="./tab.php">탭</a></li>
+					<li><a href="./search.php">검색박스</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+	<div id="guideContent">
+
+		<!-- guide-title //-->
+		<h2 class="g-title">테이블</h2>
+		<!--// guide-title -->
+		
+		<!-- g-content //-->
+		<div class="g-content">
+			<h3>기본형 - 가로형</h3>
+			<p>가장 기본형식으로써, 각 테이블간의 간격은 설정해야함</p>
+			<div class="demo-block">
+				<div class="source">
+					<!-- table-horizontal //-->
+					<div class="table-horizontal">
+		                <table>
+		                    <caption class="blind">공지사항 목록</caption>
+		                    <colgroup>
+		                        <col style="width:50px;">
+		                        <col style="width:130px;">
+		                        <col>
+		                        <col style="width:100px;">
+		                        <col style="width:100px;">
+		                        <col style="width:75px;">
+		                        <col style="width:60px;">
+		                    </colgroup>
+		                    <thead>
+		                        <tr>
+		                            <th scope="col">번호</th>
+		                            <th scope="col">서비스 구분</th>
+		                            <th scope="col">제목</th>
+		                            <th scope="col">담당부서</th>
+		                            <th scope="col">등록일</th>
+		                            <th scope="col">첨부파일</th>
+		                            <th scope="col">조회수</th>
+		                        </tr>
+		                    </thead>
+		                    <tbody>
+		                        <tr>
+		                            <td><span class="txt-gray">10</span></td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="PB_SC_282.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                            <td><span class="txt-gray">1</span></td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="PB_SC_282.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                    </tbody>
+		                </table>
+		            </div>
+		            <!--// table-horizontal -->
+				</div>
+				<div class="meta">
+					<div class="description">
+						<code>class="table-horizontal"</code>를 기본으로 사용함.
+					</div>
+					<div class="highlight">
+						<pre><code class="language-html"></code></pre>
+					</div>
+				</div>
+				<div class="demo-control fa"></div>
+			</div>
+
+
+			<h3>기본형 - 세로형</h3>
+			<p>가장 기본형식으로써, 각 테이블간의 간격은 설정해야함</p>
+			<div class="demo-block">
+				<div class="source">
+					<!-- table-horizontal //-->
+					<div class="table-vertical">
+		                <table>
+		                    <caption class="blind">공지사항 목록</caption>
+		                    <colgroup>
+		                        <col style="width:150px;">
+		                        <col>
+		                    </colgroup>
+		                    <tbody>
+			                    <tr>
+		                            <th scope="row">구분</th>
+		                            <td>국토정보플랫폼</td>
+		                        </tr>
+		                        <tr>
+		                            <th scope="row">작성자</th>
+		                            <td>정명훈</td>
+		                        </tr>
+	                        </tbody>
+		                </table>
+		            </div>
+		            <!--// table-horizontal -->
+				</div>
+				<div class="meta">
+					<div class="description">
+						<code>class="table-horizontal"</code>를 기본으로 사용함.
+					</div>
+					<div class="highlight">
+						<pre><code class="language-html"></code></pre>
+					</div>
+				</div>
+				<div class="demo-control fa"></div>
+			</div>
+		</div>
+		<!--// g-content  -->
+
+	</div>
+
+</div>
+<!--// #guidePage -->
+
+<?php
+	include_once('../foot.php');
+?>
