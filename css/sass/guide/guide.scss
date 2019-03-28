@@ -2,10 +2,50 @@
 @import "../abstracts/variables";
 
 
+.g-header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:60px;
+	background-color:$theme_color;
+	z-index:100;
+	.g-logo{
+		position: absolute;
+	    left: 0px;
+	    top: 0;
+	    padding-left: 30px;
+	    a{
+	    	line-height:60px;
+	    	font-size:20px;
+	    	color:#fff;
+	    }
+	}
+	.g-gnb{
+		position:absolute;
+		right:0;
+		top:0;
+		ul{
+			overflow:hidden;
+		}
+		li{
+			float:left;
+			a{
+				display:block;
+				line-height:60px;
+				height:60px;
+				padding:0 25px;
+				font-size:20px;
+				color:#fff;
+			}
+		}
+	}
+}
+
 .g-navi{
 	position:fixed;
 	width:250px;
-	top:0;
+	top:60px;
 	left:0;
 	height:100%;
 	border-right: 1px solid #ddd;
@@ -30,7 +70,7 @@
 }
 
 #guideContent{
-	padding:0 0 0 250px;
+	padding:60px 0 0 250px;
 	min-height: 100vh;
 }
 .g-title{
@@ -51,10 +91,21 @@
     	font-size:18px;
 	}
 	>p{
-		font-size: 16px;
-	    color: #5e6d82;
+		font-size: 14px;
+	    color: #0089b3;
 	    line-height: 1.5em;
 	    margin:1em 0;
+	    &:before{
+    	    content: '';
+		    display: inline-block;
+		    position: relative;
+		    top: -1px;
+		    width: 3px;
+		    height: 13px;
+		    margin-right: 5px;
+		    background-color: #0089b3;
+		    vertical-align: middle;
+	    }
 	}
 }
 

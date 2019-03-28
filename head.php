@@ -46,4 +46,17 @@
 	    </nav>
 	</header>
 	<!-- /Header -->
+<?php } else { ?>
+<header class="g-header">
+	<h1 class="g-logo"><a href="#">UI-GUIDE</a></h1>
+
+	<div class="g-gnb">
+		<ul>
+			<li><a href="#">UI Generator</a></li>
+			<li><a href="#">UI Patten</a></li>
+			<li><a href="#">UI Components</a></li>
+		</ul>
+	</div>
+</header>
+
 <?php } ?>

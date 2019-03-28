@@ -10,13 +10,19 @@
 
 	<nav class="g-navi">
 		<ul>
-			<li class="g-depth1"><a href="/html/api/PB_SC_305.php">관리자</a>
 			<li class="g-depth1 g-depth-view"><a href="#">단일페이지</a>
 				<ul class="g-depth2">
 					<li><a href="./board.php">기본게시판</a></li>
 					<li><a href="./gallery_board.php">갤러리게시판</a></li>
 					<li><a href="./join.php">회원가입</a></li>
 					<li><a href="./lib.php">용어사전</a></li>
+				</ul>
+			</li>
+
+			<li class="g-depth1 g-depth-view"><a href="#">UI PATTEN</a>
+				<ul class="g-depth2">
+					<li><a href="./tab.php">탭</a></li>
+					<li><a href="./search.php">검색박스</a></li>
 					<li><a href="./content.php">컨텐츠</a></li>
 				</ul>
 			</li>
@@ -26,8 +32,6 @@
 					<li><a href="./form.php">폼</a></li>
 					<li><a href="./table.php">테이블</a></li>
 					<li><a href="./button.php">버튼</a></li>
-					<li><a href="./tab.php">탭</a></li>
-					<li><a href="./search.php">검색박스</a></li>
 				</ul>
 			</li>
 		</ul>
