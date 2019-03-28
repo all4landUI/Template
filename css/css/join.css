@@ -1,0 +1,28 @@
+.join_procsee { overflow: hidden; margin: 35px 0; width: 100%; display: table; }
+.join_procsee li { position: relative; display: table-cell; width: 25%; padding: 15px; background: #dedede; font-size: 15px; border-left: 1px solid #f1f2f6; }
+.join_procsee li:first-child { border-left: none; }
+.join_procsee li:after { display: inline-block; content: ''; position: absolute; top: 30%; right: 20px; width: 15px; height: 15px; }
+.join_procsee li .num, .join_procsee li .txt { display: inline-block; color: #666; }
+.join_procsee li .num { font-size: 18px; font-weight: 500; }
+.join_procsee li .txt { margin: 5px; font-size: 20px; font-weight: bold; }
+.join_procsee li.current { background: #3c8dbc; color: #fff; }
+.join_procsee li.current .num, .join_procsee li.current .txt { color: #fff; }
+
+#join_kategorie { overflow: hidden; margin-bottom: 30px; }
+#join_kategorie .person, #join_kategorie .corporate { width: 48%; }
+#join_kategorie .person:after, #join_kategorie .corporate:after { display: block; content: ''; clear: both; }
+#join_kategorie .person h3, #join_kategorie .corporate h3 { font-size: 20px; margin-bottom: 10px; }
+#join_kategorie .person ul, #join_kategorie .corporate ul { display: table; width: 100%; padding: 30px 0; border: 1px solid #dedede; border-radius: 6px; }
+#join_kategorie .person ul li, #join_kategorie .corporate ul li { display: table-cell; text-align: center; }
+#join_kategorie .person ul li a, #join_kategorie .corporate ul li a { display: block; }
+#join_kategorie .person ul li a i, #join_kategorie .corporate ul li a i { margin-bottom: 10px; font-size: 35px; }
+#join_kategorie .person ul li a span, #join_kategorie .corporate ul li a span { display: block; font-size: 17px; }
+#join_kategorie .person ul li:hover a, #join_kategorie .corporate ul li:hover a { color: #3c8dbc; }
+#join_kategorie .person ul li:first-child, #join_kategorie .corporate ul li:first-child { border-right: 1px solid #dedede; }
+#join_kategorie .person { float: left; }
+#join_kategorie .corporate { float: right; }
+
+#join_form .table-vertical th { font-weight: bold; }
+#join_form .table-vertical .red { display: inline-block; color: red; }
+
+/*# sourceMappingURL=join.css.map */
