@@ -1,0 +1,11 @@
+.join_procsee { overflow: hidden; margin: 25px 0; width: 100%; display: table; }
+.join_procsee li { position: relative; display: table-cell; width: 25%; padding: 15px; background: #dedede; font-size: 15px; border-left: 1px solid #f1f2f6; }
+.join_procsee li:first-child { border-left: none; }
+.join_procsee li:after { display: inline-block; content: ''; position: absolute; top: 30%; right: 20px; width: 15px; height: 15px; }
+.join_procsee li .num, .join_procsee li .txt { display: inline-block; color: #666; }
+.join_procsee li .num { font-size: 18px; font-weight: 500; }
+.join_procsee li .txt { margin: 5px; font-size: 20px; font-weight: bold; }
+.join_procsee li.current { background: #3c8dbc; color: #fff; }
+.join_procsee li.current .num, .join_procsee li.current .txt { color: #fff; }
+
+/*# sourceMappingURL=join.css.map */
