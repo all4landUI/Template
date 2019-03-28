@@ -25,6 +25,7 @@
                             <div>
                                 <span class="num">Step</span>
                                 <strong class="txt">01.</strong>
+                            </div>
                             회원구분(본인인증)
                         </li>
                         <li>

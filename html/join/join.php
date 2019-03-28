@@ -9,7 +9,7 @@
         <section id="lnb" class="lnb">
             <h2>회원</h2>
             <ul role="menu">
-                <li class="current"><a href="PB_SC_323.php">회원가입</a></li>
+                <li class="current"><a href="">회원가입</a></li>
                 <li class=""><a href="#">정보수정</a></li>
                 <li class=""><a href="#">회원탈퇴</a></li>
             </ul>
@@ -26,7 +26,7 @@
                                 <span class="num">Step</span>
                                 <strong class="txt">01.</strong>
                             </div>
-                            회원구분
+                            회원구분(본인인증)
                         </li>
                         <li>
                             <div>
@@ -53,35 +53,31 @@
                 </div>
 
                 <div id="join_kategorie">
-                    <div>
+                    <div class="person">
                         <h3>개인</h3>
                         <ul>
                             <li>   
-                                <a href=""><i class="fas fa-user-friends"></i><span>내국인</span></a>
-                            </li >
+                                <a href="join_certification.php"><i class="fas fa fa-users"></i><span>내국인</span></a>
+                            </li>
                             <li>
-                                <a href=""><i class="fas fa-user-friends"></i><span>외국인</span></a>
+                                <a href="join_certification.php"><i class="fas fa fa-globe"></i><span>외국인</span></a>
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    <div class="corporate">
                         <h3>법인</h3>
                         <ul>
                             <li>   
-                                <a href=""><i class="fas fa-user-friends"></i><span>내국인</span></a>
-                            </li >
+                                <a href="join_certification.php"><i class="fas fa fa-users"></i><span>법인사업자(내국인)</span></a>
+                            </li>
                             <li>
-                                <a href=""><i class="fas fa-user-friends"></i><span>외국인</span></a>
+                                <a href="join_certification.php"><i class="fas fa fa-globe"></i><span>법인사업자(외국인)</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div> 
 
-			<div class="bt-area text-right">
-                <button type="reset" class="bt reset">취소</button>
-                <button type="submit" class="bt submit">저장</button>
-            </div>
 
         </section>
         <!-- /Contents -->

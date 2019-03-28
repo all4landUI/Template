@@ -4,7 +4,7 @@ $theme_color : #3c8dbc;
 
 .join_procsee{
 	overflow: hidden;
-	margin: 25px 0;
+	margin: 35px 0;
 	width: 100%;
 	display: table;
 	li{
@@ -57,6 +57,76 @@ $theme_color : #3c8dbc;
 				
 
 			}
+		}
+	}
+}
+
+
+#join_kategorie{
+	overflow: hidden;
+	margin-bottom: 30px;
+	.person,
+	.corporate{
+		width: 48%;
+		&:after{
+			display: block;
+			content:'';
+			clear: both;
+		};
+		h3{
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		ul{
+		display: table;
+		width: 100%;
+		padding: 30px 0;
+		border: 1px solid #dedede;
+		border-radius:6px;
+			li{
+				display: table-cell;
+				text-align: center;
+				a{
+					display: block;
+					i{
+						margin-bottom: 10px;
+						font-size: 35px;
+					}
+					span{
+						display: block;
+						font-size: 17px;
+					}
+				}
+				&:hover{
+					a{
+						color:$theme_color;
+					}
+				};
+				&:first-child{
+					border-right: 1px solid #dedede;
+				};
+			}
+		}
+	}
+	.person{
+		float: left;
+	}
+	.corporate{
+		float: right;
+	}
+}
+
+#join_form{
+	.table-vertical{
+		th{
+			font-weight: bold;
+		}
+		td{
+			
+		}
+		.red{
+			display: inline-block;
+			color:red;
 		}
 	}
 }

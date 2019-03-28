@@ -21,31 +21,31 @@
             <div class="join_wrap">
                 <div>
                     <ul class="join_procsee">
-                        <li class="current">
+                        <li>
                             <div>
                                 <span class="num">Step</span>
-                                <strong class="txt">01</strong>
+                                <strong class="txt">01.</strong>
                             </div>
-                            회원구분
+                            회원구분(본인인증)
                         </li>
                         <li>
                             <div>
                                 <span class="num">Step</span>
-                                <strong class="txt">02</strong>                       
+                                <strong class="txt">02.</strong>                       
                             </div>
                             약관동의
                         </li>
-                        <li>
+                        <li class="current">
                             <div>
                                 <span class="num">Step</span>
-                                <strong class="txt">03</strong>
+                                <strong class="txt">03.</strong>
                             </div>
                             회원정보 입력
                         </li>     
                         <li>
                             <div>
                                 <span class="num">Step</span>
-                                <strong class="txt">04</strong>
+                                <strong class="txt">04.</strong>
                             </div>
                             회원가입 완료
                         </li>
@@ -56,61 +56,59 @@
                     <div>
                         <h4>회원정보 필수입력</h4>
                         <p><span>*</span>표시는 필수 입력 사항입니다.</p>
-                        <table>
+                        <table class="table-vertical">
+                            <colgroup>
+                                <col style="width:25%">
+                                <col style="width:75%">
+                            </colgroup>
                             <tbody>
                                 <tr>
                                     <th><span class="red">*</span>이름</th>
-                                    <td>올포랜</td>
+                                    <td><input type="text"></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>아이디</th>
-                                    <td></td>
+                                    <td><input type="text"> <button class="bt">중복확인</button></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>비밀번호</th>
-                                    <td></td>
+                                    <td>
+                                        <input type="text">
+                                        <div>
+                                            <p>9~12자까지 모든 문자+숫자+특수문자 : 영문 대소문자는 구별하여 입력해 주세요)</p>
+                                            <p>- 사용불가능한 특수문자 예 : <, >, _, ", '</p>
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>비밀번호확인</th>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th>비밀번호 힌트</th>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th>비밀번호 힌트답변</th>
-                                    <td></td>
+                                    <td><input type="text"></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>주소</th>
-                                    <td></td>
+                                    <td><input type="text"> <button class="bt">검색</button></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>상세주소</th>
-                                    <td></td>
+                                    <td><input type="text"></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>이메일 주소</th>
-                                    <td></td>
+                                    <td>
+                                        <input type="text"><span>@</span><input type="text">
+                                        <select name="" id="">
+                                            <option value="">이메일 선택</option>
+                                        </select>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>휴대전화번호</th>
-                                    <td></td>
+                                    <td><input type="text"></td>
                                 </tr>
                                 <tr>
-                                    <th><span class="red">*</span></th>
-                                    <td></td>
+                                    <th>직장연락처</th>
+                                    <td><input type="text"></td>
                                 </tr>
-                                <tr>
-                                    <th><span class="red">*</span></th>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th><span class="red">*</span></th>
-                                    <td></td>
-                                </tr>
-
                             </tbody>
                         </table>
 

@@ -24,47 +24,35 @@
                         <li class="current">
                             <div>
                                 <span class="num">Step</span>
-                                <strong class="txt">01</strong>
+                                <strong class="txt">01.</strong>
                             </div>
-                            회원구분
+                            회원구분(본인인증)
                         </li>
                         <li>
                             <div>
                                 <span class="num">Step</span>
-                                <strong class="txt">02</strong>                       
+                                <strong class="txt">02.</strong>                       
                             </div>
                             약관동의
                         </li>
                         <li>
                             <div>
                                 <span class="num">Step</span>
-                                <strong class="txt">03</strong>
+                                <strong class="txt">03.</strong>
                             </div>
                             회원정보 입력
                         </li>     
                         <li>
                             <div>
                                 <span class="num">Step</span>
-                                <strong class="txt">04</strong>
+                                <strong class="txt">04.</strong>
                             </div>
                             회원가입 완료
                         </li>
                     </ul>
                 </div>
 
-                <div id="join_kategorie">
-                    <div>
-                        <ul>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                        </ul>
-                    </div>
+                <div id="join_certification">
                 </div>
             </div> 
 
