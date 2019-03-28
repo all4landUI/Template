@@ -1,4 +1,13 @@
 @charset "UTF-8";
 
 $theme_color : #3c8dbc;
+$borer_color : #ddd;
 
+/** mixin **/
+
+@mixin clear(){
+	content:"";
+	display:block;
+	clear:both;
+	overflow:hidden;
+}

@@ -79,6 +79,8 @@ $(function() {
 	$('.pagination ul button').on('click',function(){
 		$(this).parent().addClass('current').siblings().removeClass('current');
 	});
+
+	
 	
 });
 // Datepicker
@@ -111,3 +113,4 @@ $(window).load(function () {
         return false;
     });
 });
+

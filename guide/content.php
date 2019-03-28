@@ -10,17 +10,10 @@
 
 	<nav class="g-navi">
 		<ul>
-			<li class="g-depth1 g-depth-view"><a href="#">단일페이지</a>
+			<li class="g-depth1 g-depth-view"><a href="#">UI PATTEN</a>
 				<ul class="g-depth2">
 					<li><a href="./board.php">기본게시판</a></li>
 					<li><a href="./gallery_board.php">갤러리게시판</a></li>
-					<li><a href="./join.php">회원가입</a></li>
-					<li><a href="./lib.php">용어사전</a></li>
-				</ul>
-			</li>
-
-			<li class="g-depth1 g-depth-view"><a href="#">UI PATTEN</a>
-				<ul class="g-depth2">
 					<li><a href="./tab.php">탭</a></li>
 					<li><a href="./search.php">검색박스</a></li>
 					<li><a href="./content.php">컨텐츠</a></li>
@@ -39,16 +32,20 @@
 
 	<div id="guideContent">
 		<!-- guide-title //-->
-		<h2 class="g-title">컴포넌트</h2>
+		<h2 class="g-title">컨텐츠</h2>
 		<!--// guide-title -->
 		
 		<!-- g-content //-->
 		<div class="g-content">
-			<h3>간격</h3>
-			<p>클래스를 통한 그리드 간격</p>
+			<h3>기본 설명 컨텐츠</h3>
+			<p>종속을 이용한 목록</p>
 			<div class="demo-block">
 				<div class="source">
 					
+					<div class="content-list">
+						<h3 class="content-title">컨텐츠타이틀</h3>	
+					</div>
+
 				</div>
 				<div class="meta">
 					<div class="description"></div>

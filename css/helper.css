@@ -332,9 +332,9 @@ ul.list-file li { padding: 2px 0; color: #336ec7; }
 
 ul.list-file li button { margin-left: 20px; }
 
-.list-gallery { overflow: hidden; border-top: 2px solid #767676; border-bottom: 1px solid #ebeaea; }
+.list-gallery { width: 100%; display: table; overflow: hidden; border-top: 2px solid #767676; border-bottom: 1px solid #ebeaea; }
 
-.list-gallery li { float: left; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right: 1px solid #ebeaea; border-top: 1px solid #ebeaea; }
+.list-gallery li { display: table-cell; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right: 1px solid #ebeaea; border-top: 1px solid #ebeaea; }
 
 .list-gallery a { display: block; padding: 20px 0px 15px; width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 

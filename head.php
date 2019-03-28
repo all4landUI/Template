@@ -14,6 +14,7 @@
 <script type="text/javascript" src="/js/libs/jQuery/1.12.3/jquery.min.js"></script>
 <script type="text/javascript" src="/js/libs/jQuery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/ngii-mng.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
 <!--[if lt IE 9]>
 	<script type="text/javascript" src="/js/libs/html5shiv.min.js"></script>
 	<script type="text/javascript" src="/js/libs/respond.min.js"></script>
@@ -48,14 +49,6 @@
 <?php } else { ?>
 <header class="g-header">
 	<h1 class="g-logo"><a href="#">UI-GUIDE</a></h1>
-
-	<div class="g-gnb">
-		<ul>
-			<li><a href="#">UI Generator</a></li>
-			<li><a href="#">UI Patten</a></li>
-			<li><a href="#">UI Components</a></li>
-		</ul>
-	</div>
 </header>
 
 <?php } ?>

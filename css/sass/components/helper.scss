@@ -362,6 +362,7 @@ table td a:hover {
 .table-horizontal tbody td:first-child {
     border-left: none;
 }
+
 .table-horizontal .ta-l {
     text-align: left;
 }
@@ -882,12 +883,14 @@ ul.list-file li button {
     margin-left: 20px;
 }
 .list-gallery {
+    width: 100%;
+    display: table;
 	overflow: hidden;
     border-top: 2px solid #767676;
     border-bottom: 1px solid #ebeaea;
 }
 .list-gallery li {
-    float: left;
+    display:table-cell;
     position: relative;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1152,7 +1155,7 @@ footer select {
 .layer-contents .table-vertical tr:last-child th {
     border-bottom: 1px solid #e0e0e0;
 }
-.layer-contents .table-vertical tr:last-child td {
+.layer-contents .table-vertical tr:last-child td {`
     border-bottom: 1px solid #e0e0e0;
 }
 .layer-contents .table-vertical td {
