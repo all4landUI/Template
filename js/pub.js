@@ -7,20 +7,17 @@
 	'use strict';
 
 	var pub = {
-
-		tab : function(el){
+		tab : function(){
+			
 			var $btn = $(".wrap_tabcont li a");
-
 			$btn.on("click" , function(event){
 				var $this = $(this);
 				event.stopPropagation()
-
 				var $tg = $this.attr("href").split("#");
 					$tg = $tg[1];
 				if($tg === null || $tg === undefined){
-					console.log('a태그의 타켓값이 잘못되었습니다.');
+					new error;
 				}
-
 				if($this.parent().is(".active")){
 					
 				} else {
@@ -30,6 +27,11 @@
 				event.preventDefault();
 			})
 		},
+
+		modal : function(options){
+			
+		},
+
 		init : function(){
 			this.tab();
 		}

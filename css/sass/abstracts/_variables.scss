@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
+// 테마1_--베이스 컬러
 $theme_color : #3c8dbc;
-$borer_color : #ddd;
+$theme_color2 : #3c8dbc;
+$border_color : #ddd;
 
 /** mixin **/
-
 @mixin clear(){
 	content:"";
 	display:block;

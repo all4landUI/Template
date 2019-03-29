@@ -5,29 +5,31 @@
 <link rel="stylesheet" href="/plugin/prism/prism.css">
 <link rel="stylesheet" type="text/css" href="/css/guide.css">
 <script src="/plugin/prism/prism.js"></script>
+
 <!-- #guidePage //-->
 <div id="guidePage">
 
 	<nav class="g-navi">
-		<ul>
-			<li class="g-depth1 g-depth-view"><a href="#">UI PATTEN</a>
-				<ul class="g-depth2">
-					<li><a href="./board.php">기본게시판</a></li>
-					<li><a href="./gallery_board.php">갤러리게시판</a></li>
-					<li><a href="./tab.php">탭</a></li>
-					<li><a href="./search.php">검색박스</a></li>
-					<li><a href="./content.php">컨텐츠</a></li>
-				</ul>
-			</li>
 
-			<li class="g-depth1 g-depth-view"><a href="#">컴포넌트</a>
+		<ul>
+			<li class="g-depth1"><a href="#">Layout</a></li>
+			<li class="g-depth1"><a href="#">Theme</a></li>
+			<li class="g-depth1 g-depth-view"><a href="#">Element</a>
 				<ul class="g-depth2">
-					<li><a href="./form.php">폼</a></li>
-					<li><a href="./table.php">테이블</a></li>
-					<li><a href="./button.php">버튼</a></li>
+					<li><a href="./board.php">List</a></li>
+					<li><a href="./gallery_board.php">Gallery</a></li>
+					<li><a href="./gallery_board.php">Thumbnail</a></li>
+					<li><a href="./search.php">Search Box</a></li>
+					<li><a href="./tab.php">Tab</a></li>
+					<li><a href="./button.php">Button</a></li>
+					<li><a href="./form.php">Form</a></li>
+					<li><a href="./table.php">Table</a></li>
+					<li><a href="./content.php">Contents</a></li>
+					<li><a href="./content.php">Popup</a></li>
 				</ul>
 			</li>
 		</ul>
+
 	</nav>
 
 	<div id="guideContent">
@@ -227,14 +229,62 @@
 				<div class="demo-control fa"></div>
 			</div>
 
+			<h3>아이콘</h3>
+			<p>아이콘을 넣는다.</p>
+			<div class="demo-block">
+				<div class="source">
+					
+					<!-- .wrap_tabcont //-->
+					<div class="wrap_tabcont tab-column-4 margin-bottom-10">
+						<ul>
+							<li class="active"><a href="#tab_example1">탭메뉴01</a></li>
+							<li><a href="#tab_example2">탭메뉴02</a></li>
+							<li><a href="#tab_example3">탭메뉴03</a></li>
+							<li><a href="#tab_example4">탭메뉴04</a></li>
+							<li><a href="#tab_example5">탭메뉴01</a></li>
+							<li><a href="#tab_example6">탭메뉴02</a></li>
+							<li><a href="#tab_example7">탭메뉴03</a></li>
+							<li><a href="#tab_example8">탭메뉴04</a></li>
+						</ul>
+					</div>
+					<!--// .wrap_tabcont -->
+
+					<!-- tab-content //-->
+					<div class="tab-content">
+						<div class="tab-panel active" data-panel="tab_example1">
+							1
+						</div>
+						<div class="tab-panel" data-panel="tab_example2">
+							2
+						</div>
+						<div class="tab-panel" data-panel="tab_example3">
+							3
+						</div>
+						<div class="tab-panel" data-panel="tab_example4">
+							4
+						</div>
+					</div>
+					<!--// tab-content  -->
+				</div>
+				<div class="meta">
+					<div class="description">
+						<code>width-1 ~ width-500</code> 사용
+					</div>
+					<div class="highlight">
+						
+					</div>
+				</div>
+				<div class="demo-control fa"></div>
+			</div>
+
 		</div>
 		<!--// g-content  -->
 
 	</div>
 
 </div>
-<!--// #guidePage -->
 
+<!--// #guidePage -->
 <?php
 	include_once('../foot.php');
 ?>
