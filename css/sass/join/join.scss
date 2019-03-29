@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 $theme_color : #3c8dbc;
-
+.red{color:red;}
 .join_procsee{
 	overflow: hidden;
 	margin: 35px 0;
@@ -12,7 +12,7 @@ $theme_color : #3c8dbc;
 		display:table-cell;	
 		width: 25%;	
 		padding: 15px;
-		background:#dedede;
+		background:#f9f9f9;
 		font-size: 15px;
 		border-left: 1px solid #f1f2f6;
 		&:first-child{
@@ -31,12 +31,10 @@ $theme_color : #3c8dbc;
 		.txt{
 			display: inline-block;
 			color:#666;
-
 		}
 		.num{
 			font-size: 18px;
-			font-weight: 500;
-			
+			font-weight: 500;			
 		}
 		.txt{
 			margin: 5px;
@@ -55,7 +53,6 @@ $theme_color : #3c8dbc;
 			}
 			.txt{
 				
-
 			}
 		}
 	}
@@ -72,7 +69,7 @@ $theme_color : #3c8dbc;
 			display: block;
 			content:'';
 			clear: both;
-		};
+		}
 		h3{
 			font-size: 20px;
 			margin-bottom: 10px;
@@ -101,10 +98,10 @@ $theme_color : #3c8dbc;
 					a{
 						color:$theme_color;
 					}
-				};
+				}
 				&:first-child{
 					border-right: 1px solid #dedede;
-				};
+				}
 			}
 		}
 	}
@@ -120,7 +117,7 @@ $theme_color : #3c8dbc;
 	.table-vertical{
 		th{
 			font-weight: bold;
-		}
+		}	
 		td{
 			
 		}
@@ -128,5 +125,36 @@ $theme_color : #3c8dbc;
 			display: inline-block;
 			color:red;
 		}
+	}
+}
+
+#join_argee{
+	.advice{
+		margin-bottom: 20px;
+	}
+	.agree_item{
+		.agree_tit{
+			padding: 20px;
+			border: 1px solid #dedede;
+			border-radius:5px 5px 0 0;
+			font-size: 15px;
+			font-weight: bold;
+			background:#f9f9f9;
+		}
+		.agree_cont{
+			overflow-y: auto;
+			padding: 20px;
+			border: 1px solid #000;
+			border-width: 1px 1px 1px;
+		    border-style: none solid solid;
+		    border-color: #dedede;
+		    border-image: initial;
+		    border-top: none;
+		    height: 200px;
+		}
+	}	
+	.check_area{
+		margin: 10px 0 20px 0;
+		text-align: right;
 	}
 }
