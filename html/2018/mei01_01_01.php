@@ -2,36 +2,7 @@
     include_once('../../head.php');
 ?>
 	
-<style>
-    /* List-Info */
-.list-info {
-    margin-bottom: 30px;
-}
-.list-info dt {
-    position: relative;
-    margin: 20px 0 5px;
-    padding-left: 15px;
-    color: #5b5b5b;
-    font-size: 14px;
-}
-.list-info dt:after {
-    content: '';
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    width: 4px;
-    height: 4px;
-    background: #6a6b6d;
-}
-.list-info dd {
-    color: #5b5b5b;
-    font-size: 13px;
-    line-height: 1.7em;
-}
-.list-info dd .list-hyphen li {
-    line-height: 1em;
-}
-</style>
+
 	<!-- Container -->
 	<article class="container">
     
@@ -50,7 +21,7 @@
             <h1 class="title-sub-h1">회원가입</h1>
             <h2 class="title-sub-h2">해양환경관리공단</h2>
             <div class="text-indent sp-block">
-                <h3 class="title-sub-h3">해양환경측정망</h3>
+                <h3 class="cont_title1">해양환경측정망</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>우리나라 연안 및 근해역의 해양환경 상태와 오염원에 대한 조사를 정기적으로 실시하여 해양환경 현황을 종합적으로 파악함으로써 국가해양환경관리 및 보전정책 수립을 위한 국가 기본자료로 활용</dd>
@@ -75,7 +46,7 @@
                     </dd>
                 </dl>
                 
-                <h3 class="title-sub-h3">해양수질자동측정망</h3>
+                <h3 class="cont_title1">해양수질자동측정망</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>연안 오염의심해역에서 수질 상시측정을 통하여 향후 해양환경 상태 측정 및 변화를 예측·예보 할 수 있는 실시간 해양수질자료로 활용</dd>
@@ -93,7 +64,7 @@
                     <dd>원시자료 제공 : 국가해양환경정보통합시스템에서 관측자료 원본제공</dd>
                 </dl>
                 
-                <h3 class="title-sub-h3">하구역 해양수질자동측정망</h3>
+                <h3 class="cont_title1">하구역 해양수질자동측정망</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>4대강 하구역에서 수질 상시측정을 통하여 향후 해양환경 상태 측정 및 변화를 예측·예보 할 수 있는 실시간 해양수질자료로 활용</dd>
@@ -111,7 +82,7 @@
                     <dd>원시자료 제공 : 국가해양환경정보통합시스템에서 관측자료 원본제공</dd>
                 </dl>
                 
-                <h3 class="title-sub-h3">정기운항선박을 이용한 해양수질자동측정망</h3>
+                <h3 class="cont_title1">정기운항선박을 이용한 해양수질자동측정망</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>한반도 연안을 정기적으로 운항하는 선박에 수질자동측정장비를 설치하여 선박경로에 따른 해양수질변화를 조사하고 나아가 국제페리선박 데이터로 활용</dd>
@@ -130,7 +101,7 @@
             
             <h2 class="title-sub-h2">국립수산과학원</h2>
             <div class="text-indent sp-block">
-                <h3 class="title-sub-h3">정선해양조사</h3>
+                <h3 class="cont_title1">정선해양조사</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>조사정점 및 수층 : 25개선 207개 정점, 14개 표준 수층 </dd>
@@ -157,7 +128,7 @@
                     </dd>
                 </dl>
                 
-                <h3 class="title-sub-h3">연안정지해양조사</h3>
+                <h3 class="cont_title1">연안정지해양조사</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>조사정점 : 전국 연안 34개소</dd>
@@ -176,7 +147,7 @@
                     </dd>
                 </dl>
                 
-                <h3 class="title-sub-h3">실시간어장환경</h3>
+                <h3 class="cont_title1">실시간어장환경</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>연안 양식어장 밀집해역과 이상해황에 의한 어업재해가 빈발한 해역에 실시간 어장환경정보(수온, 염문, 용존산소 등) 자동관측시스템을 구축하여 어업활동에 필요한 과학적 어장환경정보의 실시간 적시제공(웹, SMS, 메일링 서비스 등) 및 수산업 진흥을 위한 기반 자료 확보 등을 그 목적으로 함</dd>
@@ -197,7 +168,7 @@
             
             <h2 class="title-sub-h2">국립해양조사원</h2>
             <div class="text-indent sp-block">
-                <h3 class="title-sub-h3">연안정지관측</h3>
+                <h3 class="cont_title1">연안정지관측</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>전지구계의 해양, 기상 등을 포괄적이고 지속적인 관측을 수행하고 있으며 인류의 안전과 복지 향상, 지구 환경보호 및 지속 가능한 발전에 활용</dd>
@@ -212,7 +183,7 @@
                 </dl>
                 
                 
-                <h3 class="title-sub-h3">조석관측</h3>
+                <h3 class="cont_title1">조석관측</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>달과 태양 등 지구주위 천체의 주기적인 상호운동에 의해 발생한는 지구표면 해수면의 주기적인 승강운동 조사하여 수직기준면관리, 연안재해 방지 및 환경보존 업무에 활용</dd>
@@ -226,7 +197,7 @@
                     <dd>국립해양조사원 홈페이지</dd>
                 </dl>
                 
-                <h3 class="title-sub-h3">실시간연안정보</h3>
+                <h3 class="cont_title1">실시간연안정보</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>전지구계의 해양, 기상 등을 포괄적이고 지속적인 관측을 수행하고 있으며 인류의 안전과 복지 향상, 지구 환경보호 및 지속 가능한 발전에 활용</dd>
@@ -243,7 +214,7 @@
             
             <h2 class="title-sub-h2">해양경찰청</h2>
             <div class="text-indent sp-block">
-                <h3 class="title-sub-h3">폐기물배출해역조사</h3>
+                <h3 class="cont_title1">폐기물배출해역조사</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>폐기물 해양배출로 인해 발생되는 해양오염현황을 주기적으로 조사</dd>
@@ -257,7 +228,7 @@
                     <dd>해양경찰연구소 홈페이지</dd>
                 </dl>
                 
-                <h3 class="title-sub-h3">해양폐기물조사</h3>
+                <h3 class="cont_title1">해양폐기물조사</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>과거에 배출된 해양투기물 배출량을 DB화하여 폐기물 배출해역 수질조사 결과와 비교하여 모니터링</dd>
@@ -274,7 +245,7 @@
             
             <h2 class="title-sub-h2">기상청</h2>
             <div class="text-indent sp-block">
-                <h3 class="title-sub-h3">부이기상관측</h3>
+                <h3 class="cont_title1">부이기상관측</h3>
                 <dl class="list-info">
                     <dt>개요</dt>
                     <dd>동해, 남해, 서해의 부이에서 매시 관측된 기상자료</dd>
@@ -289,8 +260,8 @@
                     <dd>기상청 홈페이지 국내부이 </dd>
                 </dl>
             </div>
-            
                     
+            
             <!-- 별점 -->
             <div class="score-area">
                 <dl>
