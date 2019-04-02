@@ -1,5 +1,4 @@
 <?php
-
     include_once('../../head.php');
 ?>
 	
@@ -310,7 +309,7 @@
             
         </section>
         <!-- /Contents -->
-
+    
     </article>
 	<!-- /Container -->
 
