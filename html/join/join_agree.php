@@ -98,7 +98,7 @@
                 </div>
             </div> 
 
-			<div class="bt-area text-right">
+			<div class="bt-area">
                 <button type="reset" class="bt reset">동의</button>
                 <button type="submit" class="bt submit">취소</button>
             </div>
