@@ -19,11 +19,10 @@
 	<script type="text/javascript" src="/js/libs/html5shiv.min.js"></script>
 	<script type="text/javascript" src="/js/libs/respond.min.js"></script>
 <![endif]-->
-<body>
-
-<?php  if(!$guide) { ?>
+<body class="layout-type-1">
+<?php  if(!$guide){?>
   	<!-- Header -->
-	<header>
+	<header id="header">
 		<hgroup>
 			<h1 class="logo"><a href="../../login.php"><i></i><span class="blind">올포랜드 통합관리자</span></a></h1>
 			<div class="user-info">
@@ -36,12 +35,12 @@
 	    <nav id="gnb">
 			<ul role="menu">
 				<li><a href="/guide/">가이드</a></li>
-				<li><a href="../bbs/PB_SC_281.php">게시판 관리</a></li>
-				<li class="current"><a href="../api/PB_SC_305.php">OPEN API 관리</a></li>
-				<li><a href="../statistics/PB_SC_308.php">통계 관리</a></li>
-				<li><a href="../circulation/PB_SC_311.php">유통 관리</a></li>
-				<li><a href="../data/PB_SC_312.php">데이터 관리</a></li>
-				<li><a href="../user/PB_SC_323.php">업무등록</a></li>
+				<li><a href="/html/bbs/PB_SC_281.php">게시판 관리</a></li>
+				<li class="current"><a href="/html/api/PB_SC_305.php">OPEN API 관리</a></li>
+				<li><a href="/html/statistics/PB_SC_308.php">통계 관리</a></li>
+				<li><a href="/html/circulation/PB_SC_311.php">유통 관리</a></li>
+				<li><a href="/html/data/PB_SC_312.php">데이터 관리</a></li>
+				<li><a href="/html/user/PB_SC_323.php">업무등록</a></li>
 			</ul>
 	    </nav>
 	</header>

@@ -1,0 +1,11 @@
+/** mixin **/
+.layer-modal { display: none; position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; z-index: 1000; }
+.layer-modal .modal-container { position: relative; z-index: 10; display: table; width: 100%; height: 100%; text-align: center; }
+.layer-modal .modal-container > div { display: table-cell; table-layout: fixed; vertical-align: middle; height: 100%; text-align: left; }
+.layer-modal .modal-header { padding: 15px; margin: 0; background-color: #3c8dbc; color: #fff; }
+.layer-modal .modal-header h2 { font-size: 20px; }
+.layer-modal .modal-content { margin: 0 auto; background-color: #fff; position: relative; width: 500px; }
+.layer-modal .modal-body { padding: 15px; }
+.layer-modal .modal-dimmed { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.4); z-index: 9; }
+.layer-modal .btn-modal-close { position: absolute; top: 10px; right: 15px; padding: 5px; color: #fff; font-size: 18px; }
+.layer-modal .btn-modal-close:after { content: "\f00d"; font-size: 1em; }

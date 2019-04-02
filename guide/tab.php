@@ -8,29 +8,9 @@
 
 <!-- #guidePage //-->
 <div id="guidePage">
-
-	<nav class="g-navi">
-
-		<ul>
-			<li class="g-depth1"><a href="#">Layout</a></li>
-			<li class="g-depth1"><a href="#">Theme</a></li>
-			<li class="g-depth1 g-depth-view"><a href="#">Element</a>
-				<ul class="g-depth2">
-					<li><a href="./board.php">List</a></li>
-					<li><a href="./gallery_board.php">Gallery</a></li>
-					<li><a href="./gallery_board.php">Thumbnail</a></li>
-					<li><a href="./search.php">Search Box</a></li>
-					<li><a href="./tab.php">Tab</a></li>
-					<li><a href="./button.php">Button</a></li>
-					<li><a href="./form.php">Form</a></li>
-					<li><a href="./table.php">Table</a></li>
-					<li><a href="./content.php">Contents</a></li>
-					<li><a href="./content.php">Popup</a></li>
-				</ul>
-			</li>
-		</ul>
-
-	</nav>
+	<?php
+		include_once('./guide-menu.php');
+	?>
 
 	<div id="guideContent">
 		<!-- guide-title //-->
@@ -43,7 +23,16 @@
 			<p>기본 가로형</p>
 			<div class="demo-block">
 				<div class="source">
-					
+					<button class="tab-add bt">탭추가</button><br><br>
+					<script>
+						$(function(){
+							$('.tab-add').click(function(e){
+								var cont = $(this).siblings('.wrap_tabcont').find('li').length+1;
+								$(this).siblings('.wrap_tabcont').find('ul').append('<li><a href="#tab_example'+cont+'">탭메뉴'+cont+'</a></li>');
+							})
+						})
+					</script>
+
 					<!-- .wrap_tabcont //-->
 					<div class="wrap_tabcont margin-bottom-10">
 						<ul>
@@ -97,53 +86,7 @@
 				<div class="demo-control fa"></div>
 			</div>
 
-			<h3>세로형</h3>
-			<p>기본세로형</p>
-			<div class="demo-block">
-				<div class="source">
-					
-					<!-- .wrap_tabcont //-->
-					<div class="wrap_tabcont margin-bottom-10">
-						<ul>
-							<li class="active"><a href="#tab_example1">탭메뉴01</a></li>
-							<li><a href="#tab_example2">탭메뉴02</a></li>
-							<li><a href="#tab_example3">탭메뉴03</a></li>
-							<li><a href="#tab_example4">탭메뉴04</a></li>
-						</ul>
-					</div>
-					<!--// .wrap_tabcont -->
-
-					<!-- tab-content //-->
-					<div class="tab-content">
-						<div class="tab-panel active" data-panel="tab_example1">
-							1
-						</div>
-						<div class="tab-panel" data-panel="tab_example2">
-							2
-						</div>
-						<div class="tab-panel" data-panel="tab_example3">
-							3
-						</div>
-						<div class="tab-panel" data-panel="tab_example4">
-							4
-						</div>
-					</div>
-					<!--// tab-content  -->
-				</div>
-				<div class="meta">
-					<div class="description">
-						.wrap_tabcont의 
-						a의 href="#data-panel-name" 을 넣어서 사용한다.<br>
-						.tab-panel에는 꼭 data-panel="data-panel-name"을 넣어사용한다
-					</div>
-					<div class="highlight">
-						
-					</div>
-				</div>
-				<div class="demo-control fa"></div>
-			</div>
-
-
+		
 			<h3>크기 변경</h3>
 			<p>픽셀 조정</p>
 			<div class="demo-block">
@@ -229,24 +172,42 @@
 				<div class="demo-control fa"></div>
 			</div>
 
-			<h3>아이콘</h3>
-			<p>아이콘을 넣는다.</p>
+			<h3>아이콘 탭</h3>
+			<p>각 해당 맞는 이미지를 넣는다.</p>
 			<div class="demo-block">
 				<div class="source">
 					
 					<!-- .wrap_tabcont //-->
 					<div class="wrap_tabcont tab-column-4 margin-bottom-10">
 						<ul>
-							<li class="active"><a href="#tab_example1">탭메뉴01</a></li>
-							<li><a href="#tab_example2">탭메뉴02</a></li>
-							<li><a href="#tab_example3">탭메뉴03</a></li>
-							<li><a href="#tab_example4">탭메뉴04</a></li>
-							<li><a href="#tab_example5">탭메뉴01</a></li>
-							<li><a href="#tab_example6">탭메뉴02</a></li>
-							<li><a href="#tab_example7">탭메뉴03</a></li>
-							<li><a href="#tab_example8">탭메뉴04</a></li>
+							<li class="active">
+								<a href="#tab_example1">
+									<i class="fa fa-area-chart"></i>
+									탭메뉴01
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example2">
+									<i class="fa fa-bar-chart"></i>
+									탭메뉴02
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example3">
+									<i class="fa fa-bar-chart-o"></i>
+									탭메뉴03
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example4">
+									<i class="fa fa-share-alt"></i>
+									탭메뉴04
+								</a>
+							</li>
+							
 						</ul>
 					</div>
+
 					<!--// .wrap_tabcont -->
 
 					<!-- tab-content //-->
@@ -268,7 +229,7 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						<code>width-1 ~ width-500</code> 사용
+						각 탭에 맞는 아이콘을 넣는다.
 					</div>
 					<div class="highlight">
 						

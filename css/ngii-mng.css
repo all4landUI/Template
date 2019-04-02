@@ -1,5 +1,8 @@
 /** mixin **/
 @import url(helper.css);
+@import url(layout.css);
 @import url(button.css);
 @import url(tab.css);
 @import url(contents.css);
+@import url(popup.css);
+@import url(board.css);
