@@ -1,9 +1,52 @@
 @charset "UTF-8";
 
-// 테마1_--베이스 컬러
+$theme_version : 1;
+
 $theme_color : #3c8dbc;
 $theme_color2 : #3c8dbc;
 $border_color : #ddd;
+$btn_1 : #e0e0e0;
+$btn_2 : #265a88;
+$btn_3 : #419641;
+$btn_4 : #eb9316;
+$btn_5 : #c12e2a;
+$btn_6 : #e0e0e0;
+
+@if $theme_version == 1{
+	$theme_color : #3c8dbc;
+	$theme_color2 : #3c8dbc;
+	$border_color : #ddd;
+	$btn_1 : #e0e0e0;
+	$btn_2 : #265a88;
+	$btn_3 : #419641;
+	$btn_4 : #eb9316;
+	$btn_5 : #c12e2a;
+	$btn_6 : #e0e0e0;
+}
+
+
+
+@mixin btn($type){
+	@if $type == 1{
+		color : $btn_1;
+		border-color: $btn_1;
+	} @else if $type == 2{
+		color : $btn_2;
+		border-color: $btn_2;
+	}  @else if $type == 3{
+		color : $btn_3;
+		border-color: $btn_3;
+	}  @else if $type == 4{
+		color : $btn_4;
+		border-color: $btn_4;
+	} @else if $type == 5{
+		color : $btn_5;
+		border-color: $btn_5;
+	} @else if $type == 6{
+		color : $btn_6;
+		border-color: $btn_6;
+	}
+}
 
 /** mixin **/
 @mixin clear(){

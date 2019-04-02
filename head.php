@@ -15,7 +15,6 @@
 <script type="text/javascript" src="/js/libs/jQuery/1.12.3/jquery.min.js"></script>
 <script type="text/javascript" src="/js/libs/jQuery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/ngii-mng.js"></script>
-<script type="text/javascript" src="/js/pub.js"></script>
 <!--[if lt IE 9]>
 	<script type="text/javascript" src="/js/libs/html5shiv.min.js"></script>
 	<script type="text/javascript" src="/js/libs/respond.min.js"></script>

@@ -23,7 +23,7 @@
 			<div class="demo-block">
 				<div class="source">
 					<a href="#popup_name" class="btn-pop-open bt">레이어 팝업열기</a>
-					<a href="/windowpopup.php" data-modal-name="이름" data-modal-width="500" data-modal-height="500" class="btn-pop-open bt">윈도우 팝업열기</a>
+					<a href="/guide/windowpopup.php" data-modal-name="이름" data-modal-width="500" data-modal-height="500" class="btn-pop-open bt">윈도우 팝업열기</a>
 				</div>
 				<div class="meta">
 					<div class="description">
@@ -40,7 +40,7 @@
 			<div class="demo-block">
 				<div class="source">
 					<a href="#popup_name" class="btn-pop-open bt">레이어 팝업열기</a>
-					<a href="/windowpopup.php" data-modal-name="이름" data-modal-width="500" data-modal-height="500" class="btn-pop-open bt">윈도우 팝업열기</a>
+					<a href="/guide/windowpopup.php" data-modal-name="이름" data-modal-width="500" data-modal-height="500" class="btn-pop-open bt">윈도우 팝업열기</a>
 				</div>
 				<div class="meta">
 					<div class="description">

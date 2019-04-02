@@ -65,3 +65,23 @@
 		}
 	}
 }
+
+
+/*
+** 윈도우 팝업
+**/
+
+#window_popup{
+	.window_header{
+		padding:15px;
+		margin:0;
+		background-color:$theme_color;
+		color:#fff;
+		h2{
+			font-size:20px;
+		}
+	}
+	.window_content{
+		padding:15px;
+	}
+}

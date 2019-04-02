@@ -26,6 +26,8 @@
 .g-content > p { font-size: 14px; color: #0089b3; line-height: 1.5em; margin: 1em 0; }
 .g-content > p:before { content: ''; display: inline-block; position: relative; top: -1px; width: 3px; height: 13px; margin-right: 5px; background-color: #0089b3; vertical-align: middle; }
 
+.option_list { background-color: #fafafa; padding: 15px; margin-bottom: 15px; }
+
 .demo-block { border: 1px solid #ebebeb; border-radius: 3px; transition: .2s; margin-bottom: 24px; }
 .demo-block .source { padding: 24px; }
 .demo-block .meta { background-color: #fafafa; border-top: 1px solid #eaeefb; overflow: hidden; height: 0; transition: height .2s; }

@@ -1,10 +1,27 @@
 @charset "UTF-8";
-/** mixin **/
-#bo_v_content { padding: 15px 0; }
+@import "../abstracts/variables";
+/*
+** 목록 : 테이블;
+*/
+
+
+/*
+** 목록 : 갤러리;
+*/
+.list-gallery.column-2 li { width: 50%; }
+.list-gallery.column-2 li:nth-child(2) { border-right: 0; }
+.list-gallery.column-3 li { width: 33.3333333333%; }
+.list-gallery.column-3 li:nth-child(3) { border-right: 0; }
+.list-gallery.column-4 li { width: 25%; }
+.list-gallery.column-4 li:nth-child(4) { border-right: 0; }
+.list-gallery.column-5 li { width: 20%; }
+.list-gallery.column-5 li:nth-child(5) { border-right: 0; }
+
 
 /* 
-** 상세 답변달기
-**/
+** 상세 : 기본+코멘트;
+*/
+#bo_v_content { padding: 15px 0; }
 .comment-wrap { background-color: #f8f8f8; margin: 0 0 15px; }
 .comment-wrap .comment_cont { border: 1px solid #ddd; padding: 15px; }
 .comment-wrap header { border-bottom: 1px solid #ddd; padding: 0 0 10px 0; margin: 0; overflow: hidden; font-size: 16px; }
