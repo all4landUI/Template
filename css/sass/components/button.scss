@@ -118,6 +118,7 @@ a.bt{
         }
     }
     &.down {
+        padding:0 10px 0 30px;
         color: #535353;
         font-size: 13px;
         background-image: url("../../images/bt/bt-downfile.png");
@@ -143,4 +144,12 @@ a.bt{
     &.underline {
         text-decoration: underline;
     }
+}
+
+
+
+@for $i from 1 through 6 {
+   .bt.bt-#{$i} {
+       @include btn($i);
+   }
 }

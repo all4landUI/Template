@@ -53,7 +53,7 @@
 
 		            <!-- #bo_v_content //-->
 		           <div id="bo_v_content">
-		           		컨텐츠
+		           		<img src="http://map.ngii.go.kr/img/process/ms/pblictn/preciseRoadMap/map_making_bg.png" alt="">
 		           </div>
 		           <!--// #bo_v_content -->
 		            

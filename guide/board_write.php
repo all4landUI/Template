@@ -18,13 +18,11 @@
 		
 		<!-- g-content //-->
 		<div class="g-content">
-			<h3>게시판 상세</h3>
-			<p>많이 쓰는 기본 형식</p>
 			<div class="demo-block">
 				<div class="source">
-					<div class="table-vertical type2">
+					<div class="table-vertical type2 margin-bottom-15">
                         <table>
-                            <caption class="blind">공지사항 알림 등록</caption>
+                            <caption class="blind">게시판 등록</caption>
                             <colgroup>
                                 <col style="width:150px;">
                                 <col>
@@ -76,7 +74,8 @@
                                             <li>파일은 최대 <em>1</em>개의 파일이 업로드 가능합니다. <em>(2MB)</em></li>
                                             <li>첨부파일은 jpg, jpeg, bmp, tif, gif, png로 된 이미지만 가능합니다.</li>
                                         </ul>
-                                        <p class="upload-file"><input type="file" id="w-upload" name="w-upload" value="" style="width:550px;"> <button type="button" class="bt light-blue bt table">전체삭제</button></p>
+                                        <p class="upload-file"><input type="file" id="w-upload" name="w-upload" value="">
+                                        <button type="button" class="bt">전체삭제</button></p>
                                     </td>
                                 </tr>
                             </tbody>
@@ -92,9 +91,7 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						컨텐츠 <code>.table-vertical</code>
-						버튼UI <code>.table-vertical.type-page</code>
-						버튼 <code>.bt-area.bt-right</code>
+						
 					</div>
 					<div class="highlight">
 						<pre><code class="language-html">html</code></pre>

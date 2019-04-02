@@ -20,8 +20,20 @@ a.bt { height: 29px; line-height: 27px; }
 .bt.dove { color: #fff; font-size: 13px; background-color: #888; border: 1px solid #6e6e6e; }
 .bt.white { color: #777; font-size: 16px; font-weight: bold; background-color: #fff; border: 1px solid #c2c5c8; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 .bt.white:hover { color: #fff; background-color: #0f78c8; border-color: #0f78c8; }
-.bt.down { color: #535353; font-size: 13px; background-image: url("../../images/bt/bt-downfile.png"); background-repeat: no-repeat; background-position: 8px center; border: 1px solid #c4c4c4; }
+.bt.down { padding: 0 10px 0 30px; color: #535353; font-size: 13px; background-image: url("../../images/bt/bt-downfile.png"); background-repeat: no-repeat; background-position: 8px center; border: 1px solid #c4c4c4; }
 .bt.down:hover { color: #fff; background-image: url("../../images/bt/bt-downfile-hover.png"); background-color: #0f78c8; border-color: #0f78c8; }
 .bt.table { -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; font-size: 13px; }
 .bt.down.bt.table { padding: 5px 10px 5px 30px; }
 .bt.underline { text-decoration: underline; }
+
+.bt.bt-1 { color: #e0e0e0; border-color: #e0e0e0; }
+
+.bt.bt-2 { color: #265a88; border-color: #265a88; }
+
+.bt.bt-3 { color: #419641; border-color: #419641; }
+
+.bt.bt-4 { color: #eb9316; border-color: #eb9316; }
+
+.bt.bt-5 { color: #c12e2a; border-color: #c12e2a; }
+
+.bt.bt-6 { color: #e0e0e0; border-color: #e0e0e0; }

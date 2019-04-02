@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UI ELEMENT - 가이드</title>
+	<link rel="stylesheet" type="text/css" href="/css/ngii-mng.css">
+	<script type="text/javascript" src="/js/libs/jQuery/1.12.3/jquery.min.js"></script>
+	<style>
+		body{
+			padding:20px;
+		}
+	</style>
+</head>
+<body>
+<textarea id="input" class="textarea"></textarea>
+<br>
+<br>
+<textarea id="output" class="textarea"></textarea>
+<script>
+	$("#input").keyup(function(){
+		var $val = $(this).val();
+
+		$val = $val.replace(/</gi , '&lt;');
+		$val = $val.replace(/>/gi , '&gt;');
+		
+		$('#output').val($val)
+	})
+</script>
+
+</body>
+</html>

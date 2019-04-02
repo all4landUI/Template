@@ -1,6 +1,28 @@
 @charset "UTF-8";
 @import "../abstracts/variables";
 
+/*
+** 목록 : 테이블;
+*/
+
+/*
+** 목록 : 갤러리;
+*/
+.list-gallery{
+    @for $i from 2 through 5 {
+        &.column-#{$i}{
+            li{
+                width:100%/$i;
+            }
+            li{
+                &:nth-child(#{$i}){
+                    border-right:0;
+                }
+            }
+        }
+    }
+}
+
 
 
 #bo_v_content{
