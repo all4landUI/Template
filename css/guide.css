@@ -1,5 +1,6 @@
 @charset "UTF-8";
-.g-header { position: fixed; top: 0; left: 0; width: 100%; height: 60px; background-color: #3c8dbc; z-index: 100; }
+/** mixin **/
+.g-header { position: fixed; top: 0; left: 0; width: 100%; height: 60px; padding-top: 0; background-color: #3c8dbc; z-index: 100; }
 .g-header .g-logo { position: absolute; left: 0px; top: 0; padding-left: 30px; }
 .g-header .g-logo a { line-height: 60px; font-size: 20px; color: #fff; }
 .g-header .g-gnb { position: absolute; right: 0; top: 0; }
@@ -33,3 +34,11 @@
 .demo-block .demo-control { border-top: 1px solid #eaeefb; height: 44px; box-sizing: border-box; background-color: #fff; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; text-align: center; margin-top: -1px; color: #d3dce6; cursor: pointer; position: relative; text-align: center; width: 100%; text-align: center; }
 .demo-block .demo-control:hover:after { color: #d3dce6; }
 .demo-block .demo-control:after { font-size: 16px; line-height: 44px; content: "\f0d7"; }
+.demo-block .table-vertical { margin-bottom: 0; }
+
+.demo-layout--view { overflow: hidden; }
+.demo-layout--view .demo-priview { float: left; width: 33.333333333%; padding: 15px; }
+.demo-layout--view .box { border: 1px solid #ddd; padding: 15px; }
+.demo-layout--view .box img { width: 100%; }
+.demo-layout--view .box h3 { text-align: center; font-size: 16px; font-weight: 600; padding-bottom: 7px; color: #8d8d8d; }
+.demo-layout--view .box .check-radio { padding: 5px 0 0; text-align: center; }

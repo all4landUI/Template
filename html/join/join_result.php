@@ -15,7 +15,7 @@
             </ul>
         </section>
         <!-- /Sub Menu -->
-    
+
         <section id="content" class="content">
             <h1 class="title-sub-h1">회원가입</h1>
             <div class="join_wrap">

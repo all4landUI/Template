@@ -7,30 +7,9 @@
 <script src="/plugin/prism/prism.js"></script>
 <!-- #guidePage //-->
 <div id="guidePage">
-
-	<nav class="g-navi">
-
-		<ul>
-			<li class="g-depth1"><a href="#">Layout</a></li>
-			<li class="g-depth1"><a href="#">Theme</a></li>
-			<li class="g-depth1 g-depth-view"><a href="#">Element</a>
-				<ul class="g-depth2">
-					<li><a href="./board.php">List</a></li>
-					<li><a href="./gallery_board.php">Gallery</a></li>
-					<li><a href="./gallery_board.php">Thumbnail</a></li>
-					<li><a href="./search.php">Search Box</a></li>
-					<li><a href="./tab.php">Tab</a></li>
-					<li><a href="./button.php">Button</a></li>
-					<li><a href="./form.php">Form</a></li>
-					<li><a href="./table.php">Table</a></li>
-					<li><a href="./content.php">Contents</a></li>
-					<li><a href="./content.php">Popup</a></li>
-				</ul>
-			</li>
-		</ul>
-
-	</nav>
-
+	<?php
+		include_once('./guide-menu.php');
+	?>
 	<div id="guideContent">
 		<!-- guide-title //-->
 		<h2 class="g-title">기본게시판 - <small>상세</small></h2>
@@ -43,7 +22,7 @@
 			<div class="demo-block">
 				<div class="source">
 					<!-- 공지사항 등록 -->
-		            <div class="table-vertical">
+		            <div class="table-vertical margin-bottom-15">
 		                <h3 class="title-table">구글 크롬 설치파일</h3>
 		                <table>
 		                    <caption class="blind">공지사항 등록</caption>
@@ -99,7 +78,7 @@
 		            <!-- /공지사항 등록 -->
 
 		            <!-- 이전/다음글 -->	
-		            <div class="table-vertical type-page">
+		            <div class="table-vertical type-page margin-bottom-15">
 		                <table>
 		                    <caption class="blind">공지사항 등록</caption>
 		                    <colgroup>
@@ -119,6 +98,52 @@
 		                </table>
 		            </div>	
 		            <!-- /이전/다음글 -->
+
+
+		            <div class="comment-wrap">
+		            	<div class="comment_cont">
+		            		<header>
+		            			<h4>글쓴이</h4>
+		            			<span class="cmt_date">2019.01.01</span>
+		            		</header>
+
+		            		<div class="comment_body">
+		            			답변 내용!!
+		            		</div>
+
+		            		<div class="comment_manege">
+		            			<button class="bt">수정</button>
+		            			<button class="bt">삭제</button>
+		            		</div>
+
+		            	</div>
+
+		            </div>
+
+		            <!-- 코멘트 //-->
+		            <div class="table-vertical type-page margin-bottom-15">
+		                <table>
+		                    <caption class="blind">코멘트관리</caption>
+		                    <colgroup>
+		                        <col style="width:150px;">
+		                        <col>
+		                        <col style="width:150px;">
+		                    </colgroup>
+		                    <tbody>
+		                        <tr>
+		                            <th scope="row">답변내용</th>
+		                            <td>
+		                            	<textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+		                            </td>
+		                            <td>
+		                            	<button class="bt">답변등록</button>
+		                            </td>
+		                        </tr>
+		                    </tbody>
+		                </table>
+		            </div>	
+		            <!--// 코멘트 -->
+
 
 		            <div class="bt-area bt-right">
 		            	<a href="./board_write.php" class="bt">등록</a>

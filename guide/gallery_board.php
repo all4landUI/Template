@@ -7,30 +7,9 @@
 <script src="/plugin/prism/prism.js"></script>
 <!-- #guidePage //-->
 <div id="guidePage">
-
-	<nav class="g-navi">
-
-		<ul>
-			<li class="g-depth1"><a href="#">Layout</a></li>
-			<li class="g-depth1"><a href="#">Theme</a></li>
-			<li class="g-depth1 g-depth-view"><a href="#">Element</a>
-				<ul class="g-depth2">
-					<li><a href="./board.php">List</a></li>
-					<li><a href="./gallery_board.php">Gallery</a></li>
-					<li><a href="./gallery_board.php">Thumbnail</a></li>
-					<li><a href="./search.php">Search Box</a></li>
-					<li><a href="./tab.php">Tab</a></li>
-					<li><a href="./button.php">Button</a></li>
-					<li><a href="./form.php">Form</a></li>
-					<li><a href="./table.php">Table</a></li>
-					<li><a href="./content.php">Contents</a></li>
-					<li><a href="./content.php">Popup</a></li>
-				</ul>
-			</li>
-		</ul>
-
-	</nav>
-
+	<?php
+		include_once('./guide-menu.php');
+	?>
 	<div id="guideContent">
 		<!-- guide-title //-->
 		<h2 class="g-title">갤러리 - <small>목록</small></h2>
@@ -42,6 +21,28 @@
 			<p><code>class="column-number"</code>을 넣어 한줄에 뿌려지는 개수 조절</p>
 			<div class="demo-block">
 				<div class="source">
+					<script>
+						$(function(){
+							$(".option_list .bt").click(function(){
+								var $value = $(this).prev('select').val();
+								$('.list-gallery').removeClass('column-2 column-3 column-4 column-5')
+								.addClass('column-'+$value+'')
+								return false;
+							})
+						})
+					</script>
+					<div class="option_list">
+						<label for="columnChoice">행선택</label>
+						<select name="columnChoice" id="columnChoice">
+							<option value="2">2*n</option>
+							<option value="3">3*n</option>
+							<option value="4">4*n</option>
+							<option value="5">5*n</option>
+						</select>
+						<button class="bt">적용</button>
+					</div>
+
+
 					<!-- Search -->
 		            <div class="search-form">
 		                <form action="" class="float-right">
@@ -59,7 +60,7 @@
 
 		                        <label for="s-input" class="blind">검색어 입력</label>
 		                        <input type="text" id="s-input" name="" value="">
-		                        <button type="button" class="bt search">검색</button>	
+		                        <button type="button" class="bt">검색</button>	
 		                    </fieldset>
 		                </form>
 
@@ -67,17 +68,15 @@
 		            </div>
 		            <!-- /Search -->
 
-		            <ul class="list-gallery column-3">
-		                <li><a href="PB_SC_297.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
-		                <li><a href="PB_SC_297.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
-		                <li><a href="PB_SC_297.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		            <ul class="list-gallery column-5">
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		                
 		            </ul>
-		            <ul class="list-gallery column-3">
-		                <li><a href="PB_SC_297.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
-		                <li><a href="PB_SC_297.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
-		                <li><a href="PB_SC_297.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
-		            </ul>
-
+		           
 		            <!-- Pagination -->
 		            <div class="pagination">
 		                <button type="button" class="prev">이전</button>	
@@ -103,7 +102,7 @@
 						특이점은 한열당 UL로 다시 LOOP를 돌려야함. 그래야만 글씨의 높낮이에 상관없이, 정렬됨
 					</div>
 					<div class="highlight">
-						ㅇㅇ
+						
 					</div>
 				</div>
 				<div class="demo-control fa"></div>

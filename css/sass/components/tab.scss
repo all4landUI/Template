@@ -4,16 +4,19 @@
 
 .wrap_tabcont{
 	ul{
-		border-bottom:1px solid $borer_color;
+		border-bottom:1px solid $border_color;
+		overflow-x:auto;
+		white-space:nowrap;
 		&:after{
 			@include clear();
 		}
 		li{
-			float:left;
-			border:1px solid $borer_color;
+			display:inline-block;
+			border:1px solid $border_color;
 			border-bottom:0;
 			background-color:#fff;
 			text-align:center;
+			float:left;
 			&+li{
 				margin-left:5px;
 			}

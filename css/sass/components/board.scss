@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import "../abstracts/variables";
+
+
+
+#bo_v_content{
+	padding:15px 0;
+}
+
+/* 
+** 상세 답변달기
+**/
+.comment-wrap{
+    background-color:#f8f8f8;
+    margin:0 0 15px;
+    .comment_cont{
+        border:1px solid $border_color;
+        padding:15px;
+    }
+    header{
+        border-bottom:1px solid $border_color;
+        padding:0 0 10px 0;
+        margin:0;
+        overflow:hidden;
+        font-size:16px;
+        h4{
+            float:left;
+            font-size:1em;
+        }
+        .cmt_date{
+            float:right;
+            font-size:1em;
+        }
+    }
+    .comment_body{
+        padding:15px 0;
+        font-size:16px;
+    }
+}

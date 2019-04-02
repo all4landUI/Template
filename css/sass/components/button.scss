@@ -33,8 +33,7 @@ a.bt{
         background-color: #5b5b5b;
         border: 1px solid #474747;
     }
-    &.submit {
-        padding: 10px 20px;
+    &.submit {        
         color: #fff;
         font-size: 16px;
         font-weight: bold;
@@ -43,7 +42,6 @@ a.bt{
         border-radius: 3px;
     }
     &.light-blue {
-        padding: 10px 20px;
         color: #457197;
         font-size: 17px;
         background-color: #f1f6f9;
@@ -55,7 +53,6 @@ a.bt{
         }
     }
     &.reset {
-        padding: 10px 20px;
         color: #6b7477;
         font-size: 16px;
         font-weight: bold;
@@ -66,7 +63,6 @@ a.bt{
         border-radius: 3px;
     }
     &.list {
-        padding: 10px 20px;
         color: #fff;
         font-size: 16px;
         font-weight: bold;
@@ -95,21 +91,18 @@ a.bt{
     }
 
     &.dark-gray {
-        padding: 8px 15px;
         color: #fff;
         font-size: 13px;
         background-color: #5b5b5b;
         border: 1px solid #474747;
     }
     &.dove {
-        padding: 8px 15px;
         color: #fff;
         font-size: 13px;
         background-color: #888;
         border: 1px solid #6e6e6e;
     }
     &.white {
-        padding: 10px 20px;
         color: #777;
         font-size: 16px;
         font-weight: bold;
@@ -125,7 +118,6 @@ a.bt{
         }
     }
     &.down {
-        padding: 5px 10px 5px 30px;
         color: #535353;
         font-size: 13px;
         background-image: url("../../images/bt/bt-downfile.png");
@@ -140,7 +132,6 @@ a.bt{
         }
     }
     &.table {
-        padding: 6px 10px 5px;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         border-radius: 0;
