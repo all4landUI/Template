@@ -23,13 +23,6 @@
 <!-- #window_popup //-->
 <div id="window_popup">
 	
-	<div class="window_header">
-		<h2>윈도우팝업</h2>
-	</div>
-
-	<div class="window_content">
-		
-	</div>
 </div>
 <!--// #window_popup -->
 </body>

@@ -51,7 +51,29 @@
 						검색의 위치에 상관없이 상/하에 사용 후 margin-position(string)-value(numer) 조정
 					</div>
 					<div class="highlight">
-						
+<pre><code class="language-html">&lt;!-- search-form //--&gt;
+&lt;div class="search-form"&gt;
+	&lt;form action="" class="float-right"&gt;
+	    &lt;fieldset&gt;
+	        &lt;legend&gt;리스트 검색&lt;/legend&gt;
+	        &lt;label for="s-type" class="blind"&gt;서비스 구분&lt;/label&gt;
+	        &lt;select id="s-type" name="w-type"&gt;
+	            &lt;option value=""&gt;전체&lt;/option&gt;
+	        &lt;/select&gt;
+
+	        &lt;label for="s-require" class="blind"&gt;검색 조건 선택&lt;/label&gt;
+	        &lt;select id="s-require" name="w-require"&gt;
+	            &lt;option value=""&gt;전체&lt;/option&gt;
+	        &lt;/select&gt;
+
+	        &lt;label for="s-input" class="blind"&gt;검색어 입력&lt;/label&gt;
+	        &lt;input type="text" id="s-input" name="s-input" value=""&gt;
+	        &lt;button type="button" class="bt"&gt;검색&lt;/button&gt;	
+	    &lt;/fieldset&gt;
+	&lt;/form&gt;
+	&lt;p class="count float-left"&gt;게시글 수 &lt;em&gt;17&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!--// search-form --&gt;</code></pre>
 					</div>
 				</div>
 				
@@ -77,9 +99,9 @@
 			                                <th scope="row"><label for="s-date">조회기간</label></th>
 			                                <td>
 			                                    <div class="search-form">
-			                                        <span class="search-date"><input type="text" id="s-date" name="s-date" value="" class="datepicker hasDatepicker" title="조회기간 설정 시작일"><button type="button" class="ui-datepicker-trigger fa fa-calendar"></button></span>
-			                                        - 
-			                                        <span class="search-date"><input type="text" id="s-date2" name="s-date2" value="" class="datepicker hasDatepicker" title="조회기간 설정 종료일"><button type="button" class="ui-datepicker-trigger fa fa-calendar"></button></span>
+					                                <span class="search-date"><input type="text" id="s-date" name="" value="" class="datepicker" title="조회기간 설정 시작일"></span>
+		                                            - 
+		                                            <span class="search-date"><input type="text" id="s-date2" name="" value="" class="datepicker" title="조회기간 설정 종료일"></span>
 			                                    </div>
 			                                </td>
 			                                <th scope="row"><label for="s-type">서비스 구분</label></th>
@@ -105,7 +127,45 @@
 						검색의 위치에 상관없이 상/하에 사용 후 margin-position(string)-value(numer) 조정
 					</div>
 					<div class="highlight">
-						
+<pre><code class="language-html">&lt;form action=""&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;선택 배경지도 통계 조회 조건 선택&lt;/legend&gt;
+        &lt;div class="table-vertical type2"&gt;
+            &lt;table&gt;
+                &lt;caption class="blind"&gt;페이지뷰 현황 조회 조건&lt;/caption&gt;
+                &lt;colgroup&gt;
+                    &lt;col style="width:150px;"&gt;
+                    &lt;col&gt;
+                    &lt;col style="width:150px;"&gt;
+                    &lt;col&gt;
+                &lt;/colgroup&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;th scope="row"&gt;&lt;label for="s-date"&gt;조회기간&lt;/label&gt;&lt;/th&gt;
+                        &lt;td&gt;
+                            &lt;div class="search-form"&gt;
+                                &lt;span class="search-date"&gt;&lt;input type="text" id="s-date" name="" value="" class="datepicker" title="조회기간 설정 시작일"&gt;&lt;/span&gt;
+                                - 
+								&lt;span class="search-date"&gt;&lt;input type="text" id="s-date2" name="" value="" class="datepicker" title="조회기간 설정 종료일"&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/td&gt;
+                        &lt;th scope="row"&gt;&lt;label for="s-type"&gt;서비스 구분&lt;/label&gt;&lt;/th&gt;
+                        &lt;td&gt;
+                            &lt;select id="s-type" name="s-type" title="서비스 구분 선택"&gt;
+                                &lt;option value=""&gt;전체&lt;/option&gt;
+                                &lt;option value=""&gt;국토정보플랫폼&lt;/option&gt;
+                                &lt;option value=""&gt;극지공간정보&lt;/option&gt;
+                                &lt;option value=""&gt;GNSS서비스&lt;/option&gt;
+                                &lt;option value=""&gt;바로e맵&lt;/option&gt;
+                                &lt;option value=""&gt;국토변화정보포털&lt;/option&gt;
+                            &lt;/select&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;</code></pre>
 					</div>
 				</div>
 				
@@ -114,100 +174,204 @@
 
 			<p>검색유형-2</p>
 			<div class="demo-block">
-			<div class="table-vertical type2">
-	                <table>
-	                    <caption class="blind">통계현황 조회 조건</caption>
-	                    <colgroup>
-	                        <col style="width:15%;">
-	                        <col>
-	                        <col style="width:15%;">
-	                        <col>
-	                        <col style="width:15%;">
-	                        <col>
-	                    </colgroup>
-	                    <tbody>
-	                    	<tr>
-	                            <th scope="row"><label for="s-type2">점의종류</label></th>
-	                            <td colspan="2">
-	                                <select id="s-type2" name="s-type2" title="점의종류 선택">
-	                                    <option value="">전체</option>
-	                                </select>
-	                            </td>
-	                            <th scope="row"><label for="s-type4">소재지</label></th>
-	                            <td colspan="2">
-	                                <select id="s-type4" name="s-type4" title="소재지 선택">
-	                                    <option value="">전체</option>
-	                                </select>
-	                            </td>
-	                        </tr>
-	                        <tr>
-	                            <th scope="row"><label for="s-type">사용자 구분</label></th>
-	                            <td colspan="5">
-	                                <select id="s-type" name="s-type" title="사용자 구분 선택">
-	                                    <option value="">전체</option>
-	                                    <option value="">사용자ID</option>
-	                                    <option value="">사용자명</option>
-	                                </select>
-	                                <label for="w-type" class="blind">사용자 구분</label>
-	                                <input type="text" id="w-type" name="w-type">
-	                            </td>
-	                        </tr>
-	                        <tr>
-	                            <th scope="row"><label for="s-map">지도 종류</label></th>
-	                            <td>
-	                                <select id="s-map" name="s-map" title="챠트 종류 선택">
-	                                    <option value="">국토영상정보</option>
-	                                </select>
-	                            </td>
-	                            <th scope="row"><label for="s-purpose">구매목적</label></th>
-	                            <td>
-	                                <select id="s-purpose" name="s-purpose" title="구매목적 선택">
-	                                    <option value="">전체</option>
-	                                    <option value="">측량 및 지도제작</option>
-	                                </select>
-	                            </td>
-	                            <th scope="row"><label for="s-how">구매방법</label></th>
-	                            <td>
-	                                <select id="s-how" name="s-how" title="구매방법 선택">
-	                                    <option value="">전체</option>
-	                                    <option value="">온라인</option>
-	                                    <option value="">방문</option>
-	                                </select>
-	                            </td>
-	                        </tr>
-	                        <tr>
-	                            <th scope="row"><label for="s-agency">제공기관</label></th>
-	                            <td colspan="5">
-	                                <select id="s-agency" name="s-agency" title="제공기관 선택">
-	                                    <option value="">전체</option>
-	                                    <option value="">수원시</option>
-	                                    <option value="">인천광역시</option>
-	                                </select>
-	                            </td>
-	                        </tr>
-	                        <tr>
-	                            <th scope="row"><label for="s-date">조회기간 설정</label></th>
-	                            <td colspan="5">
-	                                <div class="search-form">
-	                                    <div class="bt-area bt-left">
-	                                        <button class="bt white bt table mr-5" style="width:70px;">1개월</button>
-	                                        <button class="bt white bt table mr-5" style="width:70px;">3개월</button>
-	                                        <button class="bt white bt table mr-5" style="width:70px;">6개월</button>
-	                                        <button class="bt white bt table mr-5" style="width:70px;">1년</button>
-	                                        <button class="bt white bt table mr-5" style="width:70px;">2013년</button>
-	                                        <button class="bt white bt table mr-5" style="width:70px;">2014년</button>
-	                                        <button class="bt white bt table mr-5" style="width:70px;">2015년</button>
-	                                        <button class="bt white bt table">2016년</button>
-	                                    </div>
-	                                    <span class="search-date"><input type="text" id="s-date" name="" value="" class="datepicker hasDatepicker" title="조회기간 설정 시작일"><button type="button" class="ui-datepicker-trigger fa fa-calendar"></button></span>
-	                                    - 
-	                                    <span class="search-date"><input type="text" id="s-date2" name="" value="" class="datepicker hasDatepicker" title="조회기간 설정 종료일"><button type="button" class="ui-datepicker-trigger fa fa-calendar"></button></span>
-	                                </div>
-	                            </td>
-	                        </tr>
-	                    </tbody>
-	                </table>
-	            </div>
+				<div class="source">
+					<div class="table-vertical type2">
+		                <table>
+		                    <caption class="blind">통계현황 조회 조건</caption>
+		                    <colgroup>
+		                        <col style="width:15%;">
+		                        <col>
+		                        <col style="width:15%;">
+		                        <col>
+		                        <col style="width:15%;">
+		                        <col>
+		                    </colgroup>
+		                    <tbody>
+		                    	<tr>
+		                            <th scope="row"><label for="s-type2">점의종류</label></th>
+		                            <td colspan="2">
+		                                <select id="s-type2" name="s-type2" title="점의종류 선택">
+		                                    <option value="">전체</option>
+		                                </select>
+		                            </td>
+		                            <th scope="row"><label for="s-type4">소재지</label></th>
+		                            <td colspan="2">
+		                                <select id="s-type4" name="s-type4" title="소재지 선택">
+		                                    <option value="">전체</option>
+		                                </select>
+		                            </td>
+		                        </tr>
+		                        <tr>
+		                            <th scope="row"><label for="s-type">사용자 구분</label></th>
+		                            <td colspan="5">
+		                                <select id="s-type" name="s-type" title="사용자 구분 선택">
+		                                    <option value="">전체</option>
+		                                    <option value="">사용자ID</option>
+		                                    <option value="">사용자명</option>
+		                                </select>
+		                                <label for="w-type" class="blind">사용자 구분</label>
+		                                <input type="text" id="w-type" name="w-type">
+		                            </td>
+		                        </tr>
+		                        <tr>
+		                            <th scope="row"><label for="s-map">지도 종류</label></th>
+		                            <td>
+		                                <select id="s-map" name="s-map" title="챠트 종류 선택">
+		                                    <option value="">국토영상정보</option>
+		                                </select>
+		                            </td>
+		                            <th scope="row"><label for="s-purpose">구매목적</label></th>
+		                            <td>
+		                                <select id="s-purpose" name="s-purpose" title="구매목적 선택">
+		                                    <option value="">전체</option>
+		                                    <option value="">측량 및 지도제작</option>
+		                                </select>
+		                            </td>
+		                            <th scope="row"><label for="s-how">구매방법</label></th>
+		                            <td>
+		                                <select id="s-how" name="s-how" title="구매방법 선택">
+		                                    <option value="">전체</option>
+		                                    <option value="">온라인</option>
+		                                    <option value="">방문</option>
+		                                </select>
+		                            </td>
+		                        </tr>
+		                        <tr>
+		                            <th scope="row"><label for="s-agency">제공기관</label></th>
+		                            <td colspan="5">
+		                                <select id="s-agency" name="s-agency" title="제공기관 선택">
+		                                    <option value="">전체</option>
+		                                    <option value="">수원시</option>
+		                                    <option value="">인천광역시</option>
+		                                </select>
+		                            </td>
+		                        </tr>
+		                        <tr>
+		                            <th scope="row"><label for="s-date">조회기간 설정</label></th>
+		                            <td colspan="5">
+		                                <div class="search-form">
+		                                    <div class="bt-area bt-left">
+		                                        <button class="bt">1개월</button>
+		                                        <button class="bt">3개월</button>
+		                                        <button class="bt">6개월</button>
+		                                        <button class="bt">1년</button>
+		                                        <button class="bt">2013년</button>
+		                                        <button class="bt">2014년</button>
+		                                        <button class="bt">2015년</button>
+		                                        <button class="bt">2016년</button>
+		                                    </div>
+		                                    <span class="search-date"><input type="text" id="s-date" name="" value="" class="datepicker" title="조회기간 설정 시작일"></span>
+		                                    - 
+		                                    <span class="search-date"><input type="text" id="s-date2" name="" value="" class="datepicker" title="조회기간 설정 종료일"></span>
+		                                </div>
+		                            </td>
+		                        </tr>
+		                    </tbody>
+		                </table>
+			        </div>
+		        </div>
+		        <div class="meta">
+					<div class="description">
+						검색의 위치에 상관없이 상/하에 사용 후 margin-position(string)-value(numer) 조정
+					</div>
+					<div class="highlight">
+<pre><code class="language-html">&lt;div class="table-vertical type2"&gt;
+    &lt;table&gt;
+        &lt;caption class="blind"&gt;통계현황 조회 조건&lt;/caption&gt;
+        &lt;colgroup&gt;
+            &lt;col style="width:15%;"&gt;
+            &lt;col&gt;
+            &lt;col style="width:15%;"&gt;
+            &lt;col&gt;
+            &lt;col style="width:15%;"&gt;
+            &lt;col&gt;
+        &lt;/colgroup&gt;
+        &lt;tbody&gt;
+        	&lt;tr&gt;
+                &lt;th scope="row"&gt;&lt;label for="s-type2"&gt;점의종류&lt;/label&gt;&lt;/th&gt;
+                &lt;td colspan="2"&gt;
+                    &lt;select id="s-type2" name="s-type2" title="점의종류 선택"&gt;
+                        &lt;option value=""&gt;전체&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/td&gt;
+                &lt;th scope="row"&gt;&lt;label for="s-type4"&gt;소재지&lt;/label&gt;&lt;/th&gt;
+                &lt;td colspan="2"&gt;
+                    &lt;select id="s-type4" name="s-type4" title="소재지 선택"&gt;
+                        &lt;option value=""&gt;전체&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;&lt;label for="s-type"&gt;사용자 구분&lt;/label&gt;&lt;/th&gt;
+                &lt;td colspan="5"&gt;
+                    &lt;select id="s-type" name="s-type" title="사용자 구분 선택"&gt;
+                        &lt;option value=""&gt;전체&lt;/option&gt;
+                        &lt;option value=""&gt;사용자ID&lt;/option&gt;
+                        &lt;option value=""&gt;사용자명&lt;/option&gt;
+                    &lt;/select&gt;
+                    &lt;label for="w-type" class="blind"&gt;사용자 구분&lt;/label&gt;
+                    &lt;input type="text" id="w-type" name="w-type"&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;&lt;label for="s-map"&gt;지도 종류&lt;/label&gt;&lt;/th&gt;
+                &lt;td&gt;
+                    &lt;select id="s-map" name="s-map" title="챠트 종류 선택"&gt;
+                        &lt;option value=""&gt;국토영상정보&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/td&gt;
+                &lt;th scope="row"&gt;&lt;label for="s-purpose"&gt;구매목적&lt;/label&gt;&lt;/th&gt;
+                &lt;td&gt;
+                    &lt;select id="s-purpose" name="s-purpose" title="구매목적 선택"&gt;
+                        &lt;option value=""&gt;전체&lt;/option&gt;
+                        &lt;option value=""&gt;측량 및 지도제작&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/td&gt;
+                &lt;th scope="row"&gt;&lt;label for="s-how"&gt;구매방법&lt;/label&gt;&lt;/th&gt;
+                &lt;td&gt;
+                    &lt;select id="s-how" name="s-how" title="구매방법 선택"&gt;
+                        &lt;option value=""&gt;전체&lt;/option&gt;
+                        &lt;option value=""&gt;온라인&lt;/option&gt;
+                        &lt;option value=""&gt;방문&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;&lt;label for="s-agency"&gt;제공기관&lt;/label&gt;&lt;/th&gt;
+                &lt;td colspan="5"&gt;
+                    &lt;select id="s-agency" name="s-agency" title="제공기관 선택"&gt;
+                        &lt;option value=""&gt;전체&lt;/option&gt;
+                        &lt;option value=""&gt;수원시&lt;/option&gt;
+                        &lt;option value=""&gt;인천광역시&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope="row"&gt;&lt;label for="s-date"&gt;조회기간 설정&lt;/label&gt;&lt;/th&gt;
+                &lt;td colspan="5"&gt;
+                    &lt;div class="search-form"&gt;
+                        &lt;div class="bt-area bt-left"&gt;
+                            &lt;button class="bt"&gt;1개월&lt;/button&gt;
+                            &lt;button class="bt"&gt;3개월&lt;/button&gt;
+                            &lt;button class="bt"&gt;6개월&lt;/button&gt;
+                            &lt;button class="bt"&gt;1년&lt;/button&gt;
+                            &lt;button class="bt"&gt;2013년&lt;/button&gt;
+                            &lt;button class="bt"&gt;2014년&lt;/button&gt;
+                            &lt;button class="bt"&gt;2015년&lt;/button&gt;
+                            &lt;button class="bt"&gt;2016년&lt;/button&gt;
+                        &lt;/div&gt;
+                        &lt;span class="search-date"&gt;&lt;input type="text" id="s-date" name="" value="" class="datepicker" title="조회기간 설정 시작일"&gt;&lt;/span&gt;
+                        - 
+                        &lt;span class="search-date"&gt;&lt;input type="text" id="s-date2" name="" value="" class="datepicker" title="조회기간 설정 종료일"&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;</code></pre>
+					</div>
+				</div>
+		        <div class="demo-control fa"></div>
             </div>
             <!--  -->
 		</div>
