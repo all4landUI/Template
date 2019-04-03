@@ -97,6 +97,7 @@ $.datepicker.setDefaults({
 	yearSuffix: '년'
 });
 
+
 // Back To Top
 $(window).scroll(function() {
 	if ($(this).scrollTop() > 100) {
@@ -112,15 +113,21 @@ $(window).load(function () {
         }, 200);
         return false;
     });
-})(jQuery)
+})(jQuery);
+
 
  // Accordion
-$('.list-dopdown .a-toggle').on('click', function(e) {
-    e.preventDefault();
-    if ($(this).hasClass('current')){
-        $(this).removeClass('current').siblings().slideUp('normal');
-    }else {
-        $(this).addClass('current').siblings().stop(true,true).slideDown('normal');
-    }
+$(document).ready(function() {
+
+	$('.list-dopdown .a-toggle').on('click', function(e) {
+	    e.preventDefault();
+	    if ($(this).hasClass('current')){
+	        $(this).removeClass('current').siblings().slideUp('normal');
+	    }else {
+	        $(this).addClass('current').siblings().stop(true,true).slideDown('normal');
+	    }
+	});	
+
 });
+
     
