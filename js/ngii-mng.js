@@ -114,14 +114,25 @@ $(window).load(function () {
         return false;
     });
 
-})(jQuery);
+})
 
 
 
- // Accordion
+ 
 $(document).ready(function() {
+	
+	// Tab
+    $('.tab-menu button').click(function(e) {
+        e.preventDefault();
+        $(this).parent().children().removeClass('current');
+        $(this).addClass('current');
+        $(this).parent().siblings('.tab-content').children().hide();
+        var activeTab = $(this).attr('rel');
+        $('#'+activeTab).fadeIn();		
+    }); 
 
-	$('.list-dopdown .a-toggle').on('click', function(e) {
+    // Accordion
+	$('.a-toggle').on('click', function(e) {
 	    e.preventDefault();
 	    if ($(this).hasClass('current')){
 	        $(this).removeClass('current').siblings().slideUp('normal');

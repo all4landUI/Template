@@ -470,6 +470,9 @@ table.calendar .sat{
     background: #6e96c8;
     border-bottom: 1px solid #e1e4e9;
 }
+.box-move .a-content{
+    display: none;
+}
 .box-move .a-content li a {
     display: block;
     padding: 10px 10px 10px 60px;
@@ -504,11 +507,309 @@ table.calendar .sat{
 .box-move .move-add {
     position: absolute;
     top: 180px;
-
 }
 .box-move .move-delete {
     position: absolute;
     top: 230px;
-
 }
+.bt.table.check{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    height: 25px;
+    padding: 0 8px 0 21px;
+    font-size: 12px;
+    line-height: 25px;
+    background-color: #3d434c;
+    background-image: url(../../images/ico/ico_check.png);
+    background-repeat: no-repeat;
+    background-position: 8px center;
+}
+
 /* Box Content end*/
+
+
+/* Tab */
+.tab-menu {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.tab-menu button {
+    overflow: visible;
+    float: left;
+    position: relative;
+    padding: 13px 20px;
+    text-align: center;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #5e524d;
+    border-right: 1px solid #d9d9d9;
+}
+.tab-menu button.line2 {
+    padding-top: 24px;
+    padding-bottom: 23px;
+}
+.tab-menu button:first-child {
+    border-left: 1px solid #d9d9d9;
+}
+.tab-menu button:focus,
+.tab-menu button:hover,
+.tab-menu button:active,
+.tab-menu button.current {
+    color: #fff;
+    border-color: #0e50a4;
+    background-color: #0e50a4;
+}
+.tab-menu button:focus:after,
+.tab-menu button:hover:after,
+.tab-menu button:active:after,
+.tab-menu button.current:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 0;
+    height: 0;
+    margin-left: -2.5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0e50a4 transparent transparent transparent;
+}
+.tab-menu.type2 button {
+    border: 0px;
+    border-bottom: 1px solid #dce3ec;
+    border-right: 1px solid #dce3ec;
+    background: #e9edf5;
+}
+.tab-menu.type2 button:first-child,
+.tab-menu.type2 button:nth-child(4n+1) {
+    border-left: 1px solid #dce3ec;
+}
+.tab-menu.type2 button:first-child,
+.tab-menu.type2 button:nth-child(2),
+.tab-menu.type2 button:nth-child(3),
+.tab-menu.type2 button:nth-child(4) {
+    border-top: 1px solid #dce3ec;
+}
+.tab-menu.type2 button:focus,
+.tab-menu.type2 button:hover,
+.tab-menu.type2 button:active,
+.tab-menu.type2 button.current {
+    border-color: #1ca7eb;
+    background-color: #1ca7eb;
+}
+.tab-menu.type2 button:focus:before,
+.tab-menu.type2 button:hover:before,
+.tab-menu.type2 button:active:before,
+.tab-menu.type2 button.current:before,
+.tab-menu.type2 button:focus:after,
+.tab-menu.type2 button:hover:after,
+.tab-menu.type2 button:active:after,
+.tab-menu.type2 button.current:after {
+    display: none;
+}
+.tab-menu.type2.ea5 button:nth-child(5) {
+    border-top: 1px solid #dce3ec;
+}
+.tab-menu.type-search {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 0px;
+}
+.tab-menu.type-search button {
+    width: auto;
+    height: 38px;
+    margin-right: 3px;
+    padding: 0px 30px;
+    color: #999;
+    font-weight: 700;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #dce3ec;
+    background: #ebebeb;
+}
+.tab-menu.type-search button:focus,
+.tab-menu.type-search button:hover,
+.tab-menu.type-search button:active,
+.tab-menu.type-search button.current {
+    padding-bottom: 3px;
+    color: #1ca7eb;
+    border-color: #dce3ec;
+    border-bottom: 0px;
+    background-color: #fff;
+}
+.tab-menu.type-search button:focus:before,
+.tab-menu.type-search button:hover:before,
+.tab-menu.type-search button:active:before,
+.tab-menu.type-search button.current:before,
+.tab-menu.type-search button:focus:after,
+.tab-menu.type-search button:hover:after,
+.tab-menu.type-search button:active:after,
+.tab-menu.type-search button.current:after {
+    display: none;
+}
+.tab-menu.type-search + .tab-content {
+    position: relative;
+    z-index: 1;
+    margin-top: -1px;
+}
+.tab-menu.type-search + .search-form {
+    margin-top: 20px;
+}
+.tab-menu.type-menu {
+    margin: 0px;
+}
+.tab-menu.type-menu button {
+    padding: 10px;
+    color: #333;
+    font-size: 18px;
+    background: #f8f8f9;
+    border: 1px solid #f8f8f9;
+    border-top: 2px solid #3e4045;
+    border-bottom: 1px solid #d4dae3;
+}
+.tab-menu.type-menu button.current {
+    padding-bottom: 11px;
+    color: #333;
+    font-size: 18px;
+    background: #fff;
+    border-left: 1px solid #d4dae3;
+    border-right: 1px solid #d4dae3;
+    border-top: 2px solid #0e50a4;
+    border-bottom: 0px;
+}
+.tab-menu.type-menu button:focus:after,
+.tab-menu.type-menu button:hover:after,
+.tab-menu.type-menu button:active:after,
+.tab-menu.type-menu button.current:after {
+    display: none;
+}
+.tab-menu.type-menu + .tab-content {
+    padding: 70px;
+    border: 1px solid #d4dae3;
+    border-top: 0px;
+}
+
+.tab-menu[class^="ea"] button {
+    padding: 0px;
+}
+.tab-menu.ea2 button {
+    width: 50%;
+}
+.tab-menu.ea3 button {
+    width: 33.3%;
+}
+.tab-menu.ea3 button:first-child {
+    width: 33.4%;
+}
+.tab-menu.ea4 button {
+    width: 25%;
+}
+.tab-menu.ea5 button {
+    width: 20%;
+}
+.tab-menu.ea6 button {
+    width: 16.6%;
+}
+.tab-menu.ea6 button:first-child {
+    width: 17%;
+}
+.tab-menu.ea7 button {
+    width: 14.2%;
+}
+.tab-menu.ea7 button:first-child {
+    width: 14.8%;
+}
+.tab-menu.ea8 button {
+    width: 12.5%;
+}
+.tab-content > section,
+.tab-content > div {
+    display: none;
+}
+/* Tab end*/
+
+
+/* login */
+.i-user-form {
+    width: 505px;
+    height: 250px;
+    margin: 0 auto;
+}
+.i-user-form > div {
+}
+.i-user-form dl {
+    overflow: hidden;
+}
+.i-user-form dt {
+    position: relative;
+}
+.i-user-form dd input[type="text"] {
+    background-image: url(../../images/ico/ico-user.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+.i-user-form dd input[type="password"] {
+    background-image: url(../../images/ico/ico-locked.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+.i-user-form dd {
+    margin-bottom: 10px;
+}
+.i-user-form input[type='text'],
+.i-user-form input[type='password'] {
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    border-color: #ddd;
+}
+.i-user-form input[placeholder] {
+    color: #000;
+}
+.i-user-form h3 {
+    margin-bottom: 20px;
+    color: #0092da;
+    font-family: "Nanum Square R","NanumSquare","나눔스퀘어", "맑은 고딕", "맑은고딕", Malgun Gothic, MalgunGothic, Dotum, Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 37px;
+    font-weight: normal
+}
+.i-user-form h3 img {
+    margin-right: 10px;
+}
+.i-user-form h3 em {
+    color: #325b8d;
+    font-family: "Nanum Square R","NanumSquare","나눔스퀘어", "맑은 고딕", "맑은고딕", Malgun Gothic, MalgunGothic, Dotum, Helvetica, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 37px;
+    font-weight: normal
+}
+.i-user-form p {
+    margin-bottom: 20px;
+    color: #000;
+    line-height: 25px;
+}
+.i-user-form .bt.login {
+    margin-bottom: 15px;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+.i-user-form .bt.login:hover{
+    background: #0092da;
+    color:#fff;
+}
+.i-user-form a {
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    font-size: 16px;
+}
+.i-user-form a + a {
+    margin-left: 120px;
+}
+.i-user-form a img {
+    margin-right: 10px;
+}
+/* login end*/
