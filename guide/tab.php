@@ -236,8 +236,8 @@
 				<div class="demo-control fa"></div>
 			</div>
 
-			<h3>아이콘 탭</h3>
-			<p>각 해당 맞는 이미지를 넣는다.</p>
+			<h3>이미지 탭</h3>
+			<p>각 해당 맞는 아이콘을 넣는다.</p>
 			<div class="demo-block">
 				<div class="source">
 					
@@ -277,16 +277,32 @@
 					<!-- tab-content //-->
 					<div class="tab-content">
 						<div class="tab-panel active" data-panel="tab_example1">
-							1
+							웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.
+							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.
+
+							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.
 						</div>
 						<div class="tab-panel" data-panel="tab_example2">
-							2
+							웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.
+							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.
+
+							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.
 						</div>
 						<div class="tab-panel" data-panel="tab_example3">
-							3
+							웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.
+							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.
+
+							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.
 						</div>
 						<div class="tab-panel" data-panel="tab_example4">
-							4
+							웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.
+							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.
+
+							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.
 						</div>
 					</div>
 					<!--// tab-content  -->
@@ -296,7 +312,237 @@
 						각 탭에 맞는 아이콘을 넣는다.
 					</div>
 					<div class="highlight">
-						
+<pre><code class="language-html">&lt;div class="wrap_tabcont tab-column-4 margin-bottom-10"&gt;
+&lt;ul&gt;
+	&lt;li class="active"&gt;
+		&lt;a href="#tab_example1"&gt;
+			&lt;i class="fa fa-area-chart"&gt;&lt;/i&gt;
+			탭메뉴01
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="#tab_example2"&gt;
+			&lt;i class="fa fa-bar-chart"&gt;&lt;/i&gt;
+			탭메뉴02
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="#tab_example3"&gt;
+			&lt;i class="fa fa-bar-chart-o"&gt;&lt;/i&gt;
+			탭메뉴03
+		&lt;/a&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;a href="#tab_example4"&gt;
+			&lt;i class="fa fa-share-alt"&gt;&lt;/i&gt;
+			탭메뉴04
+		&lt;/a&gt;
+	&lt;/li&gt;
+	
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!-- tab-content //--&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-panel active" data-panel="tab_example1"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example2"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example3"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example4"&gt;
+		내용
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--// tab-content  --&gt;</code></pre>
+					</div>
+				</div>
+				<div class="demo-control fa"></div>
+			</div>
+			<p>각 해당 맞는 이미지를 넣는다.</p>
+			<div class="demo-block">
+				<div class="source">
+					
+					<!-- .wrap_tabcont //-->
+					<div class="wrap_tabcont tab-column-4 margin-bottom-10">
+						<ul class="image-tab">
+							<li class="active">
+								<a href="#tab_example1">
+									<span class="image"></span>
+									<strong>탭메뉴01</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example2">
+									<span class="image"></span>
+									<strong>탭메뉴02</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example3">
+									<span class="image"></span>
+									<strong>탭메뉴03</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example4">
+									<span class="image"></span>
+									<strong>탭메뉴04</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example5">
+									<span class="image"></span>
+									<strong>탭메뉴05</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example6">
+									<span class="image"></span>
+									<strong>탭메뉴06</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example7">
+									<span class="image"></span>
+									<strong>탭메뉴07</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#tab_example8">
+									<span class="image"></span>
+									<strong>탭메뉴08</strong>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<!--// .wrap_tabcont -->
+
+					<!-- tab-content //-->
+					<div class="tab-content">
+						<div class="tab-panel active" data-panel="tab_example1">
+							웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.
+							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.
+
+							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.
+						</div>
+						<div class="tab-panel" data-panel="tab_example2">
+							웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.
+							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.
+
+							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.
+						</div>
+						<div class="tab-panel" data-panel="tab_example3">
+							웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.
+							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.
+
+							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.
+						</div>
+						<div class="tab-panel" data-panel="tab_example4">
+							웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.
+							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.
+
+							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.
+						</div>
+					</div>
+					<!--// tab-content  -->
+				</div>
+				<div class="meta">
+					<div class="description">
+						각 탭에 맞는 <code>span="image"</code>에 background-image를 css에서 선언한다 최대8까지 지원
+					</div>
+					<div class="highlight">
+<pre><code class="language-html">&lt;!-- .wrap_tabcont //--&gt;
+&lt;div class="wrap_tabcont tab-column-4 margin-bottom-10"&gt;
+	&lt;ul class="image-tab"&gt;
+		&lt;li class="active"&gt;
+			&lt;a href="#tab_example1"&gt;
+				&lt;span class="image"&gt;&lt;/span&gt;
+				&lt;strong&gt;탭메뉴01&lt;/strong&gt;
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a href="#tab_example2"&gt;
+				&lt;span class="image"&gt;&lt;/span&gt;
+				&lt;strong&gt;탭메뉴02&lt;/strong&gt;
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a href="#tab_example3"&gt;
+				&lt;span class="image"&gt;&lt;/span&gt;
+				&lt;strong&gt;탭메뉴03&lt;/strong&gt;
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a href="#tab_example4"&gt;
+				&lt;span class="image"&gt;&lt;/span&gt;
+				&lt;strong&gt;탭메뉴04&lt;/strong&gt;
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a href="#tab_example5"&gt;
+				&lt;span class="image"&gt;&lt;/span&gt;
+				&lt;strong&gt;탭메뉴05&lt;/strong&gt;
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a href="#tab_example6"&gt;
+				&lt;span class="image"&gt;&lt;/span&gt;
+				&lt;strong&gt;탭메뉴06&lt;/strong&gt;
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a href="#tab_example7"&gt;
+				&lt;span class="image"&gt;&lt;/span&gt;
+				&lt;strong&gt;탭메뉴07&lt;/strong&gt;
+			&lt;/a&gt;
+		&lt;/li&gt;
+		&lt;li&gt;
+			&lt;a href="#tab_example8"&gt;
+				&lt;span class="image"&gt;&lt;/span&gt;
+				&lt;strong&gt;탭메뉴08&lt;/strong&gt;
+			&lt;/a&gt;
+		&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!--// .wrap_tabcont --&gt;
+
+&lt;!-- tab-content //--&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-panel active" data-panel="tab_example1"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example2"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example3"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example4"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example5"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example6"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example7"&gt;
+		내용
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example8"&gt;
+		내용
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--// tab-content  --&gt;</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>

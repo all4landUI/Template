@@ -152,4 +152,14 @@ a.bt{
    .bt.bt-#{$i} {
        @include btn($i);
    }
+   .bt.bt-bg-#{$i} {
+        color:#fff;
+        border:0;
+        line-height:29px;
+        @include btn-bg($i);
+   }
 }
+
+// 우리은행 김민준(매리지버드)
+// 1005 803 081404
+// 41

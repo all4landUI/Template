@@ -1,13 +1,19 @@
 @charset "UTF-8";
-@import "../abstracts/variables";
+/** mixin **/
 /*
 ** 목록 : 테이블;
 */
-
-
 /*
 ** 목록 : 갤러리;
 */
+.list-gallery { width: 100%; overflow: hidden; border-top: 2px solid #767676; }
+.list-gallery li { float: left; position: relative; border-right: 1px solid #ebeaea; padding: 15px; }
+.list-gallery li:after { content: ""; display: block; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: #ddd; }
+.list-gallery li a { display: block; padding: 20px 0px 15px; width: 100%; }
+.list-gallery li span { display: block; text-align: center; color: #535353; font-size: 14px; }
+.list-gallery li .wrap-galleryImg { margin: 0 auto 15px; overflow: hidden; }
+.list-gallery li .wrap-galleryImg + span { display: block; height: 25px; }
+.list-gallery li .wrap-galleryImg img { width: 100%; height: auto; }
 .list-gallery.column-2 li { width: 50%; }
 .list-gallery.column-2 li:nth-child(2) { border-right: 0; }
 .list-gallery.column-3 li { width: 33.3333333333%; }
@@ -17,11 +23,11 @@
 .list-gallery.column-5 li { width: 20%; }
 .list-gallery.column-5 li:nth-child(5) { border-right: 0; }
 
+#bo_v_content { padding: 15px 0; }
 
 /* 
-** 상세 : 기본+코멘트;
-*/
-#bo_v_content { padding: 15px 0; }
+** 상세 답변달기
+**/
 .comment-wrap { background-color: #f8f8f8; margin: 0 0 15px; }
 .comment-wrap .comment_cont { border: 1px solid #ddd; padding: 15px; }
 .comment-wrap header { border-bottom: 1px solid #ddd; padding: 0 0 10px 0; margin: 0; overflow: hidden; font-size: 16px; }

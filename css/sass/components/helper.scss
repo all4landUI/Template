@@ -70,12 +70,31 @@ $width_total : 500;
     }   
 }
 $height_total : 500;
-@for $i from 1 to $width_total {
+@for $i from 1 to $height_total {
     .height-#{$i}{
         height: 1px*$i !important;
     }   
 }
 
+$line-height_total : 50;
+@for $i from 1 to $line-height_total {
+    .line-height-#{$i}{
+        line-height: 1px*$i !important;
+    }   
+}
+
+.input-group{
+    label{
+        display:inline-block;
+        &+label{
+            margin-left:10px;
+        }
+        input{
+            display:inline-block;
+            margin-right:5px;
+        }
+    }
+}
 
 /* Icon */
 .fa {
@@ -223,13 +242,14 @@ p.important {
     white-space: nowrap;
     overflow: hidden
 }
-
+  
 /* table 스타일 */
 table td a:active,
 table td a:focus,
 table td a:hover {
 	text-decoration: underline;
 }
+
 .table-horizontal {
     width: 100%;
     border-top: 2px solid #767676;

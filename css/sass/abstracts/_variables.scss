@@ -47,6 +47,21 @@ $btn_6 : #e0e0e0;
 		border-color: $btn_6;
 	}
 }
+@mixin btn-bg($type){
+	@if $type == 1{
+		background-color: $btn_1;
+	} @else if $type == 2{
+		background-color: $btn_2;
+	}  @else if $type == 3{
+		background-color: $btn_3;
+	}  @else if $type == 4{
+		background-color: $btn_4;
+	} @else if $type == 5{
+		background-color: $btn_5;
+	} @else if $type == 6{
+		background-color: $btn_6;
+	}
+}
 
 /** mixin **/
 @mixin clear(){

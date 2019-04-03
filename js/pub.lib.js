@@ -10,3 +10,14 @@ function check_all(f)
         chk[i].checked = f.chkall.checked;
     }
 }
+
+
+function show_hide(el){
+	var $this = $(el);
+
+	if($this.is(":hidden")){
+		$this.slideDown();
+	} else {
+		$this.slideUp();
+	}
+}

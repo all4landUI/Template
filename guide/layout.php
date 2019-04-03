@@ -13,13 +13,13 @@
 
 	<div id="guideContent">
 		<!-- guide-title //-->
-		<h2 class="g-title">레이아웃</h2>
+		<h2 class="g-title">네이게이션</h2>
 		<!--// guide-title -->
 		
 		<!-- g-content //-->
 		<div class="g-content">
 			
-			<h3>레이아웃 타입 선택</h3>
+			<h3>네이게이션 타입 선택</h3>
 			<p>
 				템플릿 원본자료가 필요하신 분은 메일로 요청 주시기 바랍니다.<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;담당자 : UX/UX 기획팀 오승준과장(<a href="mailto:okm7327@all4land.com" target="_blank" class="underline">okm7327@all4land.com</a>)

@@ -4,10 +4,10 @@
 
 .wrap_tabcont{
 	ul{
-		border-bottom:1px solid $border_color;
-		overflow-x:auto;
-		white-space:nowrap;
+		border-bottom:1px solid $border-color;
 		&.x-scroll{
+			overflow-x:auto;
+			white-space:nowrap;
 			li{
 				float:none;
 			}
@@ -41,13 +41,101 @@
 				color:$theme_color;
 			}
 		}
+
+		// 이미지일 경우
+		&.image-tab{
+			li{
+				a{
+					height: auto;
+					text-align:center;
+					.image{
+						display:block;
+						height:50px;
+						background-repeat:no-repeat;
+						background-position:50% 10px;
+					}
+					strong{
+						display:block;
+						text-align:center;
+					}
+				}
+				&:nth-child(1){
+					.image{
+						background-image:url('https://via.placeholder.com/50.png/09f/fff');
+					}
+					&.active{
+						.imgae{background-image:url('https://via.placeholder.com/50.png');}
+					}
+				}
+				&:nth-child(2){
+					.image{
+						background-image:url('https://via.placeholder.com/50.png/09f/fff');
+					}
+					&.active{
+						.imgae{background-image:url('https://via.placeholder.com/50.png');}
+					}
+				}
+				&:nth-child(3){
+					.image{
+						background-image:url('https://via.placeholder.com/50.png/09f/fff');
+					}
+					&.active{
+						.imgae{background-image:url('https://via.placeholder.com/50.png');}
+					}
+				}
+				&:nth-child(4){
+					.image{
+						background-image:url('https://via.placeholder.com/50.png/09f/fff');
+					}
+					&.active{
+						.imgae{background-image:url('https://via.placeholder.com/50.png');}
+					}
+				}
+				&:nth-child(5){
+					.image{
+						background-image:url('https://via.placeholder.com/50.png/09f/fff');
+					}
+					&.active{
+						.imgae{background-image:url('https://via.placeholder.com/50.png');}
+					}
+				}
+				&:nth-child(6){
+					.image{
+						background-image:url('https://via.placeholder.com/50.png/09f/fff');
+					}
+					&.active{
+						.imgae{background-image:url('https://via.placeholder.com/50.png');}
+					}
+				}
+				&:nth-child(7){
+					.image{
+						background-image:url('https://via.placeholder.com/50.png/09f/fff');
+					}
+					&.active{
+						.imgae{background-image:url('https://via.placeholder.com/50.png');}
+					}
+				}
+				&:nth-child(8){
+					.image{
+						background-image:url('https://via.placeholder.com/50.png/09f/fff');
+					}
+					&.active{
+						.imgae{background-image:url('https://via.placeholder.com/50.png');}
+					}
+				}
+			}
+		}
 	}
 
 	&[class*="tab-column"]{
+		ul{
+			border:1px solid $border-color;
+		}
 		li {
+			border:0;
+			border-right:1px solid #ddd;
 			&+li{
 				margin-left:0;
-				border-left:0;
 			}
 			a{
 				width:100%;
@@ -59,10 +147,15 @@
 		&.tab-column-#{$i}{
 			li{
 				width:100%/$i;
+				&:nth-child(#{$i}n){
+					border-right:0;
+				}
+				&:nth-child(#{$i}) ~ li{
+					border-top:1px solid $border_color;
+				}
 			}
 		}
-	}
-	
+	}	
 }
 
 .tab-content{

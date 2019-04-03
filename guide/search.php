@@ -373,6 +373,127 @@
 				</div>
 		        <div class="demo-control fa"></div>
             </div>
+            <p>검색유형-3</p>
+            <div class="demo-block">
+            	<div class="source">
+            		<form>
+            			<div class="table-vertical">
+            				<table>
+            					<caption>검색</caption>
+            					<colgroup>
+            						<col style="width:150px">
+            						<col>
+            					</colgroup>
+            					<tbody>
+            						<tr>
+            							<th>기관선택</th>
+            							<td>
+            								<div>
+            									<button role="button" class="bt">기관검색</button>
+            									<span class="line-height-30 margin-left-10">
+            										"기관찾기" 버튼 또는 "기관유형"을 선택 하시기 바랍니다.
+            									</span>
+            								</div>
+            								<div class="input-group margin-top-10">
+            									<label><input type="radio" name="s1" id="">정부기관</label>
+            									<label><input type="radio" name="s1" id="">지방자치단체</label>
+            									<label><input type="radio" name="s1" id="">교육청</label>
+            									<label><input type="radio" name="s1" id="">공공기관</label>
+
+            									<span>＊기관유형별 그룹 검색이 가능합니다.</span>
+            								</div>
+            							</td>
+            						</tr>
+            						<tr>
+            							<th>검색어</th>
+            							<td>            								
+            								<input type="text" class="width-400"><button type="submit" class="bt margin-left-10">검색</button>
+            								<p class="margin-top-10">＊출장, 휴가등 일반문서를 포함해서 검색하시려면 상세검색에서 "일반문서 포함" 항목을 체크하고 검색해주세요.</p>
+            							</td>
+            						</tr>
+            						<tr>
+            							<th>기간설정</th>
+            							<td>
+											<div>
+												<a href="#" class="bt">일주일</a>
+												<a href="#" class="bt">최근1개월</a>
+												<a href="#" class="bt">최근3개월</a>
+												<a href="#" class="bt">기간설정</a>
+											</div>
+											<p class="margin-top-10">
+												<span>＊</span>아래는 최근 1개월간의 자료입니다. 더 보시려면 <span>기간설정</span>의 날짜를 조정하시기 바랍니다. <br>
+												<span>＊</span>원활한 검색서비스를 위해 검색기간은 1년을 넘을 수 없습니다.
+											</p>
+            							</td>
+            						</tr>
+            					</tbody>
+            				</table>
+            			</div>
+            		</form>
+            	</div>
+            	<div class="meta">
+					<div class="description">
+						다중 키워드 샘플
+					</div>
+	            	<div class="highlight">
+<pre><code class="language-html">&lt;form&gt;
+  &lt;div class="table-vertical"&gt;
+  	&lt;table&gt;
+  		&lt;caption&gt;검색&lt;/caption&gt;
+  		&lt;colgroup&gt;
+  			&lt;col style="width:150px"&gt;
+  			&lt;col&gt;
+  		&lt;/colgroup&gt;
+  		&lt;tbody&gt;
+  			&lt;tr&gt;
+  				&lt;th&gt;기관선택&lt;/th&gt;
+  				&lt;td&gt;
+  					&lt;div&gt;
+  						&lt;button role="button" class="bt"&gt;기관검색&lt;/button&gt;
+  						&lt;span class="line-height-30 margin-left-10"&gt;
+  							"기관찾기" 버튼 또는 "기관유형"을 선택 하시기 바랍니다.
+  						&lt;/span&gt;
+  					&lt;/div&gt;
+  					&lt;div class="input-group margin-top-10"&gt;
+  						&lt;label&gt;&lt;input type="radio" name="s1" id=""&gt;정부기관&lt;/label&gt;
+  						&lt;label&gt;&lt;input type="radio" name="s1" id=""&gt;지방자치단체&lt;/label&gt;
+  						&lt;label&gt;&lt;input type="radio" name="s1" id=""&gt;교육청&lt;/label&gt;
+  						&lt;label&gt;&lt;input type="radio" name="s1" id=""&gt;공공기관&lt;/label&gt;
+
+  						&lt;span&gt;＊기관유형별 그룹 검색이 가능합니다.&lt;/span&gt;
+  					&lt;/div&gt;
+  				&lt;/td&gt;
+  			&lt;/tr&gt;
+  			&lt;tr&gt;
+  				&lt;th&gt;검색어&lt;/th&gt;
+  				&lt;td&gt;            								
+  					&lt;input type="text" class="width-400"&gt;&lt;button type="submit" class="bt margin-left-10"&gt;검색&lt;/button&gt;
+  					&lt;p class="margin-top-10"&gt;＊출장, 휴가등 일반문서를 포함해서 검색하시려면 상세검색에서 "일반문서 포함" 항목을 체크하고 검색해주세요.&lt;/p&gt;
+  				&lt;/td&gt;
+  			&lt;/tr&gt;
+  			&lt;tr&gt;
+  				&lt;th&gt;기간설정&lt;/th&gt;
+  				&lt;td&gt;
+  						&lt;div&gt;
+  							&lt;a href="#" class="bt"&gt;일주일&lt;/a&gt;
+  							&lt;a href="#" class="bt"&gt;최근1개월&lt;/a&gt;
+  							&lt;a href="#" class="bt"&gt;최근3개월&lt;/a&gt;
+  							&lt;a href="#" class="bt"&gt;기간설정&lt;/a&gt;
+  						&lt;/div&gt;
+  						&lt;p class="margin-top-10"&gt;
+  							&lt;span&gt;＊&lt;/span&gt;아래는 최근 1개월간의 자료입니다. 더 보시려면 &lt;span&gt;기간설정&lt;/span&gt;의 날짜를 조정하시기 바랍니다. &lt;br&gt;
+  							&lt;span&gt;＊&lt;/span&gt;원활한 검색서비스를 위해 검색기간은 1년을 넘을 수 없습니다.
+  						&lt;/p&gt;
+  				&lt;/td&gt;
+  			&lt;/tr&gt;
+  		&lt;/tbody&gt;
+  	&lt;/table&gt;
+  &lt;/div&gt;
+  &lt;/form&gt;</code></pre>
+	  				</div>
+            	</div>
+            	<div class="demo-control fa"></div>
+            </div>
             <!--  -->
 		</div>
 		<!--// g-content  -->

@@ -28,12 +28,24 @@ a.bt { height: 29px; line-height: 27px; }
 
 .bt.bt-1 { color: #e0e0e0; border-color: #e0e0e0; }
 
+.bt.bt-bg-1 { color: #fff; border: 0; line-height: 29px; background-color: #e0e0e0; }
+
 .bt.bt-2 { color: #265a88; border-color: #265a88; }
+
+.bt.bt-bg-2 { color: #fff; border: 0; line-height: 29px; background-color: #265a88; }
 
 .bt.bt-3 { color: #419641; border-color: #419641; }
 
+.bt.bt-bg-3 { color: #fff; border: 0; line-height: 29px; background-color: #419641; }
+
 .bt.bt-4 { color: #eb9316; border-color: #eb9316; }
+
+.bt.bt-bg-4 { color: #fff; border: 0; line-height: 29px; background-color: #eb9316; }
 
 .bt.bt-5 { color: #c12e2a; border-color: #c12e2a; }
 
+.bt.bt-bg-5 { color: #fff; border: 0; line-height: 29px; background-color: #c12e2a; }
+
 .bt.bt-6 { color: #e0e0e0; border-color: #e0e0e0; }
+
+.bt.bt-bg-6 { color: #fff; border: 0; line-height: 29px; background-color: #e0e0e0; }

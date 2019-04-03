@@ -53,11 +53,21 @@
 					<a href="#" class="bt bt-4">취소 4</a>
 					<a href="#" class="bt bt-5">삭제 5</a>
 					<a href="#" class="bt bt-6">목록 6</a>
+					<br>
+					<br>
+					<a href="#" class="bt bt-bg">기본</a>
+					<a href="#" class="bt bt-bg-1">등록</a>
+					<a href="#" class="bt bt-bg-2">확인</a>
+					<a href="#" class="bt bt-bg-3">수정</a>
+					<a href="#" class="bt bt-bg-4">취소</a>
+					<a href="#" class="bt bt-bg-5">삭제</a>
+					<a href="#" class="bt bt-bg-6">목록</a>
 				</div>
 				<div class="meta">
 					<div class="description">
 						<code>등록 > 확인 > 수정 > 취소 > 삭제 > 목록</code>순으로 나열한다.<br>
-						<code>class="bt bt-1"</code>bt-1 ~ 6 속성에 대한 컬러를 지정하여 사용.
+						<code>class="bt bt-1"</code>bt-1 ~ 6 속성에 대한 컬러를 지정하여 사용<br>
+						<code>class="bt bt-bg-1"</code>bt-bg-1 ~ 6 속성에 대한 배경컬러를 지정하여 사용<br>
 					</div>
 					<div class="highlight">
 <pre><code class="language-html">&lt;a href="#" class="bt bt-1"&gt;등록 1&lt;/a&gt;

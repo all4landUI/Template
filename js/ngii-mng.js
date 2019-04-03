@@ -97,7 +97,6 @@ $.datepicker.setDefaults({
 	yearSuffix: '년'
 });
 
-
 // Back To Top
 $(window).scroll(function() {
 	if ($(this).scrollTop() > 100) {
@@ -113,25 +112,20 @@ $(window).load(function () {
         }, 200);
         return false;
     });
-
 })
 
-
-
- 
 $(document).ready(function() {
-	
 	// Tab
-    $('.tab-menu button').click(function(e) {
-        e.preventDefault();
-        $(this).parent().children().removeClass('current');
-        $(this).addClass('current');
-        $(this).parent().siblings('.tab-content').children().hide();
-        var activeTab = $(this).attr('rel');
-        $('#'+activeTab).fadeIn();		
-    }); 
+	$('.tab-menu button').click(function(e) {
+	    e.preventDefault();
+	    $(this).parent().children().removeClass('current');
+	    $(this).addClass('current');
+	    $(this).parent().siblings('.tab-content').children().hide();
+	    var activeTab = $(this).attr('rel');
+	    $('#'+activeTab).fadeIn();		
+	}); 
 
-    // Accordion
+	// Accordion
 	$('.a-toggle').on('click', function(e) {
 	    e.preventDefault();
 	    if ($(this).hasClass('current')){
@@ -141,6 +135,14 @@ $(document).ready(function() {
 	    }
 	});	
 
-});
 
-    
+	 // Accordion
+	$('.list-dopdown .a-toggle').on('click', function(e) {
+	    e.preventDefault();
+	    if ($(this).hasClass('current')){
+	        $(this).removeClass('current').siblings().slideUp('normal');
+	    }else {
+	        $(this).addClass('current').siblings().stop(true,true).slideDown('normal');
+	    }
+	});
+});
