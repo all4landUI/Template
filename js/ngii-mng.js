@@ -114,3 +114,13 @@ $(window).load(function () {
     });
 });
 
+ // Accordion
+$('.list-dopdown .a-toggle').on('click', function(e) {
+    e.preventDefault();
+    if ($(this).hasClass('current')){
+        $(this).removeClass('current').siblings().slideUp('normal');
+    }else {
+        $(this).addClass('current').siblings().stop(true,true).slideDown('normal');
+    }
+});
+    
