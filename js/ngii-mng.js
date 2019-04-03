@@ -1,4 +1,4 @@
-$(function($) {
+$(function() {
 	// bind a click event to the 'skip' link
 	$(".nav-skip").click(function(event){
 
@@ -113,7 +113,9 @@ $(window).load(function () {
         }, 200);
         return false;
     });
+
 })(jQuery);
+
 
 
  // Accordion

@@ -2,7 +2,6 @@
 /**
  ** 2019.04.02 오승준 
 **/
-
 function check_all(f)
 {
     var chk = document.getElementsByName("chk[]");

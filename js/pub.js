@@ -75,10 +75,27 @@
 				})
 			}
 		},
+
+		location : function(){
+			var $location = $(".location");
+			
+			if( $location.length == 1){
+				var $lnb = $('#lnb li');
+
+				$lnb.each(function(idx,key){
+					var $this = $.trim($(this).find('a').text());
+					var $page = $.trim($('.location li:eq(2)').text());
+					if($this == $page){
+						$(this).addClass('current')
+					}					
+				})
+			}
+		},
 		init : function(){
 			this.tab();
 			this.modal();
 			this.head();
+			this.location();
 		}
 	}
 

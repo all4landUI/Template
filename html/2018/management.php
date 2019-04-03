@@ -1,7 +1,6 @@
 <?php
     include_once('../../head.php');
 ?>
-	
 
 	<!-- Container -->
 	<article class="container">
