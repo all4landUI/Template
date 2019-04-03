@@ -1,21 +1,4 @@
 
-.title-sub-h3 {
-    position: relative;
-    margin-bottom: 10px;
-    padding-left: 25px;
-    color: #5b5b5b;
-    font-family: "Nanum Square B","NanumSquare B","나눔스퀘어", "맑은 고딕", "맑은고딕", Malgun Gothic, MalgunGothic, Dotum, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-}
-.title-sub-h3:after {
-    content: '';
-    position: absolute;
-    top: 3px;
-    left: 0px;
-    width: 18px;
-    height: 18px;
-    background: url(../../images/ico/sprite.png) no-repeat -83px -43px;
-}
     /* List-Info */
 .list-info {
     margin-bottom: 30px;
@@ -72,6 +55,7 @@
     padding: 15px 25px;
     background: #fff;
     border-bottom: 1px solid #e6e6e6;
+    min-height: 51px;
 }
 .score-area .s-write {
     position: relative;
@@ -116,4 +100,46 @@
 .score-area .s-list li textarea {
     margin: 10px 0;
     padding: 10px 20px;
+}
+
+.ico.star {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-position: -129px -40px;
+}
+
+.ico {
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(../../images/ico/sprite.png);
+    background-repeat: no-repeat;
+}
+.ico.star-score {
+    height: 10px;
+    margin: 5px 5px 0;
+    background-position: -149px -43px;
+}
+.ico.star-score.ea5 {
+    width: 51px;
+}
+.ico.star-score.ea4 {
+    width: 40px;
+}
+.ico.star-score.ea3 {
+    width: 30px;
+}
+.ico.star-score.ea2 {
+    width: 20px;
+}
+.ico.star-score.ea1 {
+    width: 10px;
+}
+
+.ico.reply {
+    width: 21px;
+    height: 20px;
+    margin-top: 2px;
+    margin-right: 10px;
+    background-position: -120px -16px;
 }
