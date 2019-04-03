@@ -47,20 +47,20 @@
 					<!-- tab-content //-->
 					<div class="tab-content">
 						<div class="tab-panel active" data-panel="tab_example1">
-							<p class="m-b10">올포랜드의 심볼마크와 로고는 도시와 자연공간을 대표하는 녹색과 파란색 바탕에 계획의 개념인 선을 가미하여 공간과 인간의 조화를 나타내는 이미지를 형성한다.<br>또한 회사의 전문 사업분야를 의미함으로써 상승적 이미지 창출은 물론 조직구성원에게 새로운 가치관과 행동양식을 갖추는 단계로까지 승화시켜 올포랜드의 기업이미지를<br>확고히 하는 데 핵심적 역할을 하고 있다.</p>
+							<p>올포랜드의 심볼마크와 로고는 도시와 자연공간을 대표하는 녹색과 파란색 바탕에 계획의 개념인 선을 가미하여 공간과 인간의 조화를 나타내는 이미지를 형성한다.<br>또한 회사의 전문 사업분야를 의미함으로써 상승적 이미지 창출은 물론 조직구성원에게 새로운 가치관과 행동양식을 갖추는 단계로까지 승화시켜 올포랜드의 기업이미지를<br>확고히 하는 데 핵심적 역할을 하고 있다.</p>
 						</div>
 						<div class="tab-panel" data-panel="tab_example2">
 							<p>웹페이지를 제작하기 위해 사용되는 HTML4을 XML에 맞도록 재정의한 언어 입니다. html과 다른 점은 html보다 조금더 구조화된 형식과 엄격한 문법을 가지고 있습니다.<br>
 							예를 들어 모든 요소는 반드시 시작과 함께 종료를 표현해야함, 소문자사용, 속성값의 생략 불가능,모든 속성값에 인용부호, 특수문자 변환사용,<br>
-							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.<br>
+							사용또한 xhtml은 html과 다르게 HTML 4.01의 후속 버전이 아닌 별개로 분리된 xml의 응용 버전이라 볼 수 있습니다.<br><br>
 							장점은 html보다 웹사이트 검색기능 향상과 복잡한 데이터 처리에 보다 쉽다는 장점을 가지고 있고, html의 단점을 보안하기 위해 만들어진 언어 입니다.</p>
 						</div>
 						<div class="tab-panel" data-panel="tab_example3">
-							<p class="m-b30">HTML5는 기존의 HTML와 동일한 마크업 언어 입니다. 따라서 기본 골격은 기존 HTML과 다르지 않으며 HTML5는 XHTML에서 발전된 버전 입니다.<br>
-							최신HTML로써 추가 플러그인과 엑티브엑스 없이 멀티미디어 즉 동영상과 오디오플레이를 쉽게 볼수 있다는 장점을 지니고 있고, html, css, javascript를 조합하여 대화형 웹사이트 제작 할 수 있습니다.<br>
-							HTML4에 기반하고 네임스페이스나 스키마가 없기 때문에 요소(Element)의 끝을 정확히 닫지 않거나 따옴표를 생략해도 괜찮습니다.<br>
-							HTML5를 지원하지 않는 브라우저에서도 컨텐츠가 무리없이 출력되도록 설계되었으며, 호환성이 고려된 추가적인 새 요소들이 대거 추가되었습니다.<br>
-							HTML5는 HTML4와 XHTML1 문법과 호환되지만, HTML4 일부 SGML(Standard Generalized Markup Language) 문법과는 호환되지 않는 특성을 가지고 있다.</p>
+							<p >UI는 User interface의 준말로 / 말 그대로 사용자 — 인터페이스를 의미합니다. 현업에서도 사용자 인터페이스, 혹은 인터페이스라고 표현을 하는데 이용하는 대상이 사람(또는 동물)일 경우 그냥 인터페이스라고 줄여서 표현하기도 합니다.<br><br>
+
+							인터페이스(영어: interface, 문화어: 대면부, 결합부 또는 접속기)사물 간 또는 사물과 인간 간의 의사소통이 가능하도록 일시적 혹은 영속적인 접근을 목적으로 만들어진 물리적, 가상적 매개체를 의미한다.<br>
+							(* https://ko.wikipedia.org/wiki/인터페이스)<br>
+							인터페이스는 위에 내용처럼 사물 간 또는 사물과 사용자간의 의사소통이 가능하도록 일시적 혹은 영속적인 접근을 목적으로 만들어진 물리적, 가상적 매개체를 의미합니다</p>
 						</div>
 						<div class="tab-panel" data-panel="tab_example4">
 							<ol>
@@ -75,12 +75,37 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						.wrap_tabcont의 
-						a의 href="#data-panel-name" 을 넣어서 사용한다.<br>
-						.tab-panel에는 꼭 data-panel="data-panel-name"을 넣어사용한다
+						<code>class="wrap_tabcont"</code>의 a태그의 href="#data-panel-name" 을 넣어서 사용한다.<br>
+						<code>class="tab-panel"</code>에는 꼭 data-panel="data-panel-name"을 넣어사용한다
 					</div>
 					<div class="highlight">
-						
+<pre><code class="html-language">&lt;!-- .wrap_tabcont //--&gt;
+&lt;div class="wrap_tabcont margin-bottom-10"&gt;
+	&lt;ul&gt;
+		&lt;li class="active"&gt;&lt;a href="#tab_example1"&gt;탭메뉴01&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#tab_example2"&gt;탭메뉴02&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#tab_example3"&gt;탭메뉴03&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#tab_example4"&gt;탭메뉴04&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--// .wrap_tabcont --&gt;
+
+&lt;!-- tab-content //--&gt;
+&lt;div class="tab-content"&gt;
+	&lt;div class="tab-panel active" data-panel="tab_example1"&gt;
+		
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example2"&gt;
+	
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example3"&gt;
+		
+	&lt;/div&gt;
+	&lt;div class="tab-panel" data-panel="tab_example4"&gt;
+		
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--// tab-content  --&gt;</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>
