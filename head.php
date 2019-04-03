@@ -10,11 +10,7 @@
 <link rel="stylesheet" type="text/css" href="/css/fonts/NotoSansKR.css">
 <link rel="stylesheet" type="text/css" href="/js/libs/jQuery-ui/jquery-ui.css">
 <link rel="stylesheet" type="text/css" href="/css/ngii-mng.css">
-<link rel="stylesheet" type="text/css" href="/css/ngii-mng.css">
-<link rel="stylesheet" type="text/css" href="/css/ngii-mng.css">
-<link rel="stylesheet" type="text/css" href="/css/ngii-mng.css">
-<link rel="stylesheet" type="text/css" href="/css/ngii-mng.css">
-<link rel="stylesheet" type="text/css" href="/css/ngii-mng.css">
+<link rel="stylesheet" type="text/css" href="/css/style_2018.css">
 <title>UI ELEMENT - 가이드</title>
 <script type="text/javascript" src="/js/libs/jQuery/1.12.3/jquery.min.js"></script>
 <script type="text/javascript" src="/js/libs/jQuery-ui/jquery-ui.min.js"></script>
