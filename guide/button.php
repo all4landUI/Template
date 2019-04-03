@@ -52,12 +52,12 @@
 					<a href="#" class="bt bt-3">수정 3</a>
 					<a href="#" class="bt bt-4">취소 4</a>
 					<a href="#" class="bt bt-5">삭제 5</a>
-					<a href="#" class="bt bt-6	">목록 6</a>
+					<a href="#" class="bt bt-6">목록 6</a>
 				</div>
 				<div class="meta">
 					<div class="description">
 						<code>등록 > 확인 > 수정 > 취소 > 삭제 > 목록</code>순으로 나열한다.<br>
-						<code>.bt-1 ~ bt-6</code> 까지 속성에 대한 컬러를 지정.
+						<code>class="bt bt-1"</code>bt-1 ~ 6 속성에 대한 컬러를 지정하여 사용.
 					</div>
 					<div class="highlight">
 <pre><code class="language-html">&lt;a href="#" class="bt bt-1"&gt;등록 1&lt;/a&gt;
@@ -65,7 +65,7 @@
 &lt;a href="#" class="bt bt-3"&gt;수정 3&lt;/a&gt;
 &lt;a href="#" class="bt bt-4"&gt;취소 4&lt;/a&gt;
 &lt;a href="#" class="bt bt-5"&gt;삭제 5&lt;/a&gt;
-&lt;a href="#" class="bt bt-6	"&gt;목록 6&lt;/a&gt;
+&lt;a href="#" class="bt bt-6"&gt;목록 6&lt;/a&gt;
 </code></pre>
 					</div>
 				</div>
@@ -141,7 +141,19 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						버튼을 싸고있는 bt-area에 <code>class="bt-center"</code> 추가한다
+						 <code>class="bt-area bt-center"</code> 추가한다
+					</div>
+					<div class="highlight">
+<pre><code class="language-html">&lt;!-- 버튼소스 //--&gt;
+&lt;div class="bt-area bt-center margin-bottom-0"&gt;
+	&lt;a href="#" class="bt bt-1"&gt;등록 1&lt;/a&gt;
+	&lt;a href="#" class="bt bt-2"&gt;확인 2&lt;/a&gt;
+	&lt;a href="#" class="bt bt-3"&gt;수정 3&lt;/a&gt;
+	&lt;a href="#" class="bt bt-4"&gt;취소 4&lt;/a&gt;
+	&lt;a href="#" class="bt bt-5"&gt;삭제 5&lt;/a&gt;
+	&lt;a href="#" class="bt bt-6	"&gt;목록 6&lt;/a&gt;
+&lt;/div&gt;
+&lt;!--// 버튼소스 --&gt;</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>
@@ -221,7 +233,19 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						버튼을 싸고있는 bt-area에 <code>class="bt-right"</code> 추가한다
+						<code>class="bt-area bt-right"</code> 추가한다
+					</div>
+					<div class="highlight">
+<pre><code class="language-html">&lt;!-- 버튼소스 //--&gt;
+&lt;div class="bt-area bt-right margin-bottom-0"&gt;
+	&lt;a href="#" class="bt bt-1"&gt;등록 1&lt;/a&gt;
+	&lt;a href="#" class="bt bt-2"&gt;확인 2&lt;/a&gt;
+	&lt;a href="#" class="bt bt-3"&gt;수정 3&lt;/a&gt;
+	&lt;a href="#" class="bt bt-4"&gt;취소 4&lt;/a&gt;
+	&lt;a href="#" class="bt bt-5"&gt;삭제 5&lt;/a&gt;
+	&lt;a href="#" class="bt bt-6	"&gt;목록 6&lt;/a&gt;
+&lt;/div&gt;
+&lt;!--// 버튼소스 --&gt;</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>

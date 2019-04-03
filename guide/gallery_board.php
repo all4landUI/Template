@@ -17,8 +17,6 @@
 		
 		<!-- g-content //-->
 		<div class="g-content">
-			<h3>목록</h3>
-			<p><code>class="column-number"</code>을 넣어 한줄에 뿌려지는 개수 조절</p>
 			<div class="demo-block">
 				<div class="source">
 					<script>
@@ -74,7 +72,6 @@
 		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
 		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
 		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
-		                
 		            </ul>
 		           
 		            <!-- Pagination -->
@@ -99,10 +96,60 @@
 
 				<div class="meta">
 					<div class="description">
-						특이점은 한열당 UL로 다시 LOOP를 돌려야함. 그래야만 글씨의 높낮이에 상관없이, 정렬됨
+						<code>class="column-number"</code>을 넣어 한줄에 뿌려지는 개수 조절
 					</div>
 					<div class="highlight">
-						
+<pre><code class="language-html">&lt;!-- Search --&gt;
+&lt;div class="search-form"&gt;
+    &lt;form action="" class="float-right"&gt;
+        &lt;fieldset&gt;
+            &lt;legend&gt;리스트 검색&lt;/legend&gt;
+            &lt;label for="w-type" class="blind"&gt;서비스 구분&lt;/label&gt;
+            &lt;select id="w-type" name="w-type"&gt;
+                &lt;option value=""&gt;전체&lt;/option&gt;
+            &lt;/select&gt;
+
+            &lt;label for="w-require" class="blind"&gt;검색 조건 선택&lt;/label&gt;
+            &lt;select id="w-require" name="w-require"&gt;
+                &lt;option value=""&gt;전체&lt;/option&gt;
+            &lt;/select&gt;
+
+            &lt;label for="s-input" class="blind"&gt;검색어 입력&lt;/label&gt;
+            &lt;input type="text" id="s-input" name="" value=""&gt;
+            &lt;button type="button" class="bt"&gt;검색&lt;/button&gt;	
+        &lt;/fieldset&gt;
+    &lt;/form&gt;
+
+    &lt;p class="count float-left"&gt;게시글 수 &lt;em&gt;17&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- /Search --&gt;
+
+&lt;ul class="list-gallery column-5"&gt;
+    &lt;li&gt;&lt;a href="gallery_board_view.php"&gt;&lt;span class="wrap-galleryImg"&gt;&lt;img src="../../images/thumb/sample.png" alt="이미지설명"&gt;&lt;/span&gt;&lt;span&gt;캠브리지베이&lt;/span&gt;&lt;/a&gt;&lt;/li&gt; &lt;!-- 이미지 사이즈 170*120 --&gt;
+    &lt;li&gt;&lt;a href="gallery_board_view.php"&gt;&lt;span class="wrap-galleryImg"&gt;&lt;img src="../../images/thumb/sample.png" alt="이미지설명"&gt;&lt;/span&gt;&lt;span&gt;캠브리지베이&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="gallery_board_view.php"&gt;&lt;span class="wrap-galleryImg"&gt;&lt;img src="../../images/thumb/sample.png" alt="이미지설명"&gt;&lt;/span&gt;&lt;span&gt;캠브리지베이&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="gallery_board_view.php"&gt;&lt;span class="wrap-galleryImg"&gt;&lt;img src="../../images/thumb/sample.png" alt="이미지설명"&gt;&lt;/span&gt;&lt;span&gt;캠브리지베이&lt;/span&gt;&lt;/a&gt;&lt;/li&gt; &lt;!-- 이미지 사이즈 170*120 --&gt;
+    &lt;li&gt;&lt;a href="gallery_board_view.php"&gt;&lt;span class="wrap-galleryImg"&gt;&lt;img src="../../images/thumb/sample.png" alt="이미지설명"&gt;&lt;/span&gt;&lt;span&gt;캠브리지베이&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Pagination --&gt;
+&lt;div class="pagination"&gt;
+    &lt;button type="button" class="prev"&gt;이전&lt;/button&gt;	
+    &lt;div&gt;
+        &lt;button type="button" class="current"&gt;1&lt;/button&gt;
+        &lt;button type="button"&gt;2&lt;/button&gt;
+        &lt;button type="button"&gt;3&lt;/button&gt;
+        &lt;button type="button"&gt;4&lt;/button&gt;
+        &lt;button type="button"&gt;5&lt;/button&gt;
+        &lt;button type="button"&gt;6&lt;/button&gt;
+        &lt;button type="button"&gt;7&lt;/button&gt;
+        &lt;button type="button"&gt;8&lt;/button&gt;
+        &lt;button type="button"&gt;9&lt;/button&gt;
+        &lt;button type="button"&gt;10&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;button type="button" class="next"&gt;다음&lt;/button&gt;
+&lt;/div&gt;
+&lt;!-- /Pagination --&gt;</code></pre>
 					</div>
 				</div>
 				<div class="demo-control fa"></div>

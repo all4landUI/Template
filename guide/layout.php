@@ -21,7 +21,8 @@
 			
 			<h3>레이아웃 타입 선택</h3>
 			<p>
-				3가지의 구조변경 타입을 미리보시고, 적용해보세요.
+				템플릿 원본자료가 필요하신 분은 메일로 요청 주시기 바랍니다.<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;담당자 : UX/UX 기획팀 오승준과장(<a href="mailto:okm7327@all4land.com" target="_blank" class="underline">okm7327@all4land.com</a>)
 			</p>
 			
 			<div class="demo-layout--view">

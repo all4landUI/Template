@@ -1,7 +1,8 @@
 <nav class="g-navi">
 	<ul>
+		<li class="g-depth1"><a href="./document.php">Document</a></li>
 		<li class="g-depth1"><a href="./layout.php">Layout</a></li>
-		<li class="g-depth1"><a href="#">Theme</a></li>
+		<li class="g-depth1"><a href="./theme.php#">Theme</a></li>
 		<li class="g-depth1 g-depth-view"><a href="#">Element</a>
 			<ul class="g-depth2">
 				<li><a href="./board.php">List</a></li>

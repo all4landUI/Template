@@ -9,7 +9,7 @@
 .g-header .g-gnb li a { display: block; line-height: 60px; height: 60px; padding: 0 25px; font-size: 20px; color: #fff; }
 
 .g-navi { position: fixed; width: 250px; top: 60px; left: 0; height: 100%; border-right: 1px solid #ddd; background-color: #fff; }
-.g-navi .g-depth1 { padding: 30px 0; }
+.g-navi .g-depth1 { padding: 30px 0 0; }
 .g-navi .g-depth1 > a { padding: 0 30px; font-size: 18px; }
 .g-navi .g-depth1 .g-depth2 { margin-top: 15px; }
 .g-navi .g-depth1 .g-depth2 a { display: block; padding: 5px 30px; color: #777; font-size: 14px; line-height: 1.4; }
@@ -21,7 +21,7 @@
 /*
 * 컨텐츠 : 데모
 */
-.g-content { padding: 30px; }
+.g-content { padding: 0 30px 30px; }
 .g-content > h3 { margin: 55px 0 20px; padding-bottom: 5px; border-bottom: 1px solid #eee; font-size: 18px; }
 .g-content > p { font-size: 14px; color: #0089b3; line-height: 1.5em; margin: 1em 0; }
 .g-content > p:before { content: ''; display: inline-block; position: relative; top: -1px; width: 3px; height: 13px; margin-right: 5px; background-color: #0089b3; vertical-align: middle; }
@@ -44,3 +44,12 @@
 .demo-layout--view .box img { width: 100%; }
 .demo-layout--view .box h3 { text-align: center; font-size: 16px; font-weight: 600; padding-bottom: 7px; color: #8d8d8d; }
 .demo-layout--view .box .check-radio { padding: 5px 0 0; text-align: center; }
+
+.demo-layer-show .source { overflow: hidden; }
+.demo-layer-show .source > div { float: left; background-color: #f7f7f7; text-align: center; }
+.demo-layer-show .source > div:before { content: ""; display: inline-block; vertical-align: middle; height: 100%; }
+.demo-layer-show .source > div + div { margin-left: 15px; }
+
+.demo-space-show .source { overflow: hidden; }
+.demo-space-show .source > div { float: left; height: 100px; width: 100px; background-color: #f7f7f7; text-align: center; }
+.demo-space-show .source > div:before { content: ""; display: inline-block; vertical-align: middle; height: 100%; }

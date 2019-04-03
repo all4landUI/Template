@@ -68,15 +68,9 @@
                 </div>
             </div> 
 
-<<<<<<< HEAD
-			<div class="bt-area">
-                <button type="reset" class="bt reset">동의</button>
-                <button type="submit" class="bt submit">취소</button>
-=======
 			<div class="bt-area text-right">
                 <button type="reset" class="bt reset">취소</button>
                 <button type="submit" class="bt submit">저장</button>
->>>>>>> fb6902c1edaad72779520f2fc0235731cb03cd60
             </div>
 
         </section>

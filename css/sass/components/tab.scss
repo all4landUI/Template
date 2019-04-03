@@ -7,6 +7,11 @@
 		border-bottom:1px solid $border_color;
 		overflow-x:auto;
 		white-space:nowrap;
+		&.x-scroll{
+			li{
+				float:none;
+			}
+		}
 		&:after{
 			@include clear();
 		}
@@ -42,6 +47,7 @@
 		li {
 			&+li{
 				margin-left:0;
+				border-left:0;
 			}
 			a{
 				width:100%;
