@@ -10,9 +10,7 @@
             <h2>게시판 관리</h2>
             <ul role="menu">
                 <li class="current"><a href="PB_SC_281.php">공지사항</a></li>
-                
                 <li><a href="PB_SC_285.php">Q&amp;A</a></li>
-                
                 <li><a href="PB_SC_288.php">공지사항 알림</a></li>
                 <li><a href="PB_SC_292.php">극지 동영상</a></li>
                 <li><a href="PB_SC_296.php">극지사진 갤러리</a></li>
