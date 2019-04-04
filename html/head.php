@@ -42,8 +42,8 @@
 			<h1 class="logo"><a href="../../login.php"><i></i><span class="blind">올포랜드 통합관리자</span></a></h1>
 			<div class="user-info">
 				<button type="button">로그아웃</button>
-	            <a href="../../join.php">회원가입</a>
-	            <a href="../../join.php">사이트맵</a>
+	            <a href="/html/join/join.php">회원가입</a>
+	            <a href="/html/sitemap/sitemap.php">사이트맵</a>
 			</div>
 		</hgroup>
 		
@@ -137,3 +137,4 @@
 		<!-- #sitemap -->
 	</header>
 	<!-- /Header -->
+

@@ -1,23 +1,29 @@
 <?php
     include_once('../head.php');
 ?>
-	
-	<!-- Container -->
-	<article class="container">
-    
+
+    <!-- Container -->
+    <article class="container">
+
         <!-- Sub Menu -->
         <section id="lnb" class="lnb">
-            <h2>회원</h2>
-            <ul role="menu">
-                <li class="current"><a href="PB_SC_323.php">회원가입</a></li>
-                <li class=""><a href="#">정보수정</a></li>
-                <li class=""><a href="#">회원탈퇴</a></li>
-            </ul>
+            <?php include_once('./lnb.php');?>         
         </section>
         <!-- /Sub Menu -->
 
+        <!-- Contents -->
         <section id="content" class="content">
             <h1 class="title-sub-h1">회원가입</h1>
+
+            <!-- Location -->
+            <ol class="location">
+                <li><i class="fa fa-home"></i><span class="blind">홈</span></li>
+                <li>로그인</li>
+                <li>회원가입</li>
+            </ol>
+            <!-- /Location -->
+
+            <!-- join wrap -->
             <div class="join_wrap">
                 <div>
                     <ul class="join_procsee">
@@ -117,8 +123,8 @@
             </div> 
 
 			<div class="bt-area text-right">
-                <button type="reset" class="bt reset">취소</button>
-                <button type="submit" class="bt submit">저장</button>
+                <button type="submit" class="bt bt-2">저장</button>
+                <button type="reset" class="bt bt-4">취소</button>
             </div>
 
         </section>
@@ -127,6 +133,25 @@
     </article>
 	<!-- /Container -->
 
-	<?php
-    include_once('../../foot.php');
-?>
+	<!-- Footer -->
+    <footer>
+        <div class="inner">
+            <p class="f-logo">올포랜드 로고</p>
+            <ul>
+                <li><a href="#"><em>개인정보 처리방침</em></a></li>
+                <li><a href="#">저작권정책</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+            </ul>
+            <address>서울특별시 금천구 가산디지털1로 145</address>
+            <span>TEL : 02 - 855 - 5724</span>
+            <span>FAX : 02 - 857 - 5746</span>
+            <small>© ALLFORLAND, All rights reserved.</small>
+
+            <select title="관련기관 바로가기" class="family-site">
+                <option value="">관련기관목록</option>
+            </select>
+        </div>
+    </footer>
+    <!-- /Footer -->  
+
+</body>

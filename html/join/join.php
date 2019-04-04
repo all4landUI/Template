@@ -1,23 +1,29 @@
 <?php
     include_once('../head.php');
 ?>
-	
-	<!-- Container -->
-	<article class="container">
     
+    <!-- Container -->
+    <article class="container">
+
         <!-- Sub Menu -->
         <section id="lnb" class="lnb">
-            <h2>회원</h2>
-            <ul role="menu">
-                <li class="current"><a href="">회원가입</a></li>
-                <li class=""><a href="#">정보수정</a></li>
-                <li class=""><a href="#">회원탈퇴</a></li>
-            </ul>
+            <?php include_once('./lnb.php');?>         
         </section>
         <!-- /Sub Menu -->
 
+        <!-- Contents -->
         <section id="content" class="content">
             <h1 class="title-sub-h1">회원가입</h1>
+
+            <!-- Location -->
+            <ol class="location">
+                <li><i class="fa fa-home"></i><span class="blind">홈</span></li>
+                <li>로그인</li>
+                <li>회원가입</li>
+            </ol>
+            <!-- /Location -->
+
+            <!-- join_wrap -->
             <div class="join_wrap">
                 <div>
                     <ul class="join_procsee">
@@ -77,7 +83,7 @@
                     </div>
                 </div>
             </div> 
-
+            <!-- join_wrap -->
 
         </section>
         <!-- /Contents -->
