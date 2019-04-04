@@ -1,10 +1,7 @@
 <?php
-	$guide = true;
-	include_once('../head.php');
+
+	include_once('./guide.head.php');
 ?>
-<link rel="stylesheet" href="/plugin/prism/prism.css">
-<link rel="stylesheet" type="text/css" href="/css/guide.css">
-<script src="/plugin/prism/prism.js"></script>
 <!-- #guidePage //-->
 <div id="guidePage">
 	<?php
@@ -292,5 +289,5 @@
 <!--// #guidePage -->
 
 <?php
-	include_once('../foot.php');
+	include_once('./guide.foot.php');
 ?>
