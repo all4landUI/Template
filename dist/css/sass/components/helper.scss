@@ -101,7 +101,7 @@ $line-height_total : 50;
     margin: 0 5px;
 }
 .ui-widget-header .ui-icon {
-    background-image: url(../../images/ui-icons_444444_256x240.png);
+    background-image: url(../images/ui-icons_444444_256x240.png);
 }
 
 /* Position */
@@ -188,7 +188,7 @@ $line-height_total : 50;
     font-size: 14px;
     font-weight: bold;
     color: #5f88dd;
-    background: url("../../images/ico/ico-notice.png") no-repeat left center;
+    background: url("../images/ico/ico-notice.png") no-repeat left center;
 }
 .essential {
  	color: #e94340;
@@ -216,15 +216,15 @@ p.check-data {
 }
 .check-data.available {
     color: #1772f0;
-    background: url(../../images/ico/ico-avail.png) no-repeat 0 1px;
+    background: url(../images/ico/ico-avail.png) no-repeat 0 1px;
 }
 .check-data.error {
     color: #cc3333;
-    background: url(../../images/ico/ico-error.png) no-repeat 0 1px;
+    background: url(../images/ico/ico-error.png) no-repeat 0 1px;
 }
 .check-data.guide {
 	color: #acacac;
-    background: url(../../images/ico/ico-error.png) no-repeat 0 1px;
+    background: url(../images/ico/ico-error.png) no-repeat 0 1px;
 }
 .important {
     display: inline-block;
@@ -477,7 +477,7 @@ td .search-form {
     font-size: 17px;
     font-weight: bold;
     line-height: 20px;
-    background: url("../../images/bu/bu-tri.png") no-repeat left center;
+    background: url("../images/bu/bu-tri.png") no-repeat left center;
 }
 .title-table {
     display: block;
@@ -513,7 +513,7 @@ td .search-form {
     display: inline-block;
     width: 15px;
     height: 16px;
-    background-image: url("../../images/ico/ico-hasfile.png");
+    background-image: url("../images/ico/ico-hasfile.png");
     text-indent: -9999px;
 }
 .count {
@@ -521,7 +521,7 @@ td .search-form {
     padding-left: 15px;
     color: #757575;
     font-size: 14px;
-    background: url("../../images/bu/bu-dot.png") no-repeat left center;
+    background: url("../images/bu/bu-dot.png") no-repeat left center;
 }
 .count em {
     color: #0a8cbc;
@@ -588,7 +588,7 @@ td .search-form {
     font-size: 13px;
     font-weight: bold;
     vertical-align: top;
-    background: url("../../images/bt/bt-prev.png") no-repeat left center;
+    background: url("../images/bt/bt-prev.png") no-repeat left center;
 }
 .pagination .next {
     height: 25px;
@@ -597,14 +597,14 @@ td .search-form {
     font-size: 13px;
     font-weight: bold;
     vertical-align: top;
-    background: url("../../images/bt/bt-next.png") no-repeat right center;
+    background: url("../images/bt/bt-next.png") no-repeat right center;
 }
 
 /* List */
 ul.list-bullet li {
     padding: 3px 5px 3px 10px;
     color: #757575;
-    background: url("../../images/bu/bu-dot.png") no-repeat left 12px;
+    background: url("../images/bu/bu-dot.png") no-repeat left 12px;
 }
 ul.list-bullet li em {
     color: #0a8cbc;
@@ -646,7 +646,7 @@ table input[type="radio"] {
     width: 30px;
     height: 27px;
     text-indent: -9999px;
-    background: url("../../images/bt/bt-date.png") no-repeat center center;
+    background: url("../images/bt/bt-date.png") no-repeat center center;
 }
 .icon-media {
     display: inline-block;
@@ -655,7 +655,7 @@ table input[type="radio"] {
     width: 15px;
     height: 15px;
     text-indent: -9999px;
-    background-image: url("../../images/ico/ico-media.png");
+    background-image: url("../images/ico/ico-media.png");
 }
 .area-media {
     display: inline-block;
@@ -679,7 +679,7 @@ footer > div {
 	top: 0px;
     width: 152px;
     height: 70px;
-    background: url("../../images/logo-footer.png") no-repeat left top;
+    background: url("../images/logo-footer.png") no-repeat left top;
     text-indent: -9999px;
 }
 footer ul {
@@ -783,7 +783,7 @@ footer select {
     top: 17px;
     width: 25px;
     height: 25px;
-    background-image: url("../../images/bt/bt-close.png");
+    background-image: url("../images/bt/bt-close.png");
     text-indent: -9999px;
 }
 .layer-contents {
@@ -828,7 +828,7 @@ footer select {
     height: 100%;
     min-width: 1100px;
     min-height: 568px;
-    background: url("../../images/bg-login.png") no-repeat center center;
+    background: url("../images/bg-login.png") no-repeat center center;
 }
 .login-area article {
     position: absolute;
@@ -866,7 +866,7 @@ footer select {
 	left: 0px;
     width: 171px;
     height: 51px;
-    background-image: url("../../images/logo-login.png");
+    background-image: url("../images/logo-login.png");
     text-indent: -9999px;
 }
 .login-area hgroup p {

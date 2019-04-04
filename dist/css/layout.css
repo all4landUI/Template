@@ -29,7 +29,7 @@
 .layout-type-1 #header hgroup { position: relative; width: 1100px; margin: 0 auto; }
 .layout-type-1 #header .logo { margin-bottom: 25px; }
 .layout-type-1 #header .logo a { display: inline-block; margin-left: 10px; }
-.layout-type-1 #header .logo a i { display: inline-block; width: 302px; height: 37px; background-image: url("../../images/logo.png"); text-indent: -9999px; }
+.layout-type-1 #header .logo a i { display: inline-block; width: 302px; height: 37px; background-image: url("../images/logo.png"); text-indent: -9999px; }
 .layout-type-1 #header .user-info { position: absolute; right: 0; top: 17px; }
 .layout-type-1 #header .user-info * { float: left; position: relative; padding: 0 15px; letter-spacing: -1px; }
 .layout-type-1 #header .user-info span:after { position: absolute; right: 0; top: 3px; content: ""; width: 0; height: 10px; border-right: 1px solid #c9c9c9; }
@@ -50,7 +50,7 @@
 .layout-type-1 #header .addtion_menu button + button { margin-left: 5px; }
 .layout-type-1 .container { position: relative; padding-top: 60px; padding-bottom: 60px; margin: 0 auto; width: 1100px; /* lnb */ /* content */ }
 .layout-type-1 .container .lnb { position: absolute; left: 0; top: 60px; width: 200px; z-index: 10; }
-.layout-type-1 .container .lnb h2 { padding-left: 30px; height: 80px; line-height: 80px; color: #fff; font-size: 18px; font-weight: bold; background-image: url("../../images/bg-lnb-title.png"); letter-spacing: -1px; }
+.layout-type-1 .container .lnb h2 { padding-left: 30px; height: 80px; line-height: 80px; color: #fff; font-size: 18px; font-weight: bold; background-image: url("../images/bg-lnb-title.png"); letter-spacing: -1px; }
 .layout-type-1 .container .lnb ul li { border: 1px solid #eee; border-top: none; }
 .layout-type-1 .container .lnb ul li.current a { color: #0068b1; }
 .layout-type-1 .container .lnb ul li.current a:before { position: absolute; right: 15px; top: 17px; content: "\f105"; font: normal normal normal 14px/1 FontAwesome; }
@@ -64,7 +64,7 @@
 .layout-type-2 #side { position: fixed; left: 0; top: 0; height: 100vh; width: 250px; border-right: 1px solid #ddd; }
 .layout-type-2 .hgroup { background-color: #3c8dbc; color: #fff; }
 .layout-type-2 .hgroup .logo { padding: 15px 0; text-align: center; }
-.layout-type-2 .hgroup .logo a { display: inline-block; width: 152px; height: 42px; background: url("../../images/logo-footer.png") no-repeat 0 0; }
+.layout-type-2 .hgroup .logo a { display: inline-block; width: 152px; height: 42px; background: url("../images/logo-footer.png") no-repeat 0 0; }
 .layout-type-2 .hgroup .user-info { text-align: center; padding: 15px 0; }
 .layout-type-2 .hgroup .user-info .ment { color: #fff; }
 .layout-type-2 .hgroup .user-info .ment span { font-weight: bold; }
@@ -106,7 +106,7 @@
 .layout-type-3 #header .mega-menu .inner { margin: 0 auto; width: 1200px; padding: 15px 0 0; }
 .layout-type-3 #header .mega-menu .inner:after { content: ""; display: block; clear: both; }
 .layout-type-3 #header .logo { float: left; }
-.layout-type-3 #header .logo a { display: inline-block; width: 152px; height: 42px; background: url("../../images/logo-footer.png") no-repeat 0 0; }
+.layout-type-3 #header .logo a { display: inline-block; width: 152px; height: 42px; background: url("../images/logo-footer.png") no-repeat 0 0; }
 .layout-type-3 #header #gnb { float: left; padding: 15px 0 0 113px; position: relative; z-index: 2; }
 .layout-type-3 #header #gnb:after { content: ""; display: block; clear: both; }
 .layout-type-3 #header #gnb .depth-1 { float: left; width: 134px; position: relative; }
