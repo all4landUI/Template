@@ -77,14 +77,14 @@ a.bt{
         height: 24px;
         text-indent: -9999px;
         background-color: #f1f6f9;
-        background-image: url("../../images/bt/bt-chart.png");
+        background-image: url("../images/bt/bt-chart.png");
         background-repeat: no-repeat;
         background-position: center center;
         border: 1px solid #7393ae;
         &:hover,
         &:active,
         &:focus{
-            background-image: url("../../images/bt/bt-chart-hover.png");
+            background-image: url("../images/bt/bt-chart-hover.png");
             background-color: #4b5155;
             border-color: #4b5155;
         }
@@ -121,13 +121,13 @@ a.bt{
         padding:0 10px 0 30px;
         color: #535353;
         font-size: 13px;
-        background-image: url("../../images/bt/bt-downfile.png");
+        background-image: url("../images/bt/bt-downfile.png");
         background-repeat: no-repeat;
         background-position: 8px center;
         border: 1px solid #c4c4c4;
         &:hover{
             color: #fff;
-            background-image: url("../../images/bt/bt-downfile-hover.png");
+            background-image: url("../images/bt/bt-downfile-hover.png");
             background-color: #0f78c8;
             border-color: #0f78c8;
         }
