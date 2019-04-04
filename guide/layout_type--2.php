@@ -15,6 +15,7 @@
 <script type="text/javascript" src="/js/libs/jQuery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/ngii-mng.js"></script>
 <script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/pub.lib.js"></script>
 <!--[if lt IE 9]>
 	<script type="text/javascript" src="/js/libs/html5shiv.min.js"></script>
 	<script type="text/javascript" src="/js/libs/respond.min.js"></script>
@@ -37,28 +38,34 @@
 		
 	    <nav id="gnb">
 			<ul role="menu">
-				<li class="depth-1 depth-view"><a href="/guide/">레이아웃-1</a>
+				<li class="depth-1 depth-view menu_open"><a href="/html/bbs/notice.php">게시판 관리</a>
 					<ul class="depth-menu">
 						<li><a href="#">메뉴명1-1</a></li>
-						<li><a href="#">메뉴명1-2</a></li>
-						<li><a href="#">메뉴명1-3</a></li>
-						<li><a href="#">메뉴명1-4</a></li>
 					</ul>
 				</li>
-				<li class="depth-1 depth-view menu_open"><a href="/guide/">레이아웃-2</a>
+				<li class="depth-1 depth-view"><a href="/html/info/manage.php">정보 관리</a>
 					<ul class="depth-menu">
-						<li><a href="#">메뉴명2-1</a></li>
-						<li><a href="#">메뉴명2-2</a></li>
-						<li><a href="#">메뉴명2-3</a></li>
-						<li><a href="#">메뉴명2-4</a></li>
+						<li><a href="#">메뉴명1-1</a></li>
 					</ul>
 				</li>
-				<li class="depth-1 depth-view"><a href="/guide/">레이아웃-3</a>
+				<li class="depth-1 depth-view"><a href="/html/map/search.php">지도 관리</a>
 					<ul class="depth-menu">
-						<li><a href="#">메뉴명3-1</a></li>
-						<li><a href="#">메뉴명3-2</a></li>
-						<li><a href="#">메뉴명3-3</a></li>
-						<li><a href="#">메뉴명3-4</a></li>
+						<li><a href="#">메뉴명1-1</a></li>
+					</ul>
+				</li>
+				<li class="depth-1 depth-view"><a href="/html/statistics/status.php">통계 관리</a>
+					<ul class="depth-menu">
+						<li><a href="#">메뉴명1-1</a></li>
+					</ul>
+				</li>
+				<li class="depth-1 depth-view"><a href="/html/service/about.php">서비스 관리</a>
+					<ul class="depth-menu">
+						<li><a href="#">메뉴명1-1</a></li>
+					</ul>
+				</li>
+				<li class="depth-1 depth-view"><a href="/html/member/list.php">회원 관리</a>
+					<ul class="depth-menu">
+						<li><a href="#">메뉴명1-1</a></li>
 					</ul>
 				</li>
 			</ul>

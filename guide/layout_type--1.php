@@ -61,17 +61,86 @@
 					</ul>
 				</div>
 				<div class="addtion_menu">
-					<button role="button" title="전체메뉴열기"><i class="fa fa-align-right" aria-hidden="true"></i></button>
-					<button role="button" title="검색박스열기" onclick="show_hide('#fixed_search')"><i class="fa fa-search" aria-hidden="true"></i></button>
+					<button role="button" title="전체메뉴열기" id="btn_allmenu"><i class="fa fa-align-right" aria-hidden="true"></i></button>
+					<button role="button" title="검색박스열기" id="btn_allsearch"><i class="fa fa-search" aria-hidden="true"></i></button>
 				</div>
 			</div>
 	    </nav>
+
+	    <!-- #sitemap -->
+		<div id="sitemap">
+			<div class="sitemap-open">
+				<div class="sitemap-open-inner">
+					<nav>
+						<ul class="sitemap">
+							
+		                    <li class="tree-menu">
+		                    	<h2>게시판 관리</h2>
+		                        <ul class="tree-group">
+									<li><a href="notice.php">공지사항</a></li>
+									<li><a href="qna.php">묻고답하기</a></li>
+									<li><a href="faq.php">자주하는 질문</a></li>
+									<li><a href="gallery.php">갤러리</a></li>
+		                        </ul>
+		                    </li>
+		                    <li class="tree-menu">
+		                        <h2>게시판 관리</h2>
+		                        <ul class="tree-group">
+									<li><a href="notice.php">공지사항</a></li>
+									<li><a href="qna.php">묻고답하기</a></li>
+									<li><a href="faq.php">자주하는 질문</a></li>
+									<li><a href="gallery.php">갤러리</a></li>
+		                        </ul>
+		                    </li>
+		                    <li class="tree-menu">
+		                        <h2>게시판 관리</h2>
+		                        <ul class="tree-group">
+									<li><a href="notice.php">공지사항</a></li>
+									<li><a href="qna.php">묻고답하기</a></li>
+									<li><a href="faq.php">자주하는 질문</a></li>
+									<li><a href="gallery.php">갤러리</a></li>
+		                        </ul>
+		                    </li>
+		                    <li class="tree-menu margin-top-30">
+		                        <h2>게시판 관리</h2>
+		                        <ul class="tree-group">
+									<li><a href="notice.php">공지사항</a></li>
+									<li><a href="qna.php">묻고답하기</a></li>
+									<li><a href="faq.php">자주하는 질문</a></li>
+									<li><a href="gallery.php">갤러리</a></li>
+		                        </ul>
+		                    </li>
+		                    <li class="tree-menu margin-top-30">
+		                        <h2>게시판 관리</h2>
+		                        <ul class="tree-group">
+									<li><a href="notice.php">공지사항</a></li>
+									<li><a href="qna.php">묻고답하기</a></li>
+									<li><a href="faq.php">자주하는 질문</a></li>
+									<li><a href="gallery.php">갤러리</a></li>
+		                        </ul>
+		                    </li>
+		                    <li class="tree-menu margin-top-30">
+		                        <h2>게시판 관리</h2>
+		                        <ul class="tree-group">
+									<li><a href="notice.php">공지사항</a></li>
+									<li><a href="qna.php">묻고답하기</a></li>
+									<li><a href="faq.php">자주하는 질문</a></li>
+									<li><a href="gallery.php">갤러리</a></li>
+		                        </ul>
+		                    </li>
+		                </ul>
+
+					</nav>
+					<p class="btn-sitemap-close"><button type="button"><span class="blind">전체메뉴 닫기</span></button></p>
+				</div>
+			</div>
+		</div>
+		<!-- #sitemap -->
 	</header>
 	<!-- /Header -->
-	
+		
 	<!-- Container -->
 	<article class="container">
-    
         <!-- Sub Menu -->
         <section id="lnb" class="lnb">
             <h2>OPEN API 관리</h2>
@@ -85,7 +154,6 @@
         <!-- Contents -->
         <section id="content" class="content">
             <h1 class="title-sub-h1">바로e맵 오픈 API 상세보기</h1>
-
             <!-- Location -->
             <ol class="location">
                 <li><i class="fa fa-home"></i><span class="blind">홈</span></li>

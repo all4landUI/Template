@@ -2,10 +2,8 @@
 /**
  ** 2019.03.28 오승준 
 **/
-
 ;(function($){
 	'use strict';
-
 	var pub = {
 		tab : function(){
 			var $btn = $(".wrap_tabcont li a");
@@ -28,7 +26,6 @@
 		},
 
 		modal : function(options){			
-			
 			var $btn = $('.btn-pop-open');
 
 			$btn.on('click' , function(event){
@@ -62,18 +59,85 @@
 		head : function(){
 			// type체크 
 			if($("body").is(".layout-type-3")){
-				megaGnb()
+				layout3_js()
 			}
-			function megaGnb(){
+			if($("body").is(".layout-type-2")){
+				layout2_js()
+			}
+			if($("body").is(".layout-type-1")){
+				layout1_js()
+			}
+
+			function layout1_js(){
+				$('#btn_allmenu').on('click' , function(){
+			
+					$('#sitemap').show().height($(document).height());
+					$('.sitemap-open').animate({
+						top : 0
+					},200)
+				})
+
+				$('.btn-sitemap-close').on('click' , function(){
+					$('.sitemap-open').animate({
+						top : -570+'px'
+					},200 , function(){
+						$('#sitemap').hide();
+					})
+				})
+			}
+
+
+			function layout2_js(){
+				$(".depth-view>a").on('click' , function(){
+					if(!$(this).parent('li').is('.active')){
+						$(this).parent('li').addClass('active')
+					} else {
+						if(!$(this).parent('li').is('.menu_open')){
+							$(this).parent('li').removeClass('active')
+						}
+						
+					}
+					return false;
+				})
+			}
+
+			function layout3_js(){
 				$('#gnb').on({
 					mouseenter : function(){
 						$('#header').addClass('megamenu-on');
+						if(!$('#fixed_search').is(":hidden")){
+							$('#fixed_search').hide();
+						}
 					},
 					mouseleave : function(){
 						$('#header').removeClass('megamenu-on');
 					}
+				});
+
+				$('#btn_allmenu').on('click' , function(){
+					var $this = $(this);
+					if(!$('#header').is('.megamenu-on')){
+						$('#header').addClass('megamenu-on');
+						if(!$('#fixed_search').is(":hidden")){
+							$('#fixed_search').hide();
+						}
+					} else {
+						$('#header').removeClass('megamenu-on');	
+					}
 				})
 			}
+			$('#btn_allsearch').on("click" , function(){
+				if($('#fixed_search').is(":hidden")){
+					$('#fixed_search').slideDown();
+					if($('#header').is('.megamenu-on')){
+						$('#header').removeClass('megamenu-on')
+					}
+				} else {
+					$('#fixed_search').slideUp();
+				}
+			})
+
+			
 		},
 
 		location : function(){
@@ -104,3 +168,12 @@
 	});
 
 })(jQuery);
+
+function check_all(f)
+{
+    var chk = document.getElementsByName("chk[]");
+
+    for (i=0; i<chk.length; i++){
+        chk[i].checked = f.chkall.checked;
+    }
+}
