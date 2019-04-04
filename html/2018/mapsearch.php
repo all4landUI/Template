@@ -61,7 +61,7 @@
                                 <td><input type="text" id="s-doseo" name="" value="" class="full"></td>
                                 <!-- /도서명 -->
                                 
-                                <td><button type="botton" class="bt search">검색</button></td>
+                                <td><button type="botton" class="bt bt-2">검색</button></td>
                             </tr>
                         </tbody>
                     </table>
@@ -71,21 +71,20 @@
             <!-- /Search -->
 
             <div class="map-container">
-                    <div class="map-control">
-                        <button type="button" class="map-view c-list mobile" aria-edit-div="map-list"><i class="fa fa-list"></i><span class="blind">리스트</span></button>
-                    </div>
-                    
                     <!-- 바로맵 -->
                     <div id="map1" style="width:100%;height:100%;" class="olMap">
                         <!-- 지도 컨트롤 -->
                         <div id="toolbar" style="">
                             <ul id="tool_swich" class="map-control">
-                                <button type="button" class="c-location" onclick=""><i class="ico location"></i><span class="blind">내위치</span></button>
-                                <button type="button" class="c-zoom-in" onclick="javascript:map1.zoomIn();"><i class="fa fa-plus"></i><span class="blind">확대</span></button>
-                                <button type="button" class="c-zoom-out" onclick="javascript:map1.zoomOut();"><i class="fa fa-minus"></i><span class="blind">축소</span></button>
-                                <!--<li name="measure_distance" title="거리"><a href="javascript:map1._mapControl('measure_distance');" style="text-decoration:none;padding:0 0 0 0;margin:0 0 0 0;"><img src="/emap/images/tool_off_05.png" border="0"></a></li>
-                                <li name="measure_area" title="면적"><a href="javascript:map1._mapControl('measure_area');" style="text-decoration:none;padding:0 0 0 0;margin:0 0 0 0;"><img src="/emap/images/tool_off_06.png" border="0"></a></li>
-                                <li name="deleteLayer" title="초기화"><a href="javascript:map1._mapControl();" style="text-decoration:none;padding:0 0 0 0;margin:0 0 0 0;"><img src="/emap/images/tool_off_04.png" border="0"></a></li>-->
+                                <li>
+                                    <button type="button" class="c-location" onclick=""><i class="ico location"></i><span class="blind">내위치</span></button>
+                                </li>
+                                <li>
+                                    <button type="button" class="c-zoom-in" onclick="javascript:map1.zoomIn();"><i class="fa fa-plus"></i><span class="blind">확대</span></button>
+                                </li>
+                                <li>
+                                    <button type="button" class="c-zoom-out" onclick="javascript:map1.zoomOut();"><i class="fa fa-minus"></i><span class="blind">축소</span></button>
+                                </li>
                             </ul>
                         </div>
                         <!-- /지도 컨트롤 -->
