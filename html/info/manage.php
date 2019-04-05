@@ -25,15 +25,12 @@
                 <li>상세 정보 관리</li>
             </ol>
             <!-- /Location -->
-            <h2 class="title-sub-h2 first">지형·지질·경관
-                <a href="#" class="bt table pc">전체 템플릿 다운로드<i class="fa fa-download"></i></a>
-                <a href="list.html" class="bt table pc">기본 정보 보기<i class="fa fa-eye"></i></a>
-            </h2>   
+            <h2 class="title-sub-h2 first">지형·지질·경관</h2>   
 
             <!-- 전자 야장 정보 보기 -->
-            <div class="table-vertical">
+            <div >
                 <!-- 기본정보 -->
-                <div class="dropdown-content">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">기본 정보</caption>
                     <colgroup>
@@ -131,7 +128,7 @@
                 <!-- /기본정보 -->
                 
                 <!-- 육상 지형 -->
-                <div class="dropdown-content s-cell-group">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">육상 지형</caption>
                     <colgroup>
@@ -219,7 +216,7 @@
                 <!-- /육상 지형 -->
                 
                 <!-- 해안 지형 -->
-                <div class="dropdown-content s-cell-group">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">해안 지형</caption>
                     <colgroup>
@@ -271,7 +268,7 @@
                 <!-- /해안 지형 -->
                 
                 <!-- 육상 지질 -->
-                <div class="dropdown-content s-cell-group">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">육상 지질</caption>
                     <colgroup>
@@ -325,7 +322,7 @@
                 <!-- /육상 지질 -->
 
                 <!-- 사진 및 도면 -->
-                <div class="dropdown-content s-cell-group">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">사진 및 도면</caption>
                     <colgroup>
@@ -367,7 +364,7 @@
                 <!-- /사진 및 도면 -->
                 
                 <!-- 추가정보 -->
-                <div class="dropdown-content">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">추가정보</caption>
                     <colgroup>
@@ -418,9 +415,9 @@
             </div>
             <!-- /전자 야장 정보 보기 -->
             
-            <div class="list-bottom">
-                <a href="#" class="bt submit">저장</a>
-                <a href="main.html" class="bt list">목록</a>
+            <div class="bt-area bt-center">
+                <a href="#" class="bt bt-1">저장</a>
+                <a href="main.html" class="bt bt-6">목록</a>
             </div>
 
         </section>

@@ -101,7 +101,7 @@
                                 <tr>
                                     <th><span class="red">*</span>이메일 주소</th>
                                     <td>
-                                        <input type="text"><span>@</span><input type="text">
+                                        <input type="text"><span> @ </span><input type="text">
                                         <select name="" id="">
                                             <option value="">이메일 선택</option>
                                         </select>
