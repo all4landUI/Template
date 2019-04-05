@@ -60,8 +60,8 @@
 
                 <div id="join_form">
                     <div>
-                        <h4>회원정보 필수입력</h4>
-                        <p><span>*</span>표시는 필수 입력 사항입니다.</p>
+                        <!-- <h4>회원정보 필수입력</h4> -->
+                        <p class="margin-bottom-5"><span style="color:#ff0000">*</span> 표시는 필수 입력 사항입니다.</p>
                         <table class="table-vertical">
                             <colgroup>
                                 <col style="width:25%">

@@ -116,7 +116,7 @@
 .ico {
     display: inline-block;
     vertical-align: top;
-    background-image: url(../../images/ico/sprite.png);
+    background-image: url(../../dist/images/ico/sprite.png);
     background-repeat: no-repeat;
 }
 .ico.star-score {
@@ -163,7 +163,7 @@
     padding: 20px 15px 20px 40px;
     color: #5b5b5b;
     font-size: 20px;
-    background: #f5f7fa url(../../images/bu/bu_arrow_right.png) no-repeat right 30px center;
+    background: #f5f7fa url(../../dist/images/bu/bu_arrow_right.png) no-repeat right 30px center;
     cursor: pointer;
 }
 .list-dopdown .a-toggle:after {
@@ -173,10 +173,10 @@
     left: 18px;
     width: 18px;
     height: 18px;
-    background: url(../../images/ico/sprite.png) no-repeat -83px -43px;
+    background: url(../../dist/images/ico/sprite.png) no-repeat -83px -43px;
 }
 .list-dopdown .a-toggle.current {
-    background-image: url(../../images/bu/bu_arrow_down_on.png);
+    background-image: url(../../dist/images/bu/bu_arrow_down_on.png);
 }
 .list-dopdown .a-toggle.current:before {
     content: '';
@@ -523,7 +523,7 @@ table.calendar .sat{
     font-size: 12px;
     line-height: 25px;
     background-color: #3d434c;
-    background-image: url(../../images/ico/ico_check.png);
+    background-image: url(../../dist/images/ico/ico_check.png);
     background-repeat: no-repeat;
     background-position: 8px center;
 }
@@ -746,12 +746,12 @@ table.calendar .sat{
     position: relative;
 }
 .i-user-form dd input[type="text"] {
-    background-image: url(../../images/ico/ico-user.png);
+    background-image: url(../../dist/images/ico/ico-user.png);
     background-repeat: no-repeat;
     background-position: right 10px center;
 }
 .i-user-form dd input[type="password"] {
-    background-image: url(../../images/ico/ico-locked.png);
+    background-image: url(../../dist/images/ico/ico-locked.png);
     background-repeat: no-repeat;
     background-position: right 10px center;
 }

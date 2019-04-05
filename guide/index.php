@@ -10,24 +10,41 @@
 
 	<div id="guideContent">
 		<!-- guide-title //-->
-		<h2 class="g-title">컴포넌트</h2>
+		<h2 class="g-title">Template</h2>
 		<!--// guide-title -->
 		<!-- g-content //-->
 		<div class="g-content">
-			<h3>간격</h3>
-			<p>클래스를 통한 그리드 간격</p>
-			<div class="demo-block">
-				<div class="source">
-					
+			 <p>
+				템플릿 원본자료가 필요하신 분은 메일로 요청 주시기 바랍니다.<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;담당자 : UX/UX 기획팀 오승준과장(<a href="mailto:okm7327@all4land.com" target="_blank" class="underline">okm7327@all4land.com</a>)
+			</p>
+
+			<div class="demo-layout--view" style="width:900px">
+				
+				<div class="demo-priview" style="width:50%">
+					<div class="box">
+						<h3>A TYPE</h3>
+						<p class="thumbnail"><img src="http://all4proto.iptime.org:11980/uiguide/new_html/images/thumb/thumb_admin1.jpg" alt="이미지설명"></p>
+						<div class="check-radio">
+							<a href="http://all4proto.iptime.org:11980/uiguide/new_html/download/html/admin_type1/list.html" target="_blank">미리보기</a>
+						</div>
+					</div>
 				</div>
-				<div class="meta">
-					<div class="description"></div>
+
+				<div class="demo-priview" style="width:50%">
+					<div class="box">
+						<h3>B TYPE</h3>
+						<p class="thumbnail"><img src="http://all4proto.iptime.org:11980/uiguide/new_html/images/thumb/thumb_admin2.jpg" alt="이미지설명"></p>
+						<div class="check-radio">
+							<a href="http://all4proto.iptime.org:11980/uiguide/new_html/download/html/admin_type2/list.html" target="_blank">미리보기</a>
+						</div>
+					</div>
 				</div>
-				<div class="highlight">
-					
-				</div>
-				<div class="demo-control fa"></div>
+
+				
+
 			</div>
+			
 		</div>
 		<!--// g-content  -->
 	</div>

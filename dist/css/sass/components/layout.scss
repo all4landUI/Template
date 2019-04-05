@@ -3,7 +3,7 @@
 
 
 #fixed_search{
-	position:fixed;
+	position:absolute;
 	top:166px;
 	left:0;
 	width:100%;
@@ -181,15 +181,17 @@
 				display:inline-block;
 			    letter-spacing: -1px;
 			    color: #999;
-			    &:before{
-			    	content:"";
-			    	display:block;
-			    	position:absolute;
-			    	left:0;
-			    	top:4px;
-			    	height:10px;
-			    	width:1px;
-			    	background-color:#ccc;
+			    &+a{
+				    &:before{
+				    	content:"";
+				    	display:block;
+				    	position:absolute;
+				    	left:0;
+				    	top:4px;
+				    	height:10px;
+				    	width:1px;
+				    	background-color:#ccc;
+				    }
 			    }
 			}
 			button:hover,
@@ -552,9 +554,15 @@ $grid-type-3-width : 1200px;
 				    text-align: center;
 				    padding-bottom:29px;
 				    border-bottom:2px solid #fff;
-				    &:hover{
-				    	border-color:#000;
-				    };
+				    
+				}
+				&:hover{
+					>a{
+						border-color:#000;
+					}
+					.depth-menu{
+						background-color:#0c59ab;
+					}
 				}
 			}
 			
@@ -603,11 +611,9 @@ $grid-type-3-width : 1200px;
 			}
 			#gnb{
 				.depth-1{
-					
 					.depth-menu{
 						visibility:visible;
 						height:400px;
-						background-color:#0c59ab;
 					}
 				}
 			}

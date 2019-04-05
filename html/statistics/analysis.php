@@ -22,6 +22,135 @@
                 <li>통합검색 분석 및 통계</li>
             </ol>
             <!-- /Location -->
+
+            <!-- Search -->
+            <div class="search-form">
+                <form action="" class="float-right">
+                    <fieldset>
+                        <legend>리스트 검색</legend>
+                        <label for="s-type" class="blind">기간별</label>
+                        <select id="s-type" name="w-type">
+                            <option value="">일별</option>
+                            <option value="">주별</option>
+                            <option value="">월별</option>
+                            <option value="">분기별</option>
+                            <option value="">년도별</option>
+                        </select>
+                                
+                        <span class="search-date"><input type="text" id="s-date" name="" value="" class="datepicker" title="조회기간 설정 시작일"></span>
+                        - 
+                        <span class="search-date"><input type="text" id="s-date2" name="" value="" class="datepicker" title="조회기간 설정 종료일"></span>
+
+                        <label for="s-input" class="blind">검색어 입력</label>
+                        <input type="text" id="s-input" name="s-input" value="">
+                        <button type="button" class="bt">검색</button> 
+                    </fieldset>
+                </form>
+            </div>
+            <!-- /Search -->
+            
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                   <div class="search-lanking">
+                        <h2>2018.07.01(일)</h2>
+                        <ol>
+                            <li><a href="#"><i>1</i>ㄱ</a></li>
+                            <li><a href="#"><i>2</i>ㄴ</a></li>
+                            <li><a href="#"><i>3</i>ㄷ</a></li>
+                            <li><a href="#"><i>4</i>ㄹ</a></li>
+                            <li><a href="#"><i>5</i>ㅁ</a></li>
+                            <li><a href="#"><i>6</i>ㅂ</a></li>
+                            <li><a href="#"><i>7</i>ㅅ</a></li>
+                            <li><a href="#"><i>8</i>ㅇ</a></li>
+                            <li><a href="#"><i>9</i>ㅈ</a></li>
+                            <li><a href="#"><i>10</i>ㅊ</a></li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="item">
+                   <div class="search-lanking">
+                        <h2>2018.07.01(일)</h2>
+                        <ol>
+                            <li><a href="#"><i>1</i>ㄱ</a></li>
+                            <li><a href="#"><i>2</i>ㄴ</a></li>
+                            <li><a href="#"><i>3</i>ㄷ</a></li>
+                            <li><a href="#"><i>4</i>ㄹ</a></li>
+                            <li><a href="#"><i>5</i>ㅁ</a></li>
+                            <li><a href="#"><i>6</i>ㅂ</a></li>
+                            <li><a href="#"><i>7</i>ㅅ</a></li>
+                            <li><a href="#"><i>8</i>ㅇ</a></li>
+                            <li><a href="#"><i>9</i>ㅈ</a></li>
+                            <li><a href="#"><i>10</i>ㅊ</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="search-lanking">
+                        <h2>2018.07.01(일)</h2>
+                        <ol>
+                            <li><a href="#"><i>1</i>ㄱ</a></li>
+                            <li><a href="#"><i>2</i>ㄴ</a></li>
+                            <li><a href="#"><i>3</i>ㄷ</a></li>
+                            <li><a href="#"><i>4</i>ㄹ</a></li>
+                            <li><a href="#"><i>5</i>ㅁ</a></li>
+                            <li><a href="#"><i>6</i>ㅂ</a></li>
+                            <li><a href="#"><i>7</i>ㅅ</a></li>
+                            <li><a href="#"><i>8</i>ㅇ</a></li>
+                            <li><a href="#"><i>9</i>ㅈ</a></li>
+                            <li><a href="#"><i>10</i>ㅊ</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="search-lanking">
+                        <h2>2018.07.01(일)</h2>
+                        <ol>
+                            <li><a href="#"><i>1</i>ㄱ</a></li>
+                            <li><a href="#"><i>2</i>ㄴ</a></li>
+                            <li><a href="#"><i>3</i>ㄷ</a></li>
+                            <li><a href="#"><i>4</i>ㄹ</a></li>
+                            <li><a href="#"><i>5</i>ㅁ</a></li>
+                            <li><a href="#"><i>6</i>ㅂ</a></li>
+                            <li><a href="#"><i>7</i>ㅅ</a></li>
+                            <li><a href="#"><i>8</i>ㅇ</a></li>
+                            <li><a href="#"><i>9</i>ㅈ</a></li>
+                            <li><a href="#"><i>10</i>ㅊ</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="search-lanking">
+                        <h2>2018.07.01(일)</h2>
+                        <ol>
+                            <li><a href="#"><i>1</i>ㄱ</a></li>
+                            <li><a href="#"><i>2</i>ㄴ</a></li>
+                            <li><a href="#"><i>3</i>ㄷ</a></li>
+                            <li><a href="#"><i>4</i>ㄹ</a></li>
+                            <li><a href="#"><i>5</i>ㅁ</a></li>
+                            <li><a href="#"><i>6</i>ㅂ</a></li>
+                            <li><a href="#"><i>7</i>ㅅ</a></li>
+                            <li><a href="#"><i>8</i>ㅇ</a></li>
+                            <li><a href="#"><i>9</i>ㅈ</a></li>
+                            <li><a href="#"><i>10</i>ㅊ</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <link rel="stylesheet" href="../../dist/js/libs/owlcarousel/owl.carousel.min.css">
+            <script type="text/javascript" src="../../dist/js/libs/owlcarousel/owl.carousel.min.js"></script>
+            
+            <script type="text/javascript">
+            $(document).ready(function() {
+                $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin:10,
+                    nav:true,
+                    items:4
+                })
+            })
+            </script>
+
         </section>
         <!-- /Contents -->
 
