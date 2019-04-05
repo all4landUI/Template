@@ -43,8 +43,8 @@
 			<h1 class="logo"><a href="../../login.php"><i></i><span class="blind">올포랜드 통합관리자</span></a></h1>
 			<div class="user-info">
 				<button type="button">로그아웃</button>
-	            <a href="../../join.php">회원가입</a>
-	            <a href="../../join.php">사이트맵</a>
+	            <a href="/html/join/join.php">회원가입</a>
+	            <a href="/html/sitemap/sitemap.php">사이트맵</a>
 			</div>
 		</hgroup>
 		
@@ -75,58 +75,52 @@
 						<ul class="sitemap">
 							
 		                    <li class="tree-menu">
-		                    	<h2>게시판 관리</h2>
-		                        <ul class="tree-group">
-									<li><a href="notice.php">공지사항</a></li>
-									<li><a href="qna.php">묻고답하기</a></li>
-									<li><a href="faq.php">자주하는 질문</a></li>
-									<li><a href="gallery.php">갤러리</a></li>
-		                        </ul>
+		                        <h2>게시판 관리</h2>
+								<ul class="tree-group">
+									<li><a href="/html/bbs/notice.php">공지사항</a></li>
+									<li><a href="/html/bbs/qna.php">묻고 답하기</a></li>
+									<li><a href="/html/bbs/faq.php">자주하는 질문</a></li>
+									<li><a href="/html/bbs/gallery.php">갤러리</a></li>
+								</ul>
 		                    </li>
 		                    <li class="tree-menu">
-		                        <h2>게시판 관리</h2>
-		                        <ul class="tree-group">
-									<li><a href="notice.php">공지사항</a></li>
-									<li><a href="qna.php">묻고답하기</a></li>
-									<li><a href="faq.php">자주하는 질문</a></li>
-									<li><a href="gallery.php">갤러리</a></li>
-		                        </ul>
+		                        <h2>정보관리</h2>
+					            <ul class="tree-group">
+					                <li><a href="/html/info/notice.php">상세 정보 관리</a></li>
+					                <li><a href="/html/info/lib.php">용어사전</a></li>
+					            </ul>
 		                    </li>
 		                    <li class="tree-menu">
-		                        <h2>게시판 관리</h2>
-		                        <ul class="tree-group">
-									<li><a href="notice.php">공지사항</a></li>
-									<li><a href="qna.php">묻고답하기</a></li>
-									<li><a href="faq.php">자주하는 질문</a></li>
-									<li><a href="gallery.php">갤러리</a></li>
-		                        </ul>
+		                        <h2>지도 관리</h2>
+					            <ul class="tree-group">
+					                <li><a href="/html/map/search.php">지도 검색</a></li>
+					            </ul>
+		                    </li>
+		                    <li class="tree-menu margin-top-30" style="clear:left">
+		                        <h2>통계 관리</h2>
+								<ul class="tree-group">
+									<li><a href="/html/statistics/status.php">통계 현황</a></li>
+									<li><a href="/html/statisticsvisit.php">접속 현황</a></li>
+									<li><a href="/html/statisticspageview.php">페이지뷰 현황</a></li>
+									<li><a href="/html/statisticsanalysis.php">통합검색 분석 및 통계</a></li>
+									<li><a href="/html/statisticskeyword.php">검색어 통계</a></li>
+								</ul>
 		                    </li>
 		                    <li class="tree-menu margin-top-30">
-		                        <h2>게시판 관리</h2>
-		                        <ul class="tree-group">
-									<li><a href="notice.php">공지사항</a></li>
-									<li><a href="qna.php">묻고답하기</a></li>
-									<li><a href="faq.php">자주하는 질문</a></li>
-									<li><a href="gallery.php">갤러리</a></li>
-		                        </ul>
+		                        <h2>서비스 관리</h2>
+								<ul class="tree-group">
+									<li><a href="/html/service/about.php">소개</a></li>
+									<li><a href="/html/service/info.php">서비스 정보</a></li>
+									<li><a href="/html/service/table.php">표 정보</a></li>
+									<li><a href="/html/service/calendar.php">행사 및 일정</a></li>
+								</ul>
 		                    </li>
 		                    <li class="tree-menu margin-top-30">
-		                        <h2>게시판 관리</h2>
-		                        <ul class="tree-group">
-									<li><a href="notice.php">공지사항</a></li>
-									<li><a href="qna.php">묻고답하기</a></li>
-									<li><a href="faq.php">자주하는 질문</a></li>
-									<li><a href="gallery.php">갤러리</a></li>
-		                        </ul>
-		                    </li>
-		                    <li class="tree-menu margin-top-30">
-		                        <h2>게시판 관리</h2>
-		                        <ul class="tree-group">
-									<li><a href="notice.php">공지사항</a></li>
-									<li><a href="qna.php">묻고답하기</a></li>
-									<li><a href="faq.php">자주하는 질문</a></li>
-									<li><a href="gallery.php">갤러리</a></li>
-		                        </ul>
+		                        <h2>회원 관리</h2>
+								<ul class="tree-group">
+									<li><a href="/html/member/list.php">개인정보수정</a></li>
+									<li><a href="/html/member/level.php">권한관리</a></li>
+								</ul>
 		                    </li>
 		                </ul>
 
@@ -138,6 +132,7 @@
 		<!-- #sitemap -->
 	</header>
 	<!-- /Header -->
+
 		
 	<!-- Container -->
 	<article class="container">

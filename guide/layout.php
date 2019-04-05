@@ -25,7 +25,7 @@
 				<div class="demo-priview">
 					<div class="box">
 						<h3>A TYPE</h3>
-						<p class="thumbnail"><img src="../../images/thumb/sample.png" alt="이미지설명"></p>
+						<p class="thumbnail"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></p>
 						<div class="check-radio">
 							<input type="radio" name="priview" value="layout_type--1">
 						</div>
@@ -35,7 +35,7 @@
 				<div class="demo-priview">
 					<div class="box">
 						<h3>B TYPE</h3>
-						<p class="thumbnail"><img src="../../images/thumb/sample.png" alt="이미지설명"></p>
+						<p class="thumbnail"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></p>
 						<div class="check-radio">
 							<input type="radio" name="priview" value="layout_type--2">
 						</div>
@@ -45,7 +45,7 @@
 				<div class="demo-priview">
 					<div class="box">
 						<h3>C TYPE</h3>
-						<p class="thumbnail"><img src="../../images/thumb/sample.png" alt="이미지설명"></p>
+						<p class="thumbnail"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></p>
 						<div class="check-radio">
 							<input type="radio" name="priview" value="layout_type--3">
 						</div>

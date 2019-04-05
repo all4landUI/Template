@@ -49,10 +49,10 @@
             <!-- /Search -->
 
             <ul class="list-gallery column-4">
-                <li><a href="gallery.view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
-                <li><a href="gallery.view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
-                <li><a href="gallery.view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
-                <li><a href="gallery.view.php"><span class="wrap-galleryImg"><img src="../../images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
+                <li><a href="gallery.view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
+                <li><a href="gallery.view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+                <li><a href="gallery.view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+                <li><a href="gallery.view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
             </ul>
 
             <!-- Pagination -->

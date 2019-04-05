@@ -3340,7 +3340,7 @@ td .search-form { margin-bottom: 0px; }
 
 .location li { display: inline-block; position: relative; padding-left: 15px; padding-right: 10px; color: #8e8d8d; }
 
-.location li:after { position: absolute; left: -3px; top: 0px; content: "\f104"; font: normal normal normal 14px/1 FontAwesome; }
+.location li:after { position: absolute; left: -3px; top: 2px; content: "\f105"; font: normal normal normal 14px/1 FontAwesome; }
 
 .location li:first-child:after { content: ""; }
 

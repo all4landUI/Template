@@ -31,42 +31,55 @@
 					<span>홍길동 님</span>환영합니다.
 				</div>
 				<div class="btn_hgroup">
-					<a href="#" class="bt">사이트바로가기</a>
-					<button type="button" class="bt">로그아웃</button>
+					<button type="button">로그아웃</button>
+		            <a href="/html/join/join.php">회원가입</a>
+		            <a href="/html/sitemap/sitemap.php">사이트맵</a>
 				</div>
 			</div>
 		</header>
 		
-	    <nav id="gnb">
+	    <nav id="gnb" style="overflow-y:auto">
 			<ul role="menu">
 				<li class="depth-1 depth-view menu_open"><a href="/html/bbs/notice.php">게시판 관리</a>
 					<ul class="depth-menu">
-						<li><a href="#">메뉴명1-1</a></li>
+						<li><a href="/html/bbs/notice.php">공지사항</a></li>
+						<li><a href="/html/bbs/qna.php">묻고 답하기</a></li>
+						<li><a href="/html/bbs/faq.php">자주하는 질문</a></li>
+						<li><a href="/html/bbs/gallery.php">갤러리</a></li>
 					</ul>
 				</li>
 				<li class="depth-1 depth-view"><a href="/html/info/manage.php">정보 관리</a>
 					<ul class="depth-menu">
-						<li><a href="#">메뉴명1-1</a></li>
+						<li><a href="/html/info/notice.php">상세 정보 관리</a></li>
+					    <li><a href="/html/info/lib.php">용어사전</a></li>
 					</ul>
 				</li>
 				<li class="depth-1 depth-view"><a href="/html/map/search.php">지도 관리</a>
 					<ul class="depth-menu">
-						<li><a href="#">메뉴명1-1</a></li>
+						<li><a href="/html/map/search.php">지도 검색</a></li>
 					</ul>
 				</li>
 				<li class="depth-1 depth-view"><a href="/html/statistics/status.php">통계 관리</a>
 					<ul class="depth-menu">
-						<li><a href="#">메뉴명1-1</a></li>
+						<li><a href="/html/statistics/status.php">통계 현황</a></li>
+						<li><a href="/html/statisticsvisit.php">접속 현황</a></li>
+						<li><a href="/html/statisticspageview.php">페이지뷰 현황</a></li>
+						<li><a href="/html/statisticsanalysis.php">통합검색 분석 및 통계</a></li>
+						<li><a href="/html/statisticskeyword.php">검색어 통계</a></li>
 					</ul>
 				</li>
 				<li class="depth-1 depth-view"><a href="/html/service/about.php">서비스 관리</a>
 					<ul class="depth-menu">
-						<li><a href="#">메뉴명1-1</a></li>
+						<li><a href="/html/service/about.php">소개</a></li>
+						<li><a href="/html/service/info.php">서비스 정보</a></li>
+						<li><a href="/html/service/table.php">표 정보</a></li>
+						<li><a href="/html/service/calendar.php">행사 및 일정</a></li>
 					</ul>
 				</li>
 				<li class="depth-1 depth-view"><a href="/html/member/list.php">회원 관리</a>
 					<ul class="depth-menu">
-						<li><a href="#">메뉴명1-1</a></li>
+						<li><a href="/html/member/list.php">개인정보수정</a></li>
+						<li><a href="/html/member/level.php">권한관리</a></li>
 					</ul>
 				</li>
 			</ul>

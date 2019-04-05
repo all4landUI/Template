@@ -7,10 +7,7 @@
     
         <!-- Sub Menu -->
         <section id="lnb" class="lnb">
-            <h2>정보관리</h2>
-            <ul role="menu">
-                <li><a href="notice.php">상세 정보 관리</a></li>
-            </ul>
+            <?php include_once('./lnb.php');?>
         </section>
         <!-- /Sub Menu -->
 
