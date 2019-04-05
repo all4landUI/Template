@@ -107,7 +107,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" rowspan="2" class="t-cell">일반 개요</th>
+                            <th scope="row" rowspan="2" class="t-cell first-bdb">일반 개요</th>
                             <th scope="row" class="s-cell"><label for="e-altitude">섬의 고도</label></th>
                             <td><input type="text" id="e-altitude" name="" value="" class="full" placeholder="예) 30m"></td>
                             <th scope="row" class="s-cell"><label for="e-scale">규모</label></th>
@@ -140,7 +140,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="7" class="t-cell pc">육상 지형</th>
+                            <th scope="row" rowspan="7" class="t-cell pc first-bdb">육상 지형</th>
                             <th scope="row">해식절벽</th>
                             <td>
                                 <dl>
@@ -228,7 +228,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="3" class="t-cell pc">해안 지형</th>
+                            <th scope="row" rowspan="3" class="t-cell pc first-bdb">해안 지형</th>
                             <th scope="row">퇴적물 유형</th>
                             <td>
                                 <label><input type="radio" id="e-type-amban" name="e-type"><span>암반</span></label>
@@ -280,7 +280,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="5" class="t-cell pc">육상 지질</th>
+                            <th scope="row" rowspan="5" class="t-cell pc first-bdb">육상 지질</th>
                             <th scope="row">구성 암석</th>
                             <td><input type="text" id="e-" name="" value="" class="full"></td>
                             <th scope="row">총리 및 절리</th>
@@ -334,7 +334,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="4" class="t-cell pc">사진 및 도면</th>
+                            <th scope="row" rowspan="4" class="t-cell pc first-bdb">사진 및 도면</th>
                             <th scope="row"><label for="e-file-upload2">4방위(동쪽)</label></th>
                             <td><input type="file" id="e-file-upload2" name="" value=""></td>
                             <th scope="row"><label for="e-file-upload3">4방위(서쪽)</label></th>
@@ -445,6 +445,10 @@
             </select>
         </div>
     </footer>
-    <!-- /Footer -->  
+<style>
+    .first-bdb{
+        border-bottom: 1px solid #767676 !important;
+    }
+</style>    <!-- /Footer -->  
 
 </body>
