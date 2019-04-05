@@ -13,7 +13,7 @@
 
         <!-- Contents -->
         <section id="content" class="content">
-            <h1 class="title-sub-h1">통계 관리</h1>
+            <h1 class="title-sub-h1">접속 현황</h1>
 
             <!-- Location -->
             <ol class="location">
@@ -22,6 +22,66 @@
                 <li>접속 현황</li>
             </ol>
             <!-- /Location -->
+
+             <!-- 접속현황 조회 조건 선택 -->
+            <form action="">
+                <fieldset>
+                    <legend>접속현황 조회 조건</legend>
+                    <div class="table-vertical type2">
+                        <table>
+                            <caption class="blind">접속현황 조회 조건</caption>
+                            <colgroup>
+                                <col style="width:150px;">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th scope="row"><label for="s-date">조회기간</label></th>
+                                    <td>
+                                        <select id="s-date" name="s-date" title="년도 선택" style="width:100px;">
+                                            <option value="">2016</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </fieldset>
+            </form>
+            <!-- /접속현황 조회 조건 선택 -->
+
+            <div class="bt-area text-right">
+                <button type="button" class="bt dark-gray">조회</button>
+                <button type="button" class="bt dove">대장생성</button>
+            </div>
+
+            <!-- 접속현황 목록 -->
+            <div class="table-horizontal hover">
+                <table>
+                    <caption class="blind">접속현황 목록</caption>
+                    <colgroup>
+                        <col style="width:100px;">
+                        <col>
+                        <col style="width:130px;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col">년도</th>
+                            <th scope="col">서비스 구분</th>
+                            <th scope="col">건수</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2016</td>
+                            <td>유통 데이터</td>
+                            <td>9,574</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- /접속현황 목록 -->
+
         </section>
         <!-- /Contents -->
 

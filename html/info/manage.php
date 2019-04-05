@@ -22,15 +22,12 @@
                 <li>상세 정보 관리</li>
             </ol>
             <!-- /Location -->
-            <h2 class="title-sub-h2 first">지형·지질·경관
-                <a href="#" class="bt table pc">전체 템플릿 다운로드<i class="fa fa-download"></i></a>
-                <a href="list.html" class="bt table pc">기본 정보 보기<i class="fa fa-eye"></i></a>
-            </h2>   
+            <h2 class="title-sub-h2 first">지형·지질·경관</h2>   
 
             <!-- 전자 야장 정보 보기 -->
-            <div class="table-vertical">
+            <div >
                 <!-- 기본정보 -->
-                <div class="dropdown-content">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">기본 정보</caption>
                     <colgroup>
@@ -107,7 +104,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" rowspan="2" class="t-cell">일반 개요</th>
+                            <th scope="row" rowspan="2" class="t-cell first-bdb">일반 개요</th>
                             <th scope="row" class="s-cell"><label for="e-altitude">섬의 고도</label></th>
                             <td><input type="text" id="e-altitude" name="" value="" class="full" placeholder="예) 30m"></td>
                             <th scope="row" class="s-cell"><label for="e-scale">규모</label></th>
@@ -128,7 +125,7 @@
                 <!-- /기본정보 -->
                 
                 <!-- 육상 지형 -->
-                <div class="dropdown-content s-cell-group">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">육상 지형</caption>
                     <colgroup>
@@ -140,7 +137,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="7" class="t-cell pc">육상 지형</th>
+                            <th scope="row" rowspan="7" class="t-cell pc first-bdb">육상 지형</th>
                             <th scope="row">해식절벽</th>
                             <td>
                                 <dl>
@@ -216,7 +213,7 @@
                 <!-- /육상 지형 -->
                 
                 <!-- 해안 지형 -->
-                <div class="dropdown-content s-cell-group">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">해안 지형</caption>
                     <colgroup>
@@ -228,7 +225,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="3" class="t-cell pc">해안 지형</th>
+                            <th scope="row" rowspan="3" class="t-cell pc first-bdb">해안 지형</th>
                             <th scope="row">퇴적물 유형</th>
                             <td>
                                 <label><input type="radio" id="e-type-amban" name="e-type"><span>암반</span></label>
@@ -268,7 +265,7 @@
                 <!-- /해안 지형 -->
                 
                 <!-- 육상 지질 -->
-                <div class="dropdown-content s-cell-group">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">육상 지질</caption>
                     <colgroup>
@@ -280,7 +277,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="5" class="t-cell pc">육상 지질</th>
+                            <th scope="row" rowspan="5" class="t-cell pc first-bdb">육상 지질</th>
                             <th scope="row">구성 암석</th>
                             <td><input type="text" id="e-" name="" value="" class="full"></td>
                             <th scope="row">총리 및 절리</th>
@@ -322,7 +319,7 @@
                 <!-- /육상 지질 -->
 
                 <!-- 사진 및 도면 -->
-                <div class="dropdown-content s-cell-group">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">사진 및 도면</caption>
                     <colgroup>
@@ -334,7 +331,7 @@
                     </colgroup>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="4" class="t-cell pc">사진 및 도면</th>
+                            <th scope="row" rowspan="4" class="t-cell pc first-bdb">사진 및 도면</th>
                             <th scope="row"><label for="e-file-upload2">4방위(동쪽)</label></th>
                             <td><input type="file" id="e-file-upload2" name="" value=""></td>
                             <th scope="row"><label for="e-file-upload3">4방위(서쪽)</label></th>
@@ -364,7 +361,7 @@
                 <!-- /사진 및 도면 -->
                 
                 <!-- 추가정보 -->
-                <div class="dropdown-content">
+                <div class="table-vertical">
                 <table>
                     <caption class="blind">추가정보</caption>
                     <colgroup>
@@ -415,9 +412,9 @@
             </div>
             <!-- /전자 야장 정보 보기 -->
             
-            <div class="list-bottom">
-                <a href="#" class="bt submit">저장</a>
-                <a href="main.html" class="bt list">목록</a>
+            <div class="bt-area bt-center">
+                <a href="#" class="bt bt-1">저장</a>
+                <a href="main.html" class="bt bt-6">목록</a>
             </div>
 
         </section>
@@ -445,6 +442,10 @@
             </select>
         </div>
     </footer>
-    <!-- /Footer -->  
+<style>
+    .first-bdb{
+        border-bottom: 1px solid #767676 !important;
+    }
+</style>    <!-- /Footer -->  
 
 </body>

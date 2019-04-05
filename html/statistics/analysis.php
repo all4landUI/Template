@@ -13,7 +13,7 @@
 
         <!-- Contents -->
         <section id="content" class="content">
-            <h1 class="title-sub-h1">통계 관리</h1>
+            <h1 class="title-sub-h1">통합검색 분석 및 통계</h1>
 
             <!-- Location -->
             <ol class="location">

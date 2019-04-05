@@ -1009,3 +1009,37 @@ table.calendar .sat{
     border-radius: 2px;
 }
 /* Table Faq end*/
+
+
+
+/* 404error */
+.full-page.error article {
+    padding-top: 260px;
+    background: url('/../dist/images/bg-error.png') no-repeat center 100px;
+    text-align: center;
+}
+.full-page h1 {
+    margin-bottom: 40px;
+    padding: 20px 0;
+    color: #575656;
+    font-size: 60px;
+    line-height: 50px;
+    text-align: center;
+    background: #dddee0;
+}   
+.full-page.error p {
+    margin-bottom: 15px;
+    color: 3575656;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+.full-page .bt {
+    width: 200px;
+    height: 50px;
+    margin-top:  25px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #3a9ada;
+    border-radius: 2px;
+}
+/* 404error end*/

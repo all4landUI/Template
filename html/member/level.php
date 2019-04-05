@@ -13,7 +13,7 @@
 
         <!-- Contents -->
         <section id="content" class="content">
-            <h1 class="title-sub-h1">회원 관리</h1>
+            <h1 class="title-sub-h1">권한 관리</h1>
 
             <!-- Location -->
             <ol class="location">

@@ -13,7 +13,7 @@
 
         <!-- Contents -->
         <section id="content" class="content">
-            <h1 class="title-sub-h1">회원 관리</h1>
+            <h1 class="title-sub-h1">개인정보수정</h1>
 
             <!-- Location -->
             <ol class="location">
@@ -22,6 +22,78 @@
                 <li>개인정보수정</li>
             </ol>
             <!-- /Location -->
+
+            <!-- join wrap -->
+
+                <div id="join_form">
+                    <div>
+                        <h4>회원정보 필수입력</h4>
+                        <p><span>*</span>표시는 필수 입력 사항입니다.</p>
+                        <table class="table-vertical">
+                            <colgroup>
+                                <col style="width:25%">
+                                <col style="width:75%">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th><span class="red">*</span>이름</th>
+                                    <td>올포랜드</td>
+                                </tr>
+                                <tr>
+                                    <th><span class="red">*</span>아이디</th>
+                                    <td>all4land</td>
+                                </tr>
+                                <tr>
+                                    <th><span class="red">*</span>비밀번호</th>
+                                    <td>
+                                        <input type="text">
+                                        <div>
+                                            <p>9~12자까지 모든 문자+숫자+특수문자 : 영문 대소문자는 구별하여 입력해 주세요)</p>
+                                            <p>- 사용불가능한 특수문자 예 : <, >, _, ", '</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><span class="red">*</span>비밀번호확인</th>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th><span class="red">*</span>주소</th>
+                                    <td><input type="text"> <button class="bt">검색</button></td>
+                                </tr>
+                                <tr>
+                                    <th><span class="red">*</span>상세주소</th>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th><span class="red">*</span>이메일 주소</th>
+                                    <td>
+                                        <input type="text"><span> @ </span><input type="text">
+                                        <select name="" id="">
+                                            <option value="">이메일 선택</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><span class="red">*</span>휴대전화번호</th>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <th>직장연락처</th>
+                                    <td><input type="text"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div> 
+
+            <div class="bt-area text-right">
+                <button type="submit" class="bt bt-2">저장</button>
+                <button type="reset" class="bt bt-4">취소</button>
+            </div>
+
         </section>
         <!-- /Contents -->
 
