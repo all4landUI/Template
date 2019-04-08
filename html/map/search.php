@@ -75,7 +75,7 @@
                     </table>
                 </fieldset>
                 </form> 
-                <button type="button" class="ico close mobile"><span class="blind">레이어 닫기</span></button>
+                <!-- <button type="button" class="ico close mobile"><span class="blind">레이어 닫기</span></button> -->
             </div>
             <!-- /Search -->
 

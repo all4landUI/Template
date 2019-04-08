@@ -102,7 +102,7 @@
             <!-- /이전/다음글 -->
 
             <!-- 코멘트  //-->
-            <div class="comment-wrap">
+            <!-- <div class="comment-wrap">
                 <div class="comment_cont">
                     <header>
                         <h4>글쓴이</h4>
@@ -119,8 +119,9 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
 
+            <h3 class="title-answer"><i>A</i>답변</h3>
             <div class="table-vertical type-page margin-bottom-15">
                 <table>
                     <caption class="blind">코멘트관리</caption>
@@ -138,6 +139,13 @@
                             <td>
                                 <button class="bt">답변등록</button>
                             </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">첨부파일</th>
+                            <td colspan="2">
+                                <input type="file">
+                            </td>
+
                         </tr>
                     </tbody>
                 </table>

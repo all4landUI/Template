@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="ko">
+<head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +22,7 @@
 	<script type="text/javascript" src="/dist/js/libs/html5shiv.min.js"></script>
 	<script type="text/javascript" src="/dist/js/libs/respond.min.js"></script>
 <![endif]-->
+</head>
 <body class="layout-type-1">		
 	<article id="fixed_search">
 		<div class="inner">
@@ -39,7 +41,7 @@
   	<!-- Header -->
 	<header id="header">
 		<hgroup>
-			<h1 class="logo"><a href="../../login.php"><i></i><span class="blind">올포랜드 통합관리자</span></a></h1>
+			<h1 class="logo"><a href="/login.html"><i></i><span class="blind">올포랜드 통합관리자</span></a></h1>
 			<div class="user-info">
 				<!-- <button type="button">로그아웃</button> -->
 				<a href="/html/404.php">로그아웃</a>

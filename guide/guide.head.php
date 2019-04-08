@@ -27,10 +27,10 @@
 <body>
 
 <header class="g-header">
-	<h1 class="g-logo"><a href="#">UCS UI Element</a></h1>
+	<h1 class="g-logo"><a href="/guide">UCS UI Element</a></h1>
 	<div class="g-gnb">
 		<ul>
-			<li><a href="/html/api/PB_SC_305.php">통합템플릿</a></li>
+			<li><a href="/html/bbs/notice.php">통합템플릿</a></li>
 			<li><a href="/guide/document.php">UI Element</a></li>
 		</ul>
 		<button role="button" class="ham-menu"></button>

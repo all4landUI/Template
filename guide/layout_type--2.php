@@ -31,16 +31,16 @@
 					<span>홍길동 님</span>환영합니다.
 				</div>
 				<div class="btn_hgroup">
-					<button type="button">로그아웃</button>
-		            <a href="/html/join/join.php">회원가입</a>
-		            <a href="/html/sitemap/sitemap.php">사이트맵</a>
+					<button type="button" class="bt">로그아웃</button>
+		            <a href="/html/join/join.php" class="bt">회원가입</a>
+		            <!-- <a href="/html/sitemap/sitemap.php" class="bt">사이트맵</a> -->
 				</div>
 			</div>
 		</header>
 		
 	    <nav id="gnb" style="overflow-y:auto">
 			<ul role="menu">
-				<li class="depth-1 depth-view menu_open"><a href="/html/bbs/notice.php">게시판 관리</a>
+				<li class="depth-1 depth-view"><a href="/html/bbs/notice.php">게시판 관리</a>
 					<ul class="depth-menu">
 						<li><a href="/html/bbs/notice.php">공지사항</a></li>
 						<li><a href="/html/bbs/qna.php">묻고 답하기</a></li>
@@ -48,7 +48,7 @@
 						<li><a href="/html/bbs/gallery.php">갤러리</a></li>
 					</ul>
 				</li>
-				<li class="depth-1 depth-view"><a href="/html/info/manage.php">정보 관리</a>
+				<li class="depth-1 depth-view menu_open"><a href="/html/info/manage.php">정보 관리</a>
 					<ul class="depth-menu">
 						<li><a href="/html/info/notice.php">상세 정보 관리</a></li>
 					    <li><a href="/html/info/lib.php">용어사전</a></li>

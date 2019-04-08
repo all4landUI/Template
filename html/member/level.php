@@ -99,8 +99,8 @@
                     </ul>
                 </div>
                 <!-- /메뉴 리스트 -->
-                <button type="button" class="move-add"><img src="../../../images/bt/bt_move_add.png" alt="추가"></button>
-                <button type="button" class="move-delete"><img src="../../../images/bt/bt_move_delete.png" alt="제거"></button>
+                <button type="button" class="move-add"><img src="../../dist/images/bt/bt_move_add.png" alt="추가"></button>
+                <button type="button" class="move-delete"><img src="../../dist/images/bt/bt_move_delete.png" alt="제거"></button>
             </div>
             
             <div class="list-bottom text-right">

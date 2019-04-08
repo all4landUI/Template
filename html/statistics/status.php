@@ -88,7 +88,7 @@
                                     <th scope="row"><label for="s-date">조회기간 설정</label></th>
                                     <td colspan="5">
                                         <div class="search-form">
-                                            <div class="bt-area">
+                                            <div class="bt-area bt-left">
                                                 <button class="bt white bt table mr-5" style="width:70px;">1개월</button>
                                                 <button class="bt white bt table mr-5" style="width:70px;">3개월</button>
                                                 <button class="bt white bt table mr-5" style="width:70px;">6개월</button>

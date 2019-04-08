@@ -24,13 +24,14 @@
 .list-gallery.column-5 li:nth-child(5) { border-right: 0; }
 
 #bo_v_content { padding: 15px 0; }
+#bo_v_content img { max-width: 100%; }
 
 /* 
 ** 상세 답변달기
 **/
 .comment-wrap { background-color: #f8f8f8; margin: 0 0 15px; }
 .comment-wrap .comment_cont { border: 1px solid #ddd; padding: 15px; }
-.comment-wrap header { border-bottom: 1px solid #ddd; padding: 0 0 10px 0; margin: 0; overflow: hidden; font-size: 16px; }
+.comment-wrap header { border-bottom: 1px solid #ddd; padding: 0 0 10px 0; margin: 0; overflow: hidden; font-size: 13px; }
 .comment-wrap header h4 { float: left; font-size: 1em; }
 .comment-wrap header .cmt_date { float: right; font-size: 1em; }
-.comment-wrap .comment_body { padding: 15px 0; font-size: 16px; }
+.comment-wrap .comment_body { padding: 15px 0; font-size: 13px; }
