@@ -59,7 +59,7 @@
 
 		                        <label for="s-input" class="blind">검색어 입력</label>
 		                        <input type="text" id="s-input" name="" value="">
-		                        <button type="button" class="bt">검색</button>	
+		                        <button type="button" class="bt"><i class="fa fa-search" aria-hidden="true"></i></button>	
 		                    </fieldset>
 		                </form>
 

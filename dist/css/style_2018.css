@@ -900,9 +900,6 @@ table.calendar .sat{
     color: #fff;
     padding: 5px;
 }
-.searchbox table td .fa {
-    color: #fff
-}
 .map-container {
     position: absolute;
     left: 0px;
@@ -1042,3 +1039,13 @@ table.calendar .sat{
     border-radius: 2px;
 }
 /* 404error end*/
+
+.user-form .underline {
+    margin-left: 20px;
+    color: #0f78c8;
+    line-height: 55px;
+}
+
+.underline {
+    text-decoration: underline;
+}

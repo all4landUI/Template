@@ -69,7 +69,7 @@
                                 <td><input type="text" id="s-doseo" name="" value="" class="full"></td>
                                 <!-- /도서명 -->
                                 
-                                <td><button type="botton" class="bt">검색</button></td>
+                                <td><button type="submit" class="bt"><i class="fa fa-search" aria-hidden="true"></i></button></td>
                             </tr>
                         </tbody>
                     </table>

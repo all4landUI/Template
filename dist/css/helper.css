@@ -3483,7 +3483,7 @@ footer select { position: absolute; right: 0; top: 0px; width: 145px; color: #83
 
 .user-form .bt.underline { margin-left: 20px; color: #0f78c8; line-height: 55px; }
 
-.user-form .bt.login { float: right; width: 200px; height: 55px; color: #fff; font-size: 20px; font-weight: bold; background-color: #0f78c8; }
+.user-form .bt.login { float: right; width: 200px; height: 55px; color: #fff; font-size: 20px; font-weight: bold; background-color: #0f78c8; text-align: center;line-height: 55px;}
 
 .login-area footer { position: fixed; bottom: 0px; width: 100%; margin-top: 100px; text-align: center; border: 0px; }
 

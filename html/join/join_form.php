@@ -92,7 +92,7 @@
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>주소</th>
-                                    <td><input type="text"> <button class="bt">검색</button></td>
+                                    <td><input type="text"> <button class="bt"><i class="fa fa-search" aria-hidden="true"></i></button></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>상세주소</th>
