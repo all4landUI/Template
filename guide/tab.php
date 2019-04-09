@@ -26,33 +26,23 @@
 								var cont = $(this).siblings('.wrap_tabcont').find('li').length+1;
 								$(this).siblings('.wrap_tabcont').find('ul').append('<li><a href="#tab_example'+cont+'">탭메뉴'+cont+'</a></li>');
 							})
+							$(".mCustomScrollbar-x").mCustomScrollbar({
+								axis:"x" ,
+								autoDraggerLength : true,
+								advanced:{ autoExpandHorizontalScroll: true }
+							})
 						})
 					</script>
 
 					<!-- .wrap_tabcont //-->
 					<div class="wrap_tabcont margin-bottom-10">
-						<div class="mscroll-x mCustomScrollbar">
+						<div class="mCustomScrollbar">
 							<ul class="x-scroll">
 								<li class="active"><a href="#tab_example1">탭메뉴01</a></li><li><a href="#tab_example2">탭메뉴02</a></li><li><a href="#tab_example3">탭메뉴03</a></li><li><a href="#tab_example4">탭메뉴04</a></li>
 							</ul>
 						</div>
 					</div>
 					<!--// .wrap_tabcont -->
-
-
-					<script>
-						(function($){
-					        $(window).load(function(){
-								$(".mscroll-x").mCustomScrollbar();
-								$(".mscroll-x").mCustomScrollbar({
-									axis:"x",
-									advanced:{autoExpandHorizontalScroll:true}
-								});					           
-					        });
-					    })(jQuery);
-					</script>
-
-
 					<!-- tab-content //-->
 					<div class="tab-content">
 						<div class="tab-panel active" data-panel="tab_example1">
@@ -566,8 +556,8 @@
 	</div>
 
 </div>
-
 <!--// #guidePage -->
+
 <?php
 	include_once('./guide.foot.php');
 ?>

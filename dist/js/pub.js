@@ -155,11 +155,19 @@
 				})
 			}
 		},
+
+		mCuscroll : function(){
+			
+			
+
+		},
+
 		init : function(){
 			this.tab();
 			this.modal();
 			this.head();
 			this.location();
+			this.mCuscroll();
 		}
 	}
 

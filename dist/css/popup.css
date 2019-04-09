@@ -8,8 +8,10 @@
 .layer-system .modal-header { padding: 15px; margin: 0; background-color: #3c8dbc; color: #fff; }
 .layer-system .modal-header h2 { font-size: 20px; }
 .layer-system .modal-content { position: relative; padding: 45px; height: 100%; }
-.layer-system .modal-body { padding: 25px; height: 100%; overflow-y: scroll; background-color: rgba(255, 255, 255, 0.9); }
-.layer-system .modal-body .system-title { color: #3c8dbc; border-bottom: 1px solid #3c8dbc; font-size: 20px; padding-bottom: 10px; margin-bottom: 10px; }
+.layer-system .modal-body { padding: 25px 0; height: 100%; background-color: rgba(255, 255, 255, 0.9); }
+.layer-system .modal-body .mCSB_inside > .mCSB_container { margin-right: 0; }
+.layer-system .modal-body .system-title { color: #3c8dbc; border-bottom: 1px solid #3c8dbc; font-size: 20px; padding: 0 0 15px; margin: 0 25px 10px; }
+.layer-system .modal-body .system-content { padding: 0 25px 25px; line-height: 1.4; font-size: 14px; }
 .layer-system .modal-dimmed { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.4); z-index: 9; }
 .layer-system .btn-modal-close { position: absolute; top: 10px; right: 15px; padding: 5px; color: #fff; font-size: 18px; }
 .layer-system .btn-modal-close:after { content: "\f00d"; font-size: 1em; }

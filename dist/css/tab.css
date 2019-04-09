@@ -1,9 +1,11 @@
 /** mixin **/
+#mscroll-x { width: 100%; }
 
+.wrap_tabcont { height: 36px; }
+.wrap_tabcont .mCSB_horizontal.mCSB_inside > .mCSB_container { margin-bottom: 0; }
+.wrap_tabcont .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar { margin: 7px 0 0; }
+.wrap_tabcont .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail { margin: 7px 0 0; }
 .wrap_tabcont ul { border-bottom: 1px solid #ddd; }
-#mscroll-x{width: 100%;}
-.wrap_tabcont ul.x-scroll {white-space: nowrap; }
-.wrap_tabcont ul.x-scroll li { float: none; }
 .wrap_tabcont ul:after { content: ""; display: block; clear: both; overflow: hidden; }
 .wrap_tabcont ul li { display: inline-block; border: 1px solid #ddd; border-bottom: 0; background-color: #fff; text-align: center; float: left; }
 .wrap_tabcont ul li + li { margin-left: 5px; }
