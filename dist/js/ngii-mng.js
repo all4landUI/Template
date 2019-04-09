@@ -113,6 +113,9 @@ $(window).load(function () {
         return false;
     });
 })
+
+
+
 $(document).ready(function() {
 	
 	// Tab
@@ -123,7 +126,7 @@ $(document).ready(function() {
         $(this).parent().siblings('.tab-content').children().hide();
         var activeTab = $(this).attr('rel');
         $('#'+activeTab).fadeIn();		
-    }); 
+    });
 	
 	// Accordion
 	$('.a-toggle').on('click', function(e) {

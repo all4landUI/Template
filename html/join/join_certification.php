@@ -62,7 +62,7 @@
                 </div>
             </div> 
 
-			<div class="bt-area text-right">
+			<div class="bt-area bt-right">
                 <a href="join_agree.php" class="bt bt-2">확인</a>
                 <!-- <button type="submit" class="bt bt-2">확인</button> -->
                 <button type="reset" class="bt bt-5">취소</button>

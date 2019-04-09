@@ -1,12 +1,14 @@
 @charset "UTF-8";
 @import "../abstracts/variables";
 
+#mscroll-x{
+	width: 100%;
+}
 
 .wrap_tabcont{
 	ul{
 		border-bottom:1px solid $border-color;
 		&.x-scroll{
-			overflow-x:auto;
 			white-space:nowrap;
 			li{
 				float:none;

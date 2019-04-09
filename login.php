@@ -45,8 +45,8 @@
 				</dl>
 				<label class="check-save"><input type="checkbox" id="" name=""><span>ID 저장</span></label>
                 <a href="join.html" class="bt">회원가입</a>
-                <a href="html/bbs/notice.php" class="bt login">LOGIN</a>
-				<!-- <button title="새창열림" class="bt login">LOGIN</button> -->
+                <a href="/html/bbs/notice.php" class="bt login">LOGIN</a>
+                <!-- <button title="새창열림" class="bt login">LOGIN</button> -->
 			</fieldset>
 			</form>
 		</section>
@@ -54,8 +54,8 @@
 	</article>
 	<!-- /Contents -->
 
-	<footer>
 	<!-- Footer -->
+	<footer>
 		<address>서울특별시 금천구 가산디지털1로 145</address>
 		<span>TEL : 02 - 855 - 5724</span>
 		<span>FAX : 02 - 857 - 5746</span>

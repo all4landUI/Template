@@ -3164,6 +3164,8 @@ input[type="file"] { vertical-align: top; padding: 2px; height: 34px; background
 .fa { margin: 0 5px; }
 
 .ui-widget-header .ui-icon { background-image: url(../images/ui-icons_444444_256x240.png); }
+.ui-datepicker-prev .ui-icon-circle-triangle-w{background: url(../images/bt/bt-prev.png) no-repeat center;}
+.ui-datepicker-next .ui-icon-circle-triangle-e{background: url("../images/bt/bt-next.png") no-repeat center;}
 
 /* Position */
 .float-right { float: right !important; }
@@ -3277,7 +3279,7 @@ table td a:active, table td a:focus, table td a:hover { text-decoration: underli
 
 .table-vertical .addr-area #u-addr { margin: 10px 0; }
 
-.type-page { border-top: 1px solid #767676; }
+.type-page { border-top: 1px solid #767676;}
 
 .table-list tbody tr:active, .table-list tbody tr:focus, .table-list tbody tr:hover { background-color: #ecf7fc; }
 

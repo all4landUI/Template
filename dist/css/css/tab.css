@@ -1,8 +1,8 @@
 /** mixin **/
+#mscroll-x { width: 100%; }
 
 .wrap_tabcont ul { border-bottom: 1px solid #ddd; }
-#mscroll-x{width: 100%;}
-.wrap_tabcont ul.x-scroll {white-space: nowrap; }
+.wrap_tabcont ul.x-scroll { white-space: nowrap; }
 .wrap_tabcont ul.x-scroll li { float: none; }
 .wrap_tabcont ul:after { content: ""; display: block; clear: both; overflow: hidden; }
 .wrap_tabcont ul li { display: inline-block; border: 1px solid #ddd; border-bottom: 0; background-color: #fff; text-align: center; float: left; }
@@ -67,3 +67,5 @@
 .tab-content { position: relative; }
 .tab-content .tab-panel { position: absolute; opacity: 0; visibility: hidden; transform: translateY(20px); }
 .tab-content .tab-panel.active { position: relative; opacity: 1; visibility: visible; transform: translateY(0); transition: all 0.25s ease-in; }
+
+/*# sourceMappingURL=tab.css.map */

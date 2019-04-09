@@ -724,8 +724,7 @@ table.calendar .sat{
 .tab-menu.ea8 button {
     width: 12.5%;
 }
-.tab-content > section,
-.tab-content > div {
+.tab-content .login_con {
     display: none;
 }
 /* Tab end*/

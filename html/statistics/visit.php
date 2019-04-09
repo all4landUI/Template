@@ -50,7 +50,7 @@
             </form>
             <!-- /접속현황 조회 조건 선택 -->
 
-            <div class="bt-area text-right">
+            <div class="bt-area bt-right">
                 <button type="button" class="bt dark-gray">조회</button>
                 <button type="button" class="bt dove">대장생성</button>
             </div>

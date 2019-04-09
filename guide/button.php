@@ -64,6 +64,7 @@
 				</div>
 				<div class="meta">
 					<div class="description">
+						버튼은 우측정렬을 기본으로 한다.<br>
 						<code>등록 > 확인 > 수정 > 취소 > 삭제 > 목록</code>순으로 나열한다.<br>
 						<code>class="bt bt-1"</code>bt-1 ~ 6 속성에 대한 컬러를 지정하여 사용<br>
 						<code>class="bt bt-bg-1"</code>bt-bg-1 ~ 6 속성에 대한 배경컬러를 지정하여 사용<br>
@@ -82,7 +83,7 @@
 			</div>
 			
 
-			<p class="margin-top-0">게시판 목록 및 기본은 센터</p>
+			<p class="margin-top-0">게시판 목록 및 기본 우측정렬</p>
 			<div class="demo-block">
 				<div class="source">
 					<!-- 샘플 //-->
@@ -138,7 +139,7 @@
 		            <!--// 샘플  -->
 
 		            <!-- 버튼소스 //-->
-					<div class="bt-area bt-center margin-bottom-0">
+					<div class="bt-area bt-right margin-bottom-0">
 						<a href="#" class="bt bt-1">등록 1</a>
 						<a href="#" class="bt bt-2">확인 2</a>
 						<a href="#" class="bt bt-3">수정 3</a>
@@ -150,7 +151,7 @@
 				</div>
 				<div class="meta">
 					<div class="description">
-						 <code>class="bt-area bt-center"</code> 추가한다
+						 <code>class="bt-area bt-right"</code> 추가한다
 					</div>
 					<div class="highlight">
 <pre><code class="language-html">&lt;!-- 버튼소스 //--&gt;
@@ -167,10 +168,10 @@
 				</div>
 				<div class="demo-control fa"></div>
 			</div>
-			<p class="margin-top-0">게시판상세일 때는 우측정렬</p>
+			<p class="margin-top-0">게시판상세 우측정렬</p>
 			<div class="demo-block">
 				<div class="source">
-
+					
 					<!-- 샘플 //-->
 					<!-- 공지사항 등록 -->
 		            <div class="table-vertical margin-bottom-15">
@@ -205,7 +206,7 @@
 		                </table>
 		            </div>
 		            <!-- /공지사항 등록 -->
-
+					
 		            <!-- 이전/다음글 -->	
 		            <div class="table-vertical type-page margin-bottom-15">
 		                <table>
@@ -228,7 +229,7 @@
 		            </div>	
 		            <!-- /이전/다음글 -->
 					<!--// 샘플 -->
-
+					
 					<!-- 버튼소스 //-->
 					<div class="bt-area bt-right margin-bottom-0">
 						<a href="#" class="bt bt-1">등록 1</a>

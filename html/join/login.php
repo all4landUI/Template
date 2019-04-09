@@ -31,7 +31,7 @@
             
             <div class="tab-content">
                 <!-- 행정전자서명 로그인 -->
-                <div id="tabLogin1" style="display: block;">
+                <div id="tabLogin1" class="login_con" style="display: block;">
                     <div class="i-user-form">
                         <form action="" id="" name="">
                             <fieldset>
@@ -51,7 +51,7 @@
                 <!-- /행정전자서명 로그인 -->
                 
                 <!-- 일반 로그인 -->
-                <div id="tabLogin2">
+                <div id="tabLogin2" class="login_con">
                     <div class="i-user-form">
                         <form action="" id="" name="">
                             <fieldset>

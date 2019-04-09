@@ -31,11 +31,27 @@
 
 					<!-- .wrap_tabcont //-->
 					<div class="wrap_tabcont margin-bottom-10">
-						<ul class="x-scroll">
-							<li class="active"><a href="#tab_example1">탭메뉴01</a></li><li><a href="#tab_example2">탭메뉴02</a></li><li><a href="#tab_example3">탭메뉴03</a></li><li><a href="#tab_example4">탭메뉴04</a></li>
-						</ul>
+						<div class="mscroll-x mCustomScrollbar">
+							<ul class="x-scroll">
+								<li class="active"><a href="#tab_example1">탭메뉴01</a></li><li><a href="#tab_example2">탭메뉴02</a></li><li><a href="#tab_example3">탭메뉴03</a></li><li><a href="#tab_example4">탭메뉴04</a></li>
+							</ul>
+						</div>
 					</div>
 					<!--// .wrap_tabcont -->
+
+
+					<script>
+						(function($){
+					        $(window).load(function(){
+								$(".mscroll-x").mCustomScrollbar();
+								$(".mscroll-x").mCustomScrollbar({
+									axis:"x",
+									advanced:{autoExpandHorizontalScroll:true}
+								});					           
+					        });
+					    })(jQuery);
+					</script>
+
 
 					<!-- tab-content //-->
 					<div class="tab-content">

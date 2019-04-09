@@ -71,8 +71,8 @@
                         <tr>
                             <td>10</td>
                             <td class="subject">
-                                <a class="a-toggle">2018년도 12월 해양환경측정망 업데이트</a>
-                                <div class="a-content">
+                                <a class="a-toggle current">2018년도 12월 해양환경측정망 업데이트</a>
+                                <div class="a-content" style="display: block"">
                                     안녕하십니까!
                                     해양환경정보 포털에 관심과 애정을 가져주셔서 감사 드립니다.
                                     GRS80이란 1979년 12월 IUGG/IGA 총회에서 제정한 지구타원체이며,WGS84 타원체는 미국에서 군사 및 GPS 운영으로 채택한 것입니다.

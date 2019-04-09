@@ -122,7 +122,7 @@
                 </div>
             </div> 
 
-			<div class="bt-area text-right">
+			<div class="bt-area bt-right">
                 <button type="submit" class="bt bt-2">저장</button>
                 <button type="reset" class="bt bt-4">취소</button>
             </div>

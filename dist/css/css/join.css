@@ -24,4 +24,12 @@
 #join_form .table-vertical th { font-weight: bold; }
 #join_form .table-vertical .red { display: inline-block; color: red; }
 
-/*# sourceMappingURL=join.css.map */
+#join_argee .advice { margin-bottom: 20px; }
+#join_argee .agree_item .agree_tit { padding: 20px; border: 1px solid #dedede; border-radius: 5px 5px 0 0; font-size: 15px; font-weight: bold; background: #f9f9f9; }
+#join_argee .agree_item .agree_cont { overflow-y: auto; padding: 20px; border: 1px solid #000; border-width: 1px 1px 1px; border-style: none solid solid; border-color: #dedede; border-image: initial; border-top: none; height: 200px; }
+#join_argee .check_area { margin: 10px 0 20px 0; text-align: right; }
+
+
+#join_form .table-vertical th { font-weight: bold; }
+#join_form .table-vertical .red { display: inline-block; color: red;}
+

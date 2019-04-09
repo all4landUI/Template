@@ -37,7 +37,7 @@
                         <select id="s-require" name="w-require">
                             <option value="">전체</option>
                         </select>
-
+                        
                         <label for="s-input" class="blind">검색어 입력</label>
                         <input type="text" id="s-input" name="s-input" value="">
                         <button type="button" class="bt">검색</button>    
@@ -46,7 +46,7 @@
                 <p class="count float-left">게시글 수 <em>17</em></p>
             </div>
             <!--// search-form -->
-
+            
             <form action="">
             <!-- table-horizontal //-->
             <div class="table-horizontal">
