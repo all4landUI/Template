@@ -25,6 +25,7 @@
 	<div class="modal-content">
 			<!-- modal-body //-->
 			<div class="modal-body">
+
 				<div class="system-title">
 					디자인비즈니스 종합정보<br>
 					지원 관련 설문조사
