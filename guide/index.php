@@ -10,7 +10,7 @@
 
 	<div id="guideContent">
 		<!-- guide-title //-->
-		<h2 class="g-title">Template</h2>
+		<h2 class="g-title">Admin Template</h2>
 		<!--// guide-title -->
 		<!-- g-content //-->
 		<div class="g-content">

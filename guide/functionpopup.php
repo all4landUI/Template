@@ -72,10 +72,7 @@
 	                        </tr>
 	                        
 	                    </tbody>
-	                </table><br>
-					<div class="bt-area">
-	                	<button class="bt">확인하러 가기</button>
-	                </div>
+	                </table>
 	            </div>
 			</div>
 			<div class="tab-panel" data-panel="tab_example2">
@@ -86,6 +83,10 @@
 		<!--// tab-content  -->
 	</div>
 	<!--// window_content -->
+	<div class="bt-area">
+		<button class="bt">확인</button>
+		<button class="bt" onclick="window.close();">닫기</button>
+	</div>
 </div>
 <!--// #function_popup -->
 </body>

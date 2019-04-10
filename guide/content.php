@@ -29,7 +29,7 @@
 							<li>해양문화행사(해양사진전, 해양문학상)</li>
 						</ul>
 
-						<p class="margin-top-15 margin-bottom-15"><img alt="인적손해 구제의 구조 이미지입니다. 자세한 설명은 아래를 참고하세요." src="/dist/images/dummy/img_sewolho_structure.gif"></p>
+						<p class="margin-top-15 margin-bottom-15"><img alt="인적손해 구제의 구조 이미지입니다. 자세한 설명은 아래를 참고하세요." src="../../dist/images/thumb/sample.png"></p>
 						<h4 class="cont_title1">인적손해 구제의 구조</h4>
 						<ul class="list_comm list_st2 margin-top-5">
 							<li>해양수산발전기본법 및 해양수산발전위원회 운영</li>

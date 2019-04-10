@@ -49,3 +49,7 @@ a.bt { height: 29px; line-height: 27px; }
 .bt.bt-6 { color: #e0e0e0; border-color: #e0e0e0; }
 
 .bt.bt-bg-6 { color: #fff; border: 0; line-height: 29px; background-color: #e0e0e0; }
+
+.bt.bt-1, .bt.bt-2, .bt.bt-3, .bt.bt-4, .bt.bt-5, .bt.bt-6, .bt.dark-gray, .bt.dove { color: #3c8dbc !important; background-color: #fff !important; border: 1px solid #ddd !important; }
+
+/*# sourceMappingURL=button.css.map */

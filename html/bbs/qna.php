@@ -76,8 +76,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><input type="checkbox" name="chk[]" value="0" id="chk_0"></td>
-                            <td><span class="txt-gray"></span>2</td>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_3"></td>
+                            <td><span class="txt-gray"></span>7</td>
                             <td>GNSS서비스</td>
                             <td class="subject"><a href="qna.view.php">순천 위성기준점 시설 개량공사</a></td>
                             <td>국토측량과</td>
@@ -86,7 +86,77 @@
                             <td><span class="txt-gray">10</span></td>
                         </tr>
                         <tr>
-                            <td><input type="checkbox" name="chk[]" value="0" id="chk_0"></td>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_3"></td>
+                            <td><span class="txt-gray"></span>6</td>
+                            <td>국토정보플랫폼</td>
+                            <td class="subject"><a href="qna.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_2"></td>
+                            <td><span class="txt-gray"></span>6</td>
+                            <td>국토정보플랫폼</td>
+                            <td class="subject"><a href="qna.view.php"><img src="../../dist/images/ico/ico-re.gif" width="25" alt=""> 순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_3"></td>
+                            <td><span class="txt-gray"></span>5</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="qna.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_3"></td>
+                            <td><span class="txt-gray"></span>4</td>
+                            <td>국토정보플랫폼</td>
+                            <td class="subject"><a href="qna.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_5"></td>
+                            <td><span class="txt-gray"></span>3</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="qna.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_4"></td>
+                            <td><span class="txt-gray"></span>3</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="qna.view.php"><img src="../../dist/images/ico/ico-re.gif" width="25" alt=""> 순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_3"></td>
+                            <td><span class="txt-gray"></span>2</td>
+                            <td>국토정보플랫폼</td>
+                            <td class="subject"><a href="qna.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_2"></td>
                             <td><span class="txt-gray"></span>2</td>
                             <td>국토정보플랫폼</td>
                             <td class="subject"><a href="qna.view.php"><img src="../../dist/images/ico/ico-re.gif" width="25" alt=""> 순천 위성기준점 시설 개량공사</a></td>
@@ -96,7 +166,7 @@
                             <td><span class="txt-gray">10</span></td>
                         </tr>
                         <tr>
-                            <td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+                            <td><input type="checkbox" name="chk[]" value="1" id="chk_0"></td>
                             <td><span class="txt-gray">1</span></td>
                             <td>GNSS서비스</td>
                             <td class="subject"><a href="qna.view.php">순천 위성기준점 시설 개량공사</a></td>

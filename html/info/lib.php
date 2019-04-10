@@ -46,7 +46,7 @@
             margin-top:25px;
             border-top:2px solid #004a8d;
         }
-        .search_list dl{overflow:hidden;padding:15px 0;border-bottom:1px solid #ddd;font-size:16px;}
+        .search_list dl{overflow:hidden;padding:15px 0;border-bottom:1px solid #ddd;}
         .search_list dl dt{float:left;width:30%;color:#333;}
         .search_list dl dd{float:left;width:70%;}
     </style>
@@ -159,11 +159,6 @@ B-Type WIG ship수면효과범위를 벗어나 고도를 일시적으로 증가�
                     <button type="button">3</button>
                     <button type="button">4</button>
                     <button type="button">5</button>
-                    <button type="button">6</button>
-                    <button type="button">7</button>
-                    <button type="button">8</button>
-                    <button type="button">9</button>
-                    <button type="button">10</button>
                 </div>
                 <button type="button" class="next">다음</button>
             </div>

@@ -456,6 +456,7 @@
 					</div>
 					<!--// tab-content  -->
 				</div>
+
 				<div class="meta">
 					<div class="description">
 						각 탭에 맞는 <code>span="image"</code>에 background-image를 css에서 선언한다 최대8까지 지원

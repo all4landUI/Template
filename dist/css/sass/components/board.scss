@@ -28,7 +28,7 @@
                 width:100%/$i;
             }
             li{
-                &:nth-child(#{$i}){
+                &:nth-child(#{$i}n){
                     border-right:0;
                 }
             }

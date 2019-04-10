@@ -26,8 +26,8 @@
             <!-- list-DropDown -->
             <ul class="list-dopdown accordion">
                 <li>
-                    <h3 class="a-toggle current">해양환경관리법</h3>
-                    <div class="a-content" style="display: block">
+                    <h3 class="a-toggle">해양환경관리법</h3>
+                    <div class="a-content">
                         <ul class="list-dot">
                             <li><a href="#">해양환경관리법</a></li>
                             <li>

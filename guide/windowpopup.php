@@ -43,10 +43,12 @@
 					- 개발기간 : 3개월 이내<br>
 					- 디자인수요기업(중소기업) 및 디자인기업을 각각 선정하여 1:1 매칭 지원
 				</div>
-
 			</div>
 			<!--// .modal-body -->
-			<a href="#popup_name2" class="btn-modal-close fa"></a>
+		</div>
+		<div class="bt-area">
+			<button class="bt">확인</button>
+			<button class="bt" onclick="window.close();">취소</button>
 		</div>
 </div>
 <!--// #window_popup -->

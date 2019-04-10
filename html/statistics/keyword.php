@@ -39,7 +39,7 @@
                             <td>
                                 <div class="search-form">
                                     <span class="search-date"><input type="text" id="date" name="" value="" class="datepicker"></span>
-                                    <button class="bt bt-2">조회</button>
+                                    <button class="bt bt-2"><i class="fa fa-search" aria-hidden="true"></i></button>
                                     <button class="bt down bt table" style="margin-left:0;">엑셀다운로드</button>
                                     (선택일로부터 <span class="txt-blue">10일</span> 이전)
                                 </div>
@@ -74,7 +74,7 @@
                                     <td>
                                         <div class="search-form">
                                             <span class="search-date"><input type="text" id="s-date" name="s-date" value="" class="datepicker"></span>
-                                            <button class="bt bt-2">조회</button>
+                                            <button class="bt bt-2"><i class="fa fa-search" aria-hidden="true"></i></button>
                                             <button class="bt down bt table" style="margin-left:0;">엑셀다운로드</button>
                                             (선택일로부터 <span class="txt-blue">10일</span> 이전)
                                         </div>

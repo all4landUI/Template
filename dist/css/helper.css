@@ -3323,7 +3323,7 @@ td .search-form { margin-bottom: 0px; }
 
 .title-sub-h2 { margin: 50px 0 15px; padding-left: 20px; color: #343434; font-size: 17px; font-weight: bold; line-height: 20px; background: url("../images/bu/bu-tri.png") no-repeat left center; }
 
-.title-table { display: block; height: 50px; padding: 13px 32px; color: #383838; font-size: 20px; font-weight: bold; border-bottom: 1px solid #e0e0e0; }
+.title-table { display: block; padding: 13px 32px; color: #383838; font-size: 20px; font-weight: bold; border-bottom: 1px solid #e0e0e0; }
 
 .title-table em { color: #0a8cbc; font-weight: bold; }
 

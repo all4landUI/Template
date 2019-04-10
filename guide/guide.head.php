@@ -32,7 +32,8 @@
 	<h1 class="g-logo"><a href="/guide">UCS UI Element</a></h1>
 	<div class="g-gnb">
 		<ul>
-			<li><a href="/html/bbs/notice.php">통합템플릿</a></li>
+			<li><a href="/guide/index.php">관리자 템플릿</a></li>
+			<li><a href="/guide/map_index.php">지도 템플릿</a></li>
 			<li><a href="/guide/document.php">UI Element</a></li>
 		</ul>
 		<button role="button" class="ham-menu"></button>

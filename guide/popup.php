@@ -20,7 +20,7 @@
 			<div class="demo-block">
 				<div class="source">
 					<a href="#popup_name2" class="btn-pop-open bt">레이어 팝업열기</a>
-					<a href="/guide/windowpopup.php" data-modal-name="이름" data-modal-width="500" data-modal-height="520" class="btn-pop-open bt">윈도우 팝업열기</a>
+					<a href="/guide/windowpopup.php" data-modal-name="이름" data-modal-width="500" data-modal-height="565" class="btn-pop-open bt">윈도우 팝업열기</a>
 				</div>
 				<div class="meta">
 					<div class="description">
@@ -60,7 +60,7 @@
 			<div class="demo-block">
 				<div class="source">
 					<a href="#popup_name" class="btn-pop-open bt">레이어 팝업열기</a>
-					<a href="/guide/functionpopup.php" data-modal-name="이름" data-modal-width="900" data-modal-height="600" class="btn-pop-open bt">윈도우 팝업열기</a>
+					<a href="/guide/functionpopup.php" data-modal-name="이름" data-modal-width="900" data-modal-height="560" class="btn-pop-open bt">윈도우 팝업열기</a>
 				</div>
 				<div class="meta">
 					<div class="description">
@@ -111,7 +111,7 @@
 
 <article class="layer-system" id="popup_name2">
 	<!-- modal-container //-->
-	<div class="modal-container" style="left:100px;top:100px;width:500px;height:500px;background:#7cb6ce">
+	<div class="modal-container" style="left:100px;top:100px;width:550px;height:550px;background:#7cb6ce">
 		<div class="modal-content">
 			<!-- modal-body //-->
 			<div class="modal-body mCustomScrollbar mCustomScrollbar-y">
@@ -144,7 +144,10 @@
 					- 개발기간 : 3개월 이내<br>
 					- 디자인수요기업(중소기업) 및 디자인기업을 각각 선정하여 1:1 매칭 지원
 				</div>
-
+			</div>
+			<div class="bt-area">
+				<button class="bt">확인</button>
+				<button class="bt">취소</button>
 			</div>
 			<!--// .modal-body -->
 			<a href="#popup_name2" class="btn-modal-close fa"></a>
@@ -215,10 +218,7 @@
 				                        </tr>
 				                        
 				                    </tbody>
-				                </table><br>
-								<div class="bt-area">
-				                	<button class="bt">확인하러 가기</button>
-				                </div>
+				                </table>
 				            </div>
 						</div>
 						<div class="tab-panel" data-panel="tab_example2">
@@ -233,8 +233,12 @@
 
 				<!-- .modal-foot //-->
 				<div class="modal-foot">
-					
-				</div>				
+					<div class="bt-area">
+						<button class="bt">확인</button>
+						<button class="bt">닫기</button>
+					</div>	
+				</div>
+
 				<!--// .popup-foot  -->
 				<a href="#popup_name" class="btn-modal-close fa"></a>
 			</div>

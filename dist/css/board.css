@@ -15,13 +15,13 @@
 .list-gallery li .wrap-galleryImg + span { display: block; height: 25px; }
 .list-gallery li .wrap-galleryImg img { width: 100%; height: auto; }
 .list-gallery.column-2 li { width: 50%; }
-.list-gallery.column-2 li:nth-child(2) { border-right: 0; }
+.list-gallery.column-2 li:nth-child(2n) { border-right: 0; }
 .list-gallery.column-3 li { width: 33.3333333333%; }
-.list-gallery.column-3 li:nth-child(3) { border-right: 0; }
+.list-gallery.column-3 li:nth-child(3n) { border-right: 0; }
 .list-gallery.column-4 li { width: 25%; }
-.list-gallery.column-4 li:nth-child(4) { border-right: 0; }
+.list-gallery.column-4 li:nth-child(4n) { border-right: 0; }
 .list-gallery.column-5 li { width: 20%; }
-.list-gallery.column-5 li:nth-child(5) { border-right: 0; }
+.list-gallery.column-5 li:nth-child(5n) { border-right: 0; }
 
 #bo_v_content { padding: 15px 0; }
 #bo_v_content img { max-width: 100%; }
@@ -35,3 +35,5 @@
 .comment-wrap header h4 { float: left; font-size: 1em; }
 .comment-wrap header .cmt_date { float: right; font-size: 1em; }
 .comment-wrap .comment_body { padding: 15px 0; font-size: 13px; }
+
+/*# sourceMappingURL=board.css.map */
