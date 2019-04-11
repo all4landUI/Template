@@ -25,30 +25,27 @@
 				<div class="demo-priview">
 					<div class="box">
 						<h3>A TYPE</h3>
-						<p class="thumbnail"><img src="../../dist/images/dummy/navigation1.gif" alt="이미지설명"></p>
-						<div class="check-radio" style="border-top:1px solid #ddd">
-							<input type="radio" name="priview" value="layout_type--1">
-						</div>
+						<p class="thumbnail">
+							<a href="layout_type--1.php" target="_blank"><img src="../../dist/images/dummy/navigation1.gif" alt="이미지설명"></a>
+						</p>
 					</div>
 				</div>
 
 				<div class="demo-priview">
 					<div class="box">
 						<h3>B TYPE</h3>
-						<p class="thumbnail"><img src="../../dist/images/dummy/navigation2.gif" alt="이미지설명"></p>
-						<div class="check-radio" style="border-top:1px solid #ddd">
-							<input type="radio" name="priview" value="layout_type--2">
-						</div>
+						<p class="thumbnail">
+							<a href="layout_type--2.php" target="_blank"><img src="../../dist/images/dummy/navigation2.gif" alt="이미지설명"></a>
+						</p>
 					</div>
 				</div>
 
 				<div class="demo-priview">
 					<div class="box">
 						<h3>C TYPE</h3>
-						<p class="thumbnail"><img src="../../dist/images/dummy/navigation3.gif" alt="이미지설명"></p>
-						<div class="check-radio" style="border-top:1px solid #ddd">
-							<input type="radio" name="priview" value="layout_type--3">
-						</div>
+						<p class="thumbnail">
+							<a href="layout_type--3.php" target="_blank"><img src="../../dist/images/dummy/navigation3.gif" alt="이미지설명"></a>
+						</p>
 					</div>
 				</div>
 

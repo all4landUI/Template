@@ -19,7 +19,7 @@
         span { display: block; text-align: center; color: #535353; font-size: 14px; }
         .wrap-galleryImg { margin: 0 auto 15px; overflow: hidden; 
             &+span { display: block; height: 25px; }
-            img { width: 100%; height: auto; }
+            img { max-width: 100%; height: auto; }
         }
     }
     @for $i from 2 through 5 {

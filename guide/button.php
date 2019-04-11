@@ -113,9 +113,9 @@
 		                        </tr>
 		                    </thead>
 		                    <tbody>
-		                        <tr>
-		                        	<td><input type="checkbox" name="chk[]" value="0" id="chk_0"></td>
-		                            <td><span class="txt-gray"></span>2</td>
+		                    	<tr>
+		                        	<td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+		                            <td><span class="txt-gray"></span>10</td>
 		                            <td>GNSS서비스</td>
 		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
 		                            <td>국토측량과</td>
@@ -125,6 +125,86 @@
 		                        </tr>
 		                        <tr>
 		                        	<td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+		                            <td><span class="txt-gray"></span>9</td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                        	<td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+		                            <td><span class="txt-gray"></span>8</td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                        	<td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+		                            <td><span class="txt-gray"></span>7</td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                        	<td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+		                            <td><span class="txt-gray"></span>6</td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                        	<td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+		                            <td><span class="txt-gray"></span>5</td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                        	<td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+		                            <td><span class="txt-gray"></span>4</td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                        	<td><input type="checkbox" name="chk[]" value="2" id="chk_2"></td>
+		                            <td><span class="txt-gray"></span>3</td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                        	<td><input type="checkbox" name="chk[]" value="1" id="chk_1"></td>
+		                            <td><span class="txt-gray"></span>2</td>
+		                            <td>GNSS서비스</td>
+		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
+		                            <td>국토측량과</td>
+		                            <td><span class="txt-gray">2015.07.30</span></td>
+		                            <td><span class="has-file">첨부파일 있음</span></td>
+		                            <td><span class="txt-gray">10</span></td>
+		                        </tr>
+		                        <tr>
+		                        	<td><input type="checkbox" name="chk[]" value="0" id="chk_0"></td>
 		                            <td><span class="txt-gray">1</span></td>
 		                            <td>GNSS서비스</td>
 		                            <td class="subject"><a href="board_view.php">순천 위성기준점 시설 개량공사</a></td>
@@ -140,12 +220,12 @@
 
 		            <!-- 버튼소스 //-->
 					<div class="bt-area bt-right margin-bottom-0">
-						<a href="#" class="bt bt-1">등록 1</a>
-						<a href="#" class="bt bt-2">확인 2</a>
-						<a href="#" class="bt bt-3">수정 3</a>
-						<a href="#" class="bt bt-4">취소 4</a>
-						<a href="#" class="bt bt-5">삭제 5</a>
-						<a href="#" class="bt bt-6	">목록 6</a>
+						<a href="#" class="bt bt-1">등록</a>
+						<a href="#" class="bt bt-2">확인</a>
+						<a href="#" class="bt bt-3">수정</a>
+						<a href="#" class="bt bt-4">취소</a>
+						<a href="#" class="bt bt-5">삭제</a>
+						<a href="#" class="bt bt-6">목록</a>
 					</div>
 					<!--// 버튼소스 -->
 				</div>
@@ -232,12 +312,12 @@
 					
 					<!-- 버튼소스 //-->
 					<div class="bt-area bt-right margin-bottom-0">
-						<a href="#" class="bt bt-1">등록 1</a>
-						<a href="#" class="bt bt-2">확인 2</a>
-						<a href="#" class="bt bt-3">수정 3</a>
-						<a href="#" class="bt bt-4">취소 4</a>
-						<a href="#" class="bt bt-5">삭제 5</a>
-						<a href="#" class="bt bt-6	">목록 6</a>
+						<a href="#" class="bt bt-1">등록</a>
+						<a href="#" class="bt bt-2">확인</a>
+						<a href="#" class="bt bt-3">수정</a>
+						<a href="#" class="bt bt-4">취소</a>
+						<a href="#" class="bt bt-5">삭제</a>
+						<a href="#" class="bt bt-6">목록</a>
 					</div>
 					<!--// 버튼소스 -->
 				</div>

@@ -147,7 +147,7 @@
         </section>
         <!-- /Sub Menu -->
 
-         <!-- Contents -->
+        <!-- Contents -->
         <section id="content" class="content">
             <h1 class="title-sub-h1">공지사항</h1>
 

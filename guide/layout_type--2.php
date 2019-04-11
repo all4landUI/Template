@@ -94,56 +94,186 @@
 
 			<!-- content-head //-->
 			<div class="content-head">
-				<h1>바로e맵 오픈 API 상세보기</h1>
+				<h1>공지사항</h1>
 				<div id="breadCrumb">
 					<span><i class="fa fa-home"></i></span>
-					<span>OPEN API관리</span>
-					<span class="current">바로e맵 오픈 API목록</span>
+					<span>게시판관리</span>
+					<span class="current">공지사항</span>
 				</div>
 			</div>
 			<!--// content-head -->
 
 			<!-- content-body //-->
 			<div class="content-body">
-				<div class="table-vertical type2">
-	                <table>
-	                    <caption class="blind">바로e맵 오픈 API 상세보기</caption>
-	                    <colgroup>
-	                        <col style="width:150px;">
-	                        <col>
-	                        <col style="width:150px;">
-	                        <col>
-	                    </colgroup>
-	                    <tbody>
-	                        <tr>
-	                            <th scope="row">분류</th>
-	                            <td>지도 오픈 API</td>
-	                            <th scope="row">인증키 신청자</th>
-	                            <td>김현일</td>
-	                        </tr>
-	                        <tr>
-	                            <th scope="row">신청사유</th>
-	                            <td colspan="3">교육용</td>
-	                        </tr>
-	                        <tr>
-	                            <th scope="row">사용 URL</th>
-	                            <td colspan="3">http://killerf.ddns.net</td>
-	                        </tr>
-	                        <tr>
-	                            <th scope="row">인증키</th>
-	                            <td>YshBYZNumv37ALwhvQCQwg</td>
-	                            <th scope="row">인증키 신청일시</th>
-	                            <td>2016.07.30 07:01</td>
-	                        </tr>
-	                        <tr>
-	                            <th scope="row">승인여부</th>
-	                            <td>승인</td>
-	                            <th scope="row">인증키 승인일시</th>
-	                            <td>2016.07.30 07:02</td>
-	                        </tr>
-	                    </tbody>
-	                </table>
-	            </div>
+				<!-- search-form //-->
+            <div class="search-form">
+                <form action="" class="float-right">
+                    <fieldset>
+                        <legend>리스트 검색</legend>
+                        <label for="s-type" class="blind">서비스 구분</label>
+                        <select id="s-type" name="w-type">
+                            <option value="">전체</option>
+                        </select>
+
+                        <label for="s-require" class="blind">검색 조건 선택</label>
+                        <select id="s-require" name="w-require">
+                            <option value="">전체</option>
+                        </select>
+                        
+                        <label for="s-input" class="blind">검색어 입력</label>
+                        <input type="text" id="s-input" name="s-input" value="">
+                        <button type="button" class="bt"><i class="fa fa-search" aria-hidden="true"></i></button>    
+                    </fieldset>
+                </form>
+                <p class="count float-left">게시글 수 <em>17</em></p>
+            </div>
+            <!--// search-form -->
+            
+            <!-- table-horizontal //-->
+            <div class="table-horizontal">
+                <table>
+                    <caption class="blind">공지사항 목록</caption>
+                    <colgroup>
+                        <col style="width:50px;">
+                        <col style="width:50px;">
+                        <col style="width:130px;">
+                        <col>
+                        <col style="width:100px;">
+                        <col style="width:100px;">
+                        <col style="width:75px;">
+                        <col style="width:60px;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th scope="col"><input type="checkbox" name="chkall" id="chkall" onclick="check_all(this.form)"></th>
+                            <th scope="col">번호</th>
+                            <th scope="col">서비스 구분</th>
+                            <th scope="col">제목</th>
+                            <th scope="col">담당부서</th>
+                            <th scope="col">등록일</th>
+                            <th scope="col">첨부파일</th>
+                            <th scope="col">조회수</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_9"></td>
+                            <td><span class="txt-gray"></span>10</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_8"></td>
+                            <td><span class="txt-gray"></span>9</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_7"></td>
+                            <td><span class="txt-gray"></span>8</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_6"></td>
+                            <td><span class="txt-gray"></span>7</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_5"></td>
+                            <td><span class="txt-gray"></span>6</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_4"></td>
+                            <td><span class="txt-gray"></span>5</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_3"></td>
+                            <td><span class="txt-gray"></span>4</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_2"></td>
+                            <td><span class="txt-gray"></span>3</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="0" id="chk_1"></td>
+                            <td><span class="txt-gray"></span>2</td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="chk[]" value="1" id="chk_0"></td>
+                            <td><span class="txt-gray">1</span></td>
+                            <td>GNSS서비스</td>
+                            <td class="subject"><a href="/html/bbs/notice.view.php">순천 위성기준점 시설 개량공사</a></td>
+                            <td>국토측량과</td>
+                            <td><span class="txt-gray">2015.07.30</span></td>
+                            <td><span class="has-file">첨부파일 있음</span></td>
+                            <td><span class="txt-gray">10</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--// table-horizontal -->
+
+            <!-- pagination //-->
+            <div class="pagination">
+                <button type="button" class="prev">이전</button>  
+                <div>
+                    <button type="button" class="current">1</button>
+                    <button type="button">2</button>
+                    <button type="button">3</button>
+                    <button type="button">4</button>
+                    <button type="button">5</button>
+                </div>
+                <button type="button" class="next">다음</button>
+            </div>
+            <!--// pagination -->
 			</div>
 			<!--// content-body -->
 

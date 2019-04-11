@@ -24,30 +24,32 @@
 				<div class="demo-priview">
 					<div class="box">
 						<h3>A TYPE</h3>
-						<p class="thumbnail"><img src="/dist/images/thumb/collavi_img.jpg" alt="이미지설명" style="height: 303px;"></p>
-						<div class="check-radio">
-							<a href="#" onclick="alert('준비중입니다.')">미리보기</a>
-						</div>
+						
+						<p class="thumbnail">
+							<a href="#" onclick="alert('준비중입니다.')"><img src="/dist/images/thumb/collavi_img.jpg" alt="이미지설명" style="height: 303px;"></a>
+						</p>
+					
+						
+						
 					</div>
 				</div>
 
 				<div class="demo-priview">
 					<div class="box">
 						<h3>B TYPE</h3>
-						<p class="thumbnail"><img src="/dist/images/thumb/img_gallery_thumb5.jpg" alt="이미지설명" style="height: 303px;"></p>
-						<div class="check-radio">
-							<a href="http://all4proto.iptime.org:11980/uiguide/new_html/download/html/map_type1/map.html" target="_blank">미리보기</a>
-						</div>
+						<p class="thumbnail"><a href="http://all4proto.iptime.org:11980/uiguide/new_html/download/html/map_type1/map.html" target="_blank"><img src="/dist/images/thumb/img_gallery_thumb5.jpg" alt="이미지설명" style="height: 303px;"></a></p>
+						
 					</div>
 				</div>
 
 				<div class="demo-priview" >
 					<div class="box">
 						<h3>C TYPE</h3>
-						<p class="thumbnail"><img src="/dist/images/thumb/img_gallery_thumb9.jpg" alt="이미지설명" style="height: 303px;"></p>
-						<div class="check-radio">
-							<a href="http://uii.mof.go.kr/UII/mn/mng_card/user.do" target="_blank">미리보기</a>
-						</div>
+						<p class="thumbnail">
+							<a href="http://uii.mof.go.kr/UII/mn/mng_card/user.do" target="_blank"><img src="/dist/images/thumb/img_gallery_thumb9.jpg" alt="이미지설명" style="height: 303px;">
+							</a>
+						</p>
+						
 					</div>
 				</div>
 

@@ -66,7 +66,5 @@
 .wrap_tabcont.tab-column-10 li:nth-child(10) ~ li { border-top: 1px solid #ddd; }
 
 .tab-content { position: relative; }
-.tab-content .tab-panel { position: absolute; opacity: 0; visibility: hidden; transform: translateY(20px); }
+.tab-content .tab-panel { position: absolute; opacity: 0; top: 0; visibility: hidden; transform: translateY(20px); }
 .tab-content .tab-panel.active { position: relative; opacity: 1; visibility: visible; transform: translateY(0); transition: all 0.25s ease-in; }
-
-/*# sourceMappingURL=tab.css.map */
