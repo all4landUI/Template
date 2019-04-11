@@ -93,9 +93,9 @@
                                                 <button class="bt white bt table mr-5" style="width:70px;">3개월</button>
                                                 <button class="bt white bt table mr-5" style="width:70px;">6개월</button>
                                                 <button class="bt white bt table mr-5" style="width:70px;">1년</button>
-                                                <button class="bt white bt table mr-5" style="width:70px;">2013년</button>
-                                                <button class="bt white bt table mr-5" style="width:70px;">2014년</button>
-                                                <button class="bt white bt table mr-5" style="width:70px;">2015년</button>
+                                                <button class="bt white bt table mr-5" style="width:90px;">2013년</button>
+                                                <button class="bt white bt table mr-5" style="width:90px;">2014년</button>
+                                                <button class="bt white bt table mr-5" style="width:90px;">2015년</button>
                                                 <button class="bt white bt table">2016년</button>
                                             </div>
                                             <span class="search-date"><input type="text" id="s-date" name="" value="" class="datepicker" title="조회기간 설정 시작일"></span>

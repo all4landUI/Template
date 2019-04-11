@@ -61,10 +61,11 @@
                                 <th scope="row"><label for="w-date">시작,종료일자</label></th>
                                 <td>
                                     <div class="search-form">
-                                        <span class="search-date"><input type="text" id="w-date" name="w-date" value="" class="datepicker hasDatepicker" title="조회기간 설정 시작일"><button type="button" class="ui-datepicker-trigger fa fa-calendar"></button></span>
-                                        - 
-                                        <span class="search-date"><input type="text" id="w-date-2" name="w-date-2" value="" class="datepicker hasDatepicker" title="조회기간 설정 종료일"><button type="button" class="ui-datepicker-trigger fa fa-calendar"></button></span>
-                                    </div>
+                                            <span class="search-date"><input type="text" id="s-date" name="" value="" class="datepicker" title="조회기간 설정 시작일"></span>
+                                            - 
+                                            <span class="search-date"><input type="text" id="s-date2" name="" value="" class="datepicker" title="조회기간 설정 종료일"></span>
+                                        </div>
+                                    </td>
                                 </td>
                             </tr>
                             <tr>
@@ -89,7 +90,7 @@
             </div>
 
             <div class="bt-area">
-                <a href="./board_write.php" class="bt">등록</a>
+                <a href="#" class="bt" onclick="history.back(-1)">등록</a>
                 <a href="#" class="bt" onclick="history.back(-1)">취소</a>
             </div>
             

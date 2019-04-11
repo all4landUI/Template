@@ -36,9 +36,9 @@ input[type="radio"] + span,input[type="checkbox"] + span{display:inline-block;ve
 .blind{position:absolute;overflow:hidden;width:0;height:0}
 .hide{display:none}
 input[type="text"],input[type="password"],input[type="search"],input[type="number"],textarea{padding:6px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:1px solid #d8d8d8;vertical-align:middle}
-input[type="text"],input[type="password"],input[type="search"],input[type="number"]{height:30px}
-select{height:30px;padding:5px 6px;border:1px solid #d8d8d8;vertical-align:middle}
-input[type="file"]{vertical-align:top;padding:2px;height:34px;background-color:#fff;border:1px solid #d8d8d8}
+input[type="text"],input[type="password"],input[type="search"],input[type="number"]{height:29px}
+select{height:29px;padding:5px 6px;border:1px solid #d8d8d8;vertical-align:middle}
+input[type="file"]{vertical-align:top;padding:2px;height:29px;background-color:#fff;border:1px solid #d8d8d8}
 
 $total: 50;
 /* total 변경시 max 변경 가능 */

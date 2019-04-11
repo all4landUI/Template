@@ -1,14 +1,15 @@
 /** mixin **/
 /** Components : button
 **/
-.bt-area { margin-bottom: 30px; text-align: center; }
+.bt-area { margin-bottom: 10px; text-align: right; }
 .bt-area.bt-right { text-align: right; }
 .bt-area.bt-left { text-align: left; }
 
 a.bt { height: 29px; line-height: 27px; }
 
 .bt { display: inline-block; vertical-align: top; padding: 0 20px; height: 29px; color: #fff; font-size: 13px; color: #3c8dbc; background-color: #fff; border: 1px solid #ddd; }
-.bt.search { background-color: #5b5b5b; border: 1px solid #474747; }
+.bt.search { position: relative; font: normal normal normal 14px/1 FontAwesome; }
+.bt.search:before { position: absolute; top: 0; left: 0; content: '\f002'; text-align: center; width: 100%; height: 100%; line-height: 25px; }
 .bt.submit { color: #fff; font-size: 16px; font-weight: bold; background-color: #399de3; border: 1px solid #2372a9; border-radius: 3px; }
 .bt.light-blue { color: #457197; font-size: 17px; background-color: #f1f6f9; border: 1px solid #7393ae; border-radius: 3px; }
 .bt.light-blue:hover { color: #fff; background-color: #4b5155; }

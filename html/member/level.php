@@ -39,7 +39,7 @@
 
                 <!-- 지정메뉴 -->
                 <div class="col">
-                    <h3>지정메뉴<a href="" class="bt dark-gray table check">전체선택</a></h3>
+                    <h3>지정메뉴<a href="" class="bt table check">전체선택</a></h3>
                     <h4>포털</h4>
                     <ul class="list-dot">
                         <li>
@@ -57,7 +57,7 @@
 
                 <!-- 메뉴 리스트 -->
                 <div class="float-right">
-                    <h3>메뉴 리스트<a href="" class="bt dark-gray table check">전체선택</a></h3>
+                    <h3>메뉴 리스트<a href="" class="bt table check">전체선택</a></h3>
                     <h4>포털</h4>
                     <ul class="list-dot">
                         <li>

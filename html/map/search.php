@@ -69,7 +69,7 @@
                                 <td><input type="text" id="s-doseo" name="" value="" class="full"></td>
                                 <!-- /도서명 -->
                                 
-                                <td><button type="submit" class="bt"><i class="fa fa-search" aria-hidden="true"></i></button></td>
+                                <td><button type="submit" class="bt search"></button></td>
                             </tr>
                         </tbody>
                     </table>
@@ -104,52 +104,52 @@
                             <tbody>
                                 <tr class="current">
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>장구섬(구분시리3)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.htmllist.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                                 <tr>
                                     <td>888888888888888</td>
-                                    <td class="subject"><a href="list.html">전남 신안군 비금면 내월리 산 269</a></td>
+                                    <td class="subject"><a href="#">전남 신안군 비금면 내월리 산 269</a></td>
                                     <td>구분시리(곡도)</td>
                                 </tr>
                             </tbody>

@@ -34,7 +34,7 @@
 
 		                        <label for="s-input" class="blind">검색어 입력</label>
 		                        <input type="text" id="s-input" name="s-input" value="">
-		                        <button type="button" class="bt"><i class="fa fa-search" aria-hidden="true"></i></button>	
+		                        <button type="button" class="bt search"></button>	
 		                    </fieldset>
 		                </form>
 		                <p class="count float-left">게시글 수 <em>17</em></p>

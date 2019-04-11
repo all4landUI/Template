@@ -5,8 +5,8 @@
 **/
 
 .bt-area {
-    margin-bottom: 30px;
-    text-align:center;
+    margin-bottom: 10px;
+    text-align: right; 
     &.bt-right{
         text-align:right;
     }
@@ -30,8 +30,18 @@ a.bt{
     background-color:#fff;
     border: 1px solid #ddd;
     &.search {
-        background-color: #5b5b5b;
-        border: 1px solid #474747;
+        position: relative;
+        font: normal normal normal 14px/1 FontAwesome;
+        &:before{
+            position: absolute;
+            top:0;
+            left: 0;
+            content:'\f002';
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            line-height: 25px;
+        }
     }
     &.submit {        
         color: #fff;

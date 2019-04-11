@@ -80,7 +80,7 @@
                             <ul class="board_search">
                                 <li><span class="board_search_t">용어 키워드 검색</span>
                                     <input id="searchValue" name="searchValue" class="validate[funcCall[checkInitial]] inp_type mr5" title="용어 키워드 입력" type="text" value="" size="30" maxlength="20">
-                                    <button type="submit" class="bt"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <button type="submit" class="bt search"></button>
                                 </li>
                             </ul>
                         </div>

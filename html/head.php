@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="/dist/js/libs/jQuery-ui/jquery-ui.css">
 <link rel="stylesheet" type="text/css" href="/dist/css/ngii-mng.css">
 <link rel="stylesheet" type="text/css" href="/dist/css/style_2018.css">
-<link rel="stylesheet" type="text/css" href="/dist/css/css/join.css">
+<link rel="stylesheet" type="text/css" href="/dist/css/join.css">
 <link rel="stylesheet" type="text/css" href="/dist/js/libs/mCustomScrollbar/3.1.5/jquery.mCustomScrollbar.min.css">
 <title>UI ELEMENT - 가이드</title>
 <script type="text/javascript" src="/dist/js/libs/jQuery/1.12.3/jquery.min.js"></script>

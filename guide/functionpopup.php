@@ -83,9 +83,11 @@
 		<!--// tab-content  -->
 	</div>
 	<!--// window_content -->
-	<div class="bt-area">
-		<button class="bt">확인</button>
-		<button class="bt" onclick="window.close();">닫기</button>
+	<div class="window_foot">
+		<div class="bt-area">
+			<button class="bt" onclick="window.close();">확인</button> 
+			<button class="bt" onclick="window.close();">취소</button>
+		</div>
 	</div>
 </div>
 <!--// #function_popup -->

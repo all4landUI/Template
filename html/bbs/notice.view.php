@@ -113,7 +113,7 @@
                         답변 내용!!
                     </div>
 
-                    <div class="comment_manege">
+                    <div class="comment_manege bt-area">
                         <button class="bt">수정</button>
                         <button class="bt">삭제</button>
                     </div>

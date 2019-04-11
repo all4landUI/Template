@@ -59,7 +59,7 @@
 
 		                        <label for="s-input" class="blind">검색어 입력</label>
 		                        <input type="text" id="s-input" name="" value="">
-		                        <button type="button" class="bt"><i class="fa fa-search" aria-hidden="true"></i></button>	
+		                        <button type="button" class="bt search"></button>	
 		                    </fieldset>
 		                </form>
 
@@ -68,6 +68,16 @@
 		            <!-- /Search -->
 
 		            <ul class="list-gallery column-5">
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
+		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
 		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li> <!-- 이미지 사이즈 170*120 -->
 		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
 		                <li><a href="gallery_board_view.php"><span class="wrap-galleryImg"><img src="../../dist/images/thumb/sample.png" alt="이미지설명"></span><span>캠브리지베이</span></a></li>
@@ -84,11 +94,6 @@
 		                    <button type="button">3</button>
 		                    <button type="button">4</button>
 		                    <button type="button">5</button>
-		                    <button type="button">6</button>
-		                    <button type="button">7</button>
-		                    <button type="button">8</button>
-		                    <button type="button">9</button>
-		                    <button type="button">10</button>
 		                </div>
 		                <button type="button" class="next">다음</button>
 		            </div>

@@ -262,6 +262,55 @@ table.calendar tbody td {
     vertical-align: top;
     height: 120px;
     padding: 6px 10px;
+    text-align: right;
+}
+table.calendar tbody td .calev_wrap{
+    text-align: left;
+}
+table.calendar tbody td .calev_wrap span{
+    position: relative;
+    display: block;
+    padding-left: 7px;
+}
+table.calendar tbody td .calev_wrap span:after{
+    position: absolute;
+    display: block;
+    top:7px;
+    left: 0;
+    content:''; 
+    width: 3px;
+    height: 3px;
+    background: #000;
+}
+table.calendar tbody td .calev_wrap .cal_ev1{
+    color:#e61212;
+}
+table.calendar tbody td .calev_wrap .cal_ev1:after{
+    background: #e61212;
+}
+table.calendar tbody td .calev_wrap .cal_ev2{
+    color:#0780c9;
+}
+table.calendar tbody td .calev_wrap .cal_ev2:after{
+    background: #0780c9;
+}
+table.calendar tbody td .calev_wrap .cal_ev3{
+    color:#afdb76;
+}
+table.calendar tbody td .calev_wrap .cal_ev3:after{
+    background: #afdb76;
+}
+table.calendar tbody td .calev_wrap .cal_ev4{
+    color:#dfc83f;
+}
+table.calendar tbody td .calev_wrap .cal_ev4:after{
+    background: #dfc83f;
+}
+table.calendar tbody td .calev_wrap .cal_ev5{
+    color:#218059;
+}
+table.calendar tbody td .calev_wrap .cal_ev5:after{
+    background: #218059;
 }
 table.calendar .sun{
     color:#e61212;
@@ -523,6 +572,7 @@ table.calendar .sat{
     font-size: 12px;
     line-height: 25px;
     background-color: #3d434c;
+    color:#fff;
     background-image: url(../../dist/images/ico/ico_check.png);
     background-repeat: no-repeat;
     background-position: 8px center;

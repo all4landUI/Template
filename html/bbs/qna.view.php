@@ -153,8 +153,8 @@
             <!--// 코멘트 -->
 
             <div class="bt-area bt-right">
-                <a href="./board_write.php" class="bt">등록</a>
-                <a href="#" class="bt">수정</a>
+                <a href="notice.write.php" class="bt">등록</a>
+                <a href="notice.write.php" class="bt">수정</a>
                 <a href="#" class="bt" onclick="history.back(-1)">목록</a>
             </div>
 

@@ -20,7 +20,7 @@
 			<div class="demo-block">
 				<div class="source">
 					<a href="#popup_name2" class="btn-pop-open bt">레이어 팝업열기</a>
-					<a href="/guide/windowpopup.php" data-modal-name="이름" data-modal-width="500" data-modal-height="565" class="btn-pop-open bt">윈도우 팝업열기</a>
+					<a href="/guide/windowpopup.php" data-modal-name="이름" data-modal-width="500" data-modal-height="530" class="btn-pop-open bt">윈도우 팝업열기</a>
 				</div>
 				<div class="meta">
 					<div class="description">
@@ -145,12 +145,17 @@
 					- 디자인수요기업(중소기업) 및 디자인기업을 각각 선정하여 1:1 매칭 지원
 				</div>
 			</div>
-			<div class="bt-area">
-				<button class="bt">확인</button>
-				<button class="bt">취소</button>
+
+			<!-- .modal-foot //-->
+			<div class="modal-foot">
+				<div class="bt-area">
+					<a href="#popup_name2" class="bt modal-close">확인</a>
+					<a href="#popup_name2" class="bt modal-close">취소</a>
+				</div>
 			</div>
+
 			<!--// .modal-body -->
-			<a href="#popup_name2" class="btn-modal-close fa"></a>
+			<a href="#popup_name2" class="btn-modal-close modal-close fa"></a>
 		</div>
 	</div>
 	<!--// modal-container -->
@@ -234,13 +239,13 @@
 				<!-- .modal-foot //-->
 				<div class="modal-foot">
 					<div class="bt-area">
-						<button class="bt">확인</button>
-						<button class="bt">닫기</button>
-					</div>	
+						<a href="#popup_name" class="bt modal-close">확인</a>
+						<a href="#popup_name" class="bt modal-close">취소</a>
+					</div>
 				</div>
 
 				<!--// .popup-foot  -->
-				<a href="#popup_name" class="btn-modal-close fa"></a>
+				<a href="#popup_name" class="btn-modal-close modal-close fa"></a>
 			</div>
 		</div>
 	</div>

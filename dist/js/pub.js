@@ -45,7 +45,7 @@
 				event.preventDefault();
 			})
 
-			$('.btn-modal-close').on('click' , function(e){
+			$('.modal-close').on('click' , function(e){
 				event.stopPropagation();
 				var $this = $(this).attr('href').indexOf('#') !== -1;
 

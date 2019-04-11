@@ -36,20 +36,20 @@
                 <div class="table-view">
                     <table class="table-horizontal calendar">
                         <colgroup>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
-                            <col>
+                            <col style="width:14%">
+                            <col style="width:14%">
+                            <col style="width:14%">
+                            <col style="width:14%">
+                            <col style="width:14%">
+                            <col style="width:14%">
+                            <col style="width:14%">
                         </colgroup>
                         <thead>
                             <tr>
                                 <th scope="col" class="sun">Sun</th>
+                                <th scope="col">Wed</th>
                                 <th scope="col">Mon</th>
                                 <th scope="col">Tue</th>
-                                <th scope="col">Wed</th>
                                 <th scope="col">Thu</th>
                                 <th scope="col">Fri</th>
                                 <th scope="col" class="sat">Sat</th>
@@ -58,7 +58,15 @@
                         <tbody>
                             <tr>
                                 <td><span class="sun"></span></td>
-                                <td>1</td>
+                                <td>1
+                                    <div class="calev_wrap">
+                                        <span class="cal_ev1">event1</span>
+                                        <span class="cal_ev2">이벤트2</span>
+                                        <span class="cal_ev3">이벤트3</span>
+                                        <span class="cal_ev4">이벤트4</span>
+                                        <span class="cal_ev5">이벤트5</span>
+                                    </div>
+                                </td>
                                 <td>2</td>
                                 <td>3</td>
                                 <td>4</td>
@@ -68,7 +76,13 @@
                             <tr>
                                 <td><span class="sun">7</span></td>
                                 <td>8</td>
-                                <td>9</td>
+                                <td>9
+                                    <div class="calev_wrap">
+                                        <span class="cal_ev1">event1</span>
+                                        <span class="cal_ev2">이벤트2이벤트2이벤트2</span>
+                                        <span class="cal_ev3">이벤트3이벤트3이벤트3</span>
+                                    </div>
+                                </td>
                                 <td>10</td>
                                 <td>11</td>
                                 <td>12</td>
@@ -77,7 +91,13 @@
                             <tr>
                                 <td><span class="sun">14</span></td>
                                 <td>15</td>
-                                <td>16</td>
+                                <td>16
+                                    <div class="calev_wrap">
+                                        <span class="cal_ev1">event1</span>
+                                        <span class="cal_ev2">이벤트2이벤트2이벤트2</span>
+                                        <span class="cal_ev3">이벤트3이벤트3이벤트3</span>
+                                    </div>
+                                </td>
                                 <td>17</td>
                                 <td>18</td>
                                 <td>19</td>
@@ -89,7 +109,13 @@
                                 <td>23</td>
                                 <td>24</td>
                                 <td>25</td>
-                                <td>26</td>
+                                <td>26
+                                    <div class="calev_wrap">
+                                        <span class="cal_ev1">event1</span>
+                                        <span class="cal_ev2">이벤트2이벤트2이벤트2</span>
+                                        <span class="cal_ev3">이벤트3이벤트3이벤트3</span>
+                                    </div>
+                                </td>
                                 <td><span class="sat">27</span></td>
                             </tr>
                             <tr>

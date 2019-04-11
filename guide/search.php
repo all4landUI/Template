@@ -36,7 +36,7 @@
 
 		                        <label for="s-input" class="blind">검색어 입력</label>
 		                        <input type="text" id="s-input" name="s-input" value="">
-		                        <button type="button" class="bt"><i class="fa fa-search" aria-hidden="true"></i></button>	
+		                        <button type="button" class="bt search"></button>	
 		                    </fieldset>
 		                </form>
 		                <p class="count float-left">게시글 수 <em>17</em></p>
@@ -404,7 +404,7 @@
             						<tr>
             							<th>검색어</th>
             							<td>            								
-            								<input type="text" class="width-400"><button type="submit" class="bt margin-left-10"><i class="fa fa-search" aria-hidden="true"></i></button>
+            								<input type="text" class="width-400"><button type="submit" class="bt margin-left-10 search"></button>
             								<p class="margin-top-10">＊출장, 휴가등 일반문서를 포함해서 검색하시려면 상세검색에서 "일반문서 포함" 항목을 체크하고 검색해주세요.</p>
             							</td>
             						</tr>
@@ -507,7 +507,7 @@
 			<div class="modal-content" style="width: 900px">
 				<!-- .modal-header //-->
 				<header class="modal-header">
-					<h2>기관신청</h2>
+					<h2>민원신청 도움말</h2>
 				</header>
 				<!--// .modal-header -->
 				
@@ -561,10 +561,7 @@
 				                        </tr>
 				                        
 				                    </tbody>
-				                </table><br>
-								<div class="bt-area">
-				                	<button class="bt">확인하러 가기</button>
-				                </div>
+				                </table>
 				            </div>
 						</div>
 						<div class="tab-panel" data-panel="tab_example2">
@@ -579,10 +576,14 @@
 
 				<!-- .modal-foot //-->
 				<div class="modal-foot">
-					
-				</div>				
+					<div class="bt-area">
+						<a href="#popup_name" class="bt modal-close">확인</a>
+						<a href="#popup_name" class="bt modal-close">취소</a>
+					</div>
+				</div>
+
 				<!--// .popup-foot  -->
-				<a href="#popup_name" class="btn-modal-close fa"></a>
+				<a href="#popup_name" class="btn-modal-close modal-close fa"></a>
 			</div>
 		</div>
 	</div>

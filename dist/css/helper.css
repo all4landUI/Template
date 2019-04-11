@@ -55,11 +55,11 @@ input[type="radio"] + span, input[type="checkbox"] + span { display: inline-bloc
 
 input[type="text"], input[type="password"], input[type="search"], input[type="number"], textarea { padding: 6px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #d8d8d8; vertical-align: middle; }
 
-input[type="text"], input[type="password"], input[type="search"], input[type="number"] { height: 30px; }
+input[type="text"], input[type="password"], input[type="search"], input[type="number"] { height: 29px; }
 
-select { height: 30px; padding: 5px 6px; border: 1px solid #d8d8d8; vertical-align: middle; }
+select { height: 29px; padding: 5px 6px; border: 1px solid #d8d8d8; vertical-align: middle; }
 
-input[type="file"] { vertical-align: top; padding: 2px; height: 34px; background-color: #fff; border: 1px solid #d8d8d8; }
+input[type="file"] { vertical-align: top; padding: 2px; height: 29px; background-color: #fff; border: 1px solid #d8d8d8; }
 
 /* total 변경시 max 변경 가능 */
 .margin-0 { margin: 0px !important; }
@@ -3164,8 +3164,6 @@ input[type="file"] { vertical-align: top; padding: 2px; height: 34px; background
 .fa { margin: 0 5px; }
 
 .ui-widget-header .ui-icon { background-image: url(../images/ui-icons_444444_256x240.png); }
-.ui-datepicker-prev .ui-icon-circle-triangle-w{background: url(../images/bt/bt-prev.png) no-repeat center;}
-.ui-datepicker-next .ui-icon-circle-triangle-e{background: url("../images/bt/bt-next.png") no-repeat center;}
 
 /* Position */
 .float-right { float: right !important; }
@@ -3279,7 +3277,7 @@ table td a:active, table td a:focus, table td a:hover { text-decoration: underli
 
 .table-vertical .addr-area #u-addr { margin: 10px 0; }
 
-.type-page { border-top: 1px solid #767676;}
+.type-page { border-top: 1px solid #767676; }
 
 .table-list tbody tr:active, .table-list tbody tr:focus, .table-list tbody tr:hover { background-color: #ecf7fc; }
 
@@ -3323,7 +3321,7 @@ td .search-form { margin-bottom: 0px; }
 
 .title-sub-h2 { margin: 50px 0 15px; padding-left: 20px; color: #343434; font-size: 17px; font-weight: bold; line-height: 20px; background: url("../images/bu/bu-tri.png") no-repeat left center; }
 
-.title-table { display: block; padding: 13px 32px; color: #383838; font-size: 20px; font-weight: bold; border-bottom: 1px solid #e0e0e0; }
+.title-table { display: block; height: 50px; padding: 13px 32px; color: #383838; font-size: 20px; font-weight: bold; border-bottom: 1px solid #e0e0e0; }
 
 .title-table em { color: #0a8cbc; font-weight: bold; }
 
@@ -3483,7 +3481,7 @@ footer select { position: absolute; right: 0; top: 0px; width: 145px; color: #83
 
 .user-form .bt.underline { margin-left: 20px; color: #0f78c8; line-height: 55px; }
 
-.user-form .bt.login { float: right; width: 200px; height: 55px; color: #fff; font-size: 20px; font-weight: bold; background-color: #0f78c8; text-align: center;line-height: 55px;}
+.user-form .bt.login { float: right; width: 200px; height: 55px; color: #fff; font-size: 20px; font-weight: bold; background-color: #0f78c8; }
 
 .login-area footer { position: fixed; bottom: 0px; width: 100%; margin-top: 100px; text-align: center; border: 0px; }
 
@@ -3518,3 +3516,5 @@ footer select { position: absolute; right: 0; top: 0px; width: 145px; color: #83
   .table-horizontal td { border-left: 0; border-right: 0; border-bottom: 0; }
   .table-horizontal tbody tr { border-left: 1px solid #babcbf; }
   .table-horizontal th:last-child, .table-horizontal td:last-child { border-bottom: 1px solid #babcbf; } }
+
+/*# sourceMappingURL=helper.css.map */
