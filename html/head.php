@@ -61,7 +61,7 @@
 						<li><a href="/html/map/search.php">지도 관리</a></li>
 						<li><a href="/html/statistics/status.php">통계 관리</a></li>
 						<li><a href="/html/service/about.php">서비스 관리</a></li>
-						<li><a href="/html/member/list.php">회원 관리</a></li>
+						<li><a href="/html/member/modify.php">회원 관리</a></li>
 					</ul>
 				</div>
 				<div class="addtion_menu">
@@ -91,7 +91,7 @@
 		                        <h2>정보관리</h2>
 					            <ul class="tree-group">
 					                <li><a href="/html/info/notice.php">상세 정보 관리</a></li>
-					                <li><a href="/html/info/lib.php">용어사전</a></li>
+					                <li><a href="/html/info/library.php">용어사전</a></li>
 					            </ul>
 		                    </li>
 		                    <li class="tree-menu">
@@ -104,10 +104,10 @@
 		                        <h2>통계 관리</h2>
 								<ul class="tree-group">
 									<li><a href="/html/statistics/status.php">통계 현황</a></li>
-									<li><a href="/html/statisticsvisit.php">접속 현황</a></li>
-									<li><a href="/html/statisticspageview.php">페이지뷰 현황</a></li>
-									<li><a href="/html/statisticsanalysis.php">통합검색 분석 및 통계</a></li>
-									<li><a href="/html/statisticskeyword.php">검색어 통계</a></li>
+									<li><a href="/html/statistics/visit.php">접속 현황</a></li>
+									<li><a href="/html/statistics/pageview.php">페이지뷰 현황</a></li>
+									<li><a href="/html/statistics/analysis.php">통합검색 분석 및 통계</a></li>
+									<li><a href="/html/statistics/searchWord.php">검색어 통계</a></li>
 								</ul>
 		                    </li>
 		                    <li class="tree-menu margin-top-30">
@@ -122,8 +122,8 @@
 		                    <li class="tree-menu margin-top-30">
 		                        <h2>회원 관리</h2>
 								<ul class="tree-group">
-									<li><a href="/html/member/list.php">개인정보수정</a></li>
-									<li><a href="/html/member/level.php">권한관리</a></li>
+									<li><a href="/html/member/modify.php">개인정보수정</a></li>
+									<li><a href="/html/member/authManager.php">권한관리</a></li>
 								</ul>
 		                    </li>
 		                </ul>
