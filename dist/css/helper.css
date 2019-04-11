@@ -3163,7 +3163,7 @@ input[type="file"] { vertical-align: top; padding: 2px; height: 29px; background
 /* Icon */
 .fa { margin: 0 5px; }
 
-.ui-widget-header .ui-icon { background-image: url(../images/ui-icons_444444_256x240.png); }
+.ui-widget-header .ui-icon { background-image: url(../images/ico/ui-icons_444444_256x240.png); }
 
 /* Position */
 .float-right { float: right !important; }

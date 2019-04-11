@@ -76,7 +76,7 @@
 							
 		                    <li class="tree-menu">
 		                        <h2>게시판 관리</h2>
-								<ul class="tree-group">
+								<ul class="tree-group">Z
 									<li><a href="/html/bbs/notice.php">공지사항</a></li>
 									<li><a href="/html/bbs/qna.php">묻고 답하기</a></li>
 									<li><a href="/html/bbs/faq.php">자주하는 질문</a></li>
@@ -123,7 +123,6 @@
 								</ul>
 		                    </li>
 		                </ul>
-
 					</nav>
 					<p class="btn-sitemap-close"><button type="button"><span class="blind">전체메뉴 닫기</span></button></p>
 				</div>
