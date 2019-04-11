@@ -1,7 +1,62 @@
 <?php
     include_once('../head.php');
 ?>
+    <script>
+        function validate() {
+            var re = /^[a-zA-Z0-9]{4,12}$/
+            var re2 = /^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
 
+            var id = document.getElementById("id");
+            var pw = document.getElementById("pw");
+            var email = document.getElementById("email");
+            var num1 = document.getElementById("num1");
+            var num2 = document.getElementById("num2");
+
+            if(join.name.value=="") {
+                alert("이름을 입력해 주세요");
+                join.name.focus();
+                return false;
+            }
+            
+            if(!check(re,id,"아이디는 4~12자의 영문 대소문자와 숫자로만 입력")) {
+                return false;
+            }
+
+            if(!check(re,pw,"패스워드는 4~12자의 영문 대소문자와 숫자로만 입력")) {
+                return false;
+            }
+
+            if(join.pw.value != join.checkpw.value) {
+                alert("비밀번호가 다릅니다. 다시 확인해 주세요.")
+                join.check.value = "";
+                join.checkpw.focus();
+                return false;
+            }
+
+            if(email.value=="") {
+                alert("이메일 입력을 해주세요");
+                email.focus();
+                return false;
+            }
+
+            if(!check(re2,email, "적합하지 않은 이메일 형식입니다.")) {
+                return false;
+            }
+
+            
+
+            alert("회원가입이 완료되었습니다.");
+        }
+
+        function check(re, what, message) {
+            if(re.test(what.value)) {
+                return true;
+            }
+            alert(message);
+            what.value = "";
+            what.focus();
+        }
+    </script>
     <!-- Container -->
     <article class="container">
 
@@ -59,9 +114,9 @@
                 </div>
 
                 <div id="join_form">
-                    <div>
-                        <!-- <h4>회원정보 필수입력</h4> -->
-                        <p class="margin-bottom-5"><span style="color:#ff0000">*</span> 표시는 필수 입력 사항입니다.</p>
+                    <!-- <h4>회원정보 필수입력</h4> -->
+                    <p class="margin-bottom-5"><span style="color:#ff0000">*</span> 표시는 필수 입력 사항입니다.</p>
+                    <form name="join" onsubmit="return validate();" action="join_form.php" method="post" enctype="text/plain">
                         <table class="table-vertical">
                             <colgroup>
                                 <col style="width:25%">
@@ -70,16 +125,16 @@
                             <tbody>
                                 <tr>
                                     <th><span class="red">*</span>이름</th>
-                                    <td><input type="text"></td>
+                                    <td><input type="text" name="name"></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>아이디</th>
-                                    <td><input type="text"> <button class="bt">중복확인</button></td>
+                                    <td><input type="text" id="id" name="id"> <button class="bt">중복확인</button></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>비밀번호</th>
                                     <td>
-                                        <input type="text">
+                                        <input type="password" id="pw" maxlength="12">
                                         <div>
                                             <p>9~12자까지 모든 문자+숫자+특수문자 : 영문 대소문자는 구별하여 입력해 주세요)</p>
                                             <p>- 사용불가능한 특수문자 예 : <, >, _, ", '</p>
@@ -88,7 +143,7 @@
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>비밀번호확인</th>
-                                    <td><input type="text"></td>
+                                    <td><input type="password" id="checkpw" maxlength="12"></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>주소</th>
@@ -101,7 +156,7 @@
                                 <tr>
                                     <th><span class="red">*</span>이메일 주소</th>
                                     <td>
-                                        <input type="text"><span> @ </span><input type="text">
+                                        <input type="text" id="email"><span> @ </span><input type="text">
                                         <select name="" id="">
                                             <option value="">이메일 선택</option>
                                         </select>
@@ -117,16 +172,13 @@
                                 </tr>
                             </tbody>
                         </table>
-
-                    </div>
+                        <div class="bt-area bt-right">
+                            <button type="submit"  value="저장" class="bt bt-2">저장</button>
+                            <button type="reset" value="취소" class="bt bt-4">취소</button>
+                        </div>
+                    </form>
                 </div>
             </div> 
-
-			<div class="bt-area bt-right">
-                <button type="submit" class="bt bt-2">저장</button>
-                <button type="reset" class="bt bt-4">취소</button>
-            </div>
-
         </section>
         <!-- /Contents -->
 

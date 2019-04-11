@@ -1,7 +1,46 @@
 <?php
     include_once('../head.php');
 ?>
-    
+    <script>
+        function nameFocus(){
+
+            var f=document.forms[0];
+
+            f.name.value="";
+
+            f.name.className="redBox";
+
+        }
+
+
+
+        function nameBlue(){
+
+            var f=document.forms[0];
+
+            if(! f.name.value){ // name에 값이 없다면
+
+                f.name.value="이름을 입력하세요";
+            }
+
+            f.name.className="blueBox";
+
+        }
+
+
+
+        function clause(){
+
+            var f=document.forms[0];
+
+            if(f.ch.checked)
+                f.btn.disabled=false;
+            else
+                f.btn.disabled=true;
+        }
+
+
+    </script>
     <style>
         .tit_article {
             display: block;
@@ -24,7 +63,7 @@
     </style>
     <!-- Container -->
     <article class="container">
-
+        
         <!-- Sub Menu -->
         <section id="lnb" class="lnb">
             <?php include_once('./lnb.php');?>         
