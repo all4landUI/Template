@@ -414,7 +414,6 @@
             
             <div class="bt-area bt-center">
                 <a href="#" class="bt bt-1">저장</a>
-                <a href="main.html" class="bt bt-6">목록</a>
             </div>
 
         </section>

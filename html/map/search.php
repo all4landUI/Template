@@ -2,6 +2,12 @@
     include_once('../head.php');
 ?>
     
+    <script>
+        alert('준비중입니다');
+
+        history.back(-1)
+
+    </script>
     <!-- Container -->
     <article class="container">
     
