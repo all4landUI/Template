@@ -1,13 +1,19 @@
 <?php
-
 	include_once('./guide.head.php');
 ?>
+<style>
+	#guideContent{
+		padding:60px 25px 0;
+	}
+	.g-content{
+		padding-left:0;
+	}
+	.demo-layout--view{
+		margin-left:-15px;
+	}
+</style>
 <!-- #guidePage //-->
 <div id="guidePage">
-	<?php
-		include_once('./guide-menu.php');
-	?>
-
 	<div id="guideContent">
 		<!-- guide-title //-->
 		<h2 class="g-title">지도 템플릿</h2>
