@@ -90,7 +90,7 @@
 		                    <li class="tree-menu">
 		                        <h2>정보관리</h2>
 					            <ul class="tree-group">
-					                <li><a href="/html/info/notice.php">상세 정보 관리</a></li>
+					                <li><a href="/html/info/manage.php">상세 정보 관리</a></li>
 					                <li><a href="/html/info/library.php">용어사전</a></li>
 					            </ul>
 		                    </li>

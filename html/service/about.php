@@ -122,7 +122,7 @@
                         <fieldset>
                             <legend>의견작성</legend>
                             <textarea id="" name="" rows="" cols="" class="full"></textarea>
-                            <button type="submit" class="bt gray">등록하기</button>
+                            <button type="button" class="bt gray">등록하기</button>
                         </fieldset>
                         </form>
                     </dd>
@@ -132,7 +132,7 @@
                             <li>
                                 <i class="ico star-score ea5"></i>
                                 <strong>홍길동 2018/11/12. 11:31:11</strong>
-                                <button type="button" class="bt default small" onclick="">수정</button>
+                                <button type="button" class="bt default small">수정</button>
                                 <button type="button" class="bt default small">삭제</button>
                                 <p>안녕하세요. 11월 해양환경측정망 업데이트 정보 감사합니다.</p>
                             </li>
@@ -140,7 +140,7 @@
                             <li>
                                 <i class="ico star-score ea4"></i>
                                 <strong>홍길동 2018/11/12. 11:31:11</strong>
-                                <button type="button" class="bt default small" onclick="">수정</button>
+                                <button type="button" class="bt default small">수정</button>
                                 <button type="button" class="bt default small">삭제</button>
                                 <p>안녕하세요. 11월 해양환경측정망 업데이트 정보 감사합니다.</p>
                             </li>

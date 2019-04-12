@@ -79,7 +79,7 @@
 		            <div class="bt-area bt-right">
 		            	<a href="./board_write.php" class="bt bt-1">등록</a>
 		            	<a href="#" class="bt bt-2">수정</a>
-		            	<a href="#" class="bt bt-6" onclick="history.back(-1)">목록</a>
+		            	<a href="./gallery_board.php" class="bt bt-6">목록</a>
 		            </div>
 		            <!--// 상세  -->
 				</div>

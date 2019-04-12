@@ -104,8 +104,8 @@
             </div>
             
             <div class="list-bottom text-right">
-                <a href="mei05_01_01.html" class="bt bt-2">저장</a>
-                <a href="mei05_01_01.html" class="bt bt-4">취소</a>
+                <a href="#" class="bt bt-2">저장</a>
+                <a href="#" class="bt bt-4">취소</a>
             </div>
             <!-- management wrap -->
 

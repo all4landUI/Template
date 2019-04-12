@@ -141,7 +141,7 @@
 		            	<a href="./board_write.php" class="bt">등록</a>
 		            	<a href="#" class="bt">수정</a>
 		            	<a href="#" class="bt">삭제</a>
-		            	<a href="#" class="bt" onclick="history.back(-1)">목록</a>
+		            	<a href="./board.php" class="bt">목록</a>
 		            </div>
 
 				</div>
