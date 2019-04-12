@@ -10,7 +10,7 @@
 
 	<div id="guideContent">
 		<!-- guide-title //-->
-		<h2 class="g-title">Map Templeate</h2>
+		<h2 class="g-title">지도 템플릿</h2>
 		<!--// guide-title -->
 		<!-- g-content //-->
 		<div class="g-content">

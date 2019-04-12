@@ -17,7 +17,7 @@
                 join.name.focus();
                 return false;
             }
-            
+
             if(!check(re,id,"아이디는 4~12자의 영문 대소문자와 숫자로만 입력")) {
                 return false;
             }
@@ -129,7 +129,7 @@
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>아이디</th>
-                                    <td><input type="text" id="id" name="id"> <button class="bt">중복확인</button></td>
+                                    <td><input type="text" id="id" name="id"> <button type="button" class="bt">중복확인</button></td>
                                 </tr>
                                 <tr>
                                     <th><span class="red">*</span>비밀번호</th>

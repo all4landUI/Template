@@ -38,7 +38,7 @@
             width: 18px;
             height: 18px;
             font-size: 11px;
-            line-height: 19px;
+            line-height: 18px;
             text-align: center;
             border: 1px solid #e0e0e0;
         }
