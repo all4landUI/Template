@@ -1,8 +1,7 @@
 @charset "UTF-8";
 /** mixin **/
-.g-header { position: fixed; top: 0; left: 0; width: 100%; height: 60px; padding-top: 0; background-color: #3c8dbc; z-index: 100; }
-.g-header .g-logo { position: absolute; left: 0px; top: 0; padding-left: 30px; }
-.g-header .g-logo a { line-height: 60px; font-size: 20px; color: #fff; }
+.g-header { position: fixed; top: 0; left: 0; width: 100%; height: 60px; padding-top: 0; background-color: #000; z-index: 100; }
+.g-header .g-logo { position: absolute; left: 0px; top: 10px; padding-left: 30px; }
 .g-header .g-gnb { position: absolute; right: 0; top: 0; }
 .g-header .g-gnb ul { overflow: hidden; }
 .g-header .g-gnb li { float: left; }

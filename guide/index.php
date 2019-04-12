@@ -2,12 +2,20 @@
 
 	include_once('./guide.head.php');
 ?>
+<style>
+	#guideContent{
+		padding:60px 25px 0;
+	}
+	.g-content{
+		padding-left:0;
+	}
+	.demo-layout--view{
+		margin-left:-15px;
+	}
+</style>
 <!-- #guidePage //-->
 <div id="guidePage">
-	<?php
-		include_once('./guide-menu.php');
-	?>
-
+	
 	<div id="guideContent">
 		<!-- guide-title //-->
 		<h2 class="g-title">관리자 템플릿</h2>
@@ -24,20 +32,16 @@
 				<div class="demo-priview" style="width:50%">
 					<div class="box">
 						<h3>A TYPE</h3>
-						<p class="thumbnail"><img src="http://all4proto.iptime.org:11980/uiguide/new_html/images/thumb/thumb_admin1.jpg" alt="이미지설명"></p>
-						<div class="check-radio">
-							<a href="http://all4proto.iptime.org:11980/uiguide/new_html/download/html/admin_type1/list.html" target="_blank">미리보기</a>
-						</div>
+						<p class="thumbnail"><a href="http://all4proto.iptime.org:11980/uiguide/new_html/download/html/admin_type1/list.html" target="_blank"><img src="http://all4proto.iptime.org:11980/uiguide/new_html/images/thumb/thumb_admin1.jpg" alt="이미지설명"></a></p>
+						
 					</div>
 				</div>
 
 				<div class="demo-priview" style="width:50%">
 					<div class="box">
 						<h3>B TYPE</h3>
-						<p class="thumbnail"><img src="http://all4proto.iptime.org:11980/uiguide/new_html/images/thumb/thumb_admin2.jpg" alt="이미지설명"></p>
-						<div class="check-radio">
-							<a href="http://all4proto.iptime.org:11980/uiguide/new_html/download/html/admin_type2/list.html" target="_blank">미리보기</a>
-						</div>
+						<p class="thumbnail"><a href="http://all4proto.iptime.org:11980/uiguide/new_html/download/html/admin_type2/list.html" target="_blank"><img src="http://all4proto.iptime.org:11980/uiguide/new_html/images/thumb/thumb_admin2.jpg" alt="이미지설명"></a></p>
+						
 					</div>
 				</div>
 

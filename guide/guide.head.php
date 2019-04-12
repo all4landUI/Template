@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="ko">
+<head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,10 +27,11 @@
 	<script type="text/javascript" src="/dist/js/libs/html5shiv.min.js"></script>
 	<script type="text/javascript" src="/dist/js/libs/respond.min.js"></script>
 <![endif]-->
+</head>
 <body>
 
 <header class="g-header">
-	<h1 class="g-logo"><a href="/guide">UCS UI Element</a></h1>
+	<h1 class="g-logo"><a href="/guide"><img src="/dist/images/brand.png" alt="UCS"></a></h1>
 	<div class="g-gnb">
 		<ul>
 			<li><a href="/guide/index.php">Admin Template</a></li>

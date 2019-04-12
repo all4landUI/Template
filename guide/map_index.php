@@ -8,6 +8,9 @@
 	.g-content{
 		padding-left:0;
 	}
+	.demo-layout--view{
+		margin-left:-15px;
+	}
 </style>
 <!-- #guidePage //-->
 <div id="guidePage">
