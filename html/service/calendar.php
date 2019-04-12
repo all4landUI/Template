@@ -60,7 +60,7 @@
                                 <td><span class="sun"></span></td>
                                 <td>1
                                     <div class="calev_wrap">
-                                        <span class="cal_ev1">event1</span>
+                                        <span class="cal_ev1">이벤트1</span>
                                         <span class="cal_ev2">이벤트2</span>
                                         <span class="cal_ev3">이벤트3</span>
                                         <span class="cal_ev4">이벤트4</span>
@@ -78,7 +78,7 @@
                                 <td>8</td>
                                 <td>9
                                     <div class="calev_wrap">
-                                        <span class="cal_ev1">event1</span>
+                                        <span class="cal_ev1">이벤트1</span>
                                         <span class="cal_ev2">이벤트2이벤트2이벤트2</span>
                                         <span class="cal_ev3">이벤트3이벤트3이벤트3</span>
                                     </div>
@@ -93,7 +93,7 @@
                                 <td>15</td>
                                 <td>16
                                     <div class="calev_wrap">
-                                        <span class="cal_ev1">event1</span>
+                                        <span class="cal_ev1">이벤트1</span>
                                         <span class="cal_ev2">이벤트2이벤트2이벤트2</span>
                                         <span class="cal_ev3">이벤트3이벤트3이벤트3</span>
                                     </div>
@@ -111,7 +111,7 @@
                                 <td>25</td>
                                 <td>26
                                     <div class="calev_wrap">
-                                        <span class="cal_ev1">event1</span>
+                                        <span class="cal_ev1">이벤트1</span>
                                         <span class="cal_ev2">이벤트2이벤트2이벤트2</span>
                                         <span class="cal_ev3">이벤트3이벤트3이벤트3</span>
                                     </div>
