@@ -24,18 +24,28 @@
 						$(function(){
 							$('.tab-add').click(function(e){
 								var cont = $(this).siblings('.wrap_tabcont').find('li').length+1;
-								$(this).siblings('.wrap_tabcont').find('ul').append('<li><a href="#tab_example'+cont+'">탭메뉴'+cont+'</a></li>');
+								$(this).siblings('.wrap_tabcont').find('ul').append('<li><a href="#tab_example'+cont+'">탭메뉴'+cont+'<span class="btn_remove"></span></a></li>');
 							})
 							$(".mCustomScrollbar-x").mCustomScrollbar({
 								axis:"x" ,
 								autoDraggerLength : true,
 								advanced:{ autoExpandHorizontalScroll: true }
 							})
+
+							//var $btn_remove = ('<span class="btn_remove "></span>');
+							//$('.tab_add ul li a').append($btn_remove);
+
+							$('.tab_add ul li a span').addClass('btn_remove');
+
+							$(document).on('click', '.btn_remove',function() {
+								$(this).parents('.tab_add ul li').remove();
+							});
+							
 						})
 					</script>
-
+	
 					<!-- .wrap_tabcont //-->
-					<div class="wrap_tabcont margin-bottom-10">
+					<div class="wrap_tabcont margin-bottom-20 tab_add">
 						<div class="mCustomScrollbar">
 							<ul class="x-scroll">
 								<li class="active"><a href="#tab_example1">탭메뉴01</a></li><li><a href="#tab_example2">탭메뉴02</a></li><li><a href="#tab_example3">탭메뉴03</a></li><li><a href="#tab_example4">탭메뉴04</a></li>
@@ -117,7 +127,7 @@
 				<div class="source">
 					
 					<!-- .wrap_tabcont //-->
-					<div class="wrap_tabcont margin-bottom-10">
+					<div class="wrap_tabcont margin-bottom-20">
 						<ul>
 							<li class="active"><a href="#tab_example1" class="width-100">탭메뉴01</a></li>
 							<li><a href="#tab_example2" class="width-150">탭메뉴02</a></li>
@@ -179,7 +189,7 @@
 			<div class="demo-block">
 				<div class="source">
 					<!-- .wrap_tabcont //-->
-					<div class="wrap_tabcont tab-column-4 margin-bottom-10">
+					<div class="wrap_tabcont tab-column-4 margin-bottom-20">
 						<ul>
 							<li class="active"><a href="#tab_example1">탭메뉴01</a></li>
 							<li><a href="#tab_example2">탭메뉴02</a></li>
@@ -244,7 +254,7 @@
 				<div class="source">
 					
 					<!-- .wrap_tabcont //-->
-					<div class="wrap_tabcont tab-column-4 margin-bottom-10">
+					<div class="wrap_tabcont tab-column-4 margin-bottom-20">
 						<ul>
 							<li class="active">
 								<a href="#tab_example1">
@@ -368,7 +378,7 @@
 				<div class="source">
 					
 					<!-- .wrap_tabcont //-->
-					<div class="wrap_tabcont tab-column-4 margin-bottom-10">
+					<div class="wrap_tabcont tab-column-4 margin-bottom-20">
 						<ul class="image-tab">
 							<li class="active">
 								<a href="#tab_example1">
